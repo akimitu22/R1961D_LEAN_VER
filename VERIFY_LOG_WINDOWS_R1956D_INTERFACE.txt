@@ -1,0 +1,452 @@
+PS C:\Users\akimi\Desktop\R1956D_LEAN> powershell -ExecutionPolicy Bypass -File .\verify.ps1
+Error while loading conda entry point: anaconda-cloud-auth (cannot import name 'AliasGenerator' from 'pydantic' (C:\Users\akimi\Anaconda3\Lib\site-packages\pydantic\__init__.py))
+Error while loading conda entry point: anaconda-cloud-auth (cannot import name 'AliasGenerator' from 'pydantic' (C:\Users\akimi\Anaconda3\Lib\site-packages\pydantic\__init__.py))
+=== R1956D Lean Analytic Interface Packet ===
+Location: C:\Users\akimi\Desktop\R1956D_LEAN
+
+=== Tool versions ===
+Lean (version 4.31.0, x86_64-w64-windows-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)
+Lake version 5.0.0-src+68218e8 (Lean version 4.31.0)
+elan 4.2.0 (861dbdae2 2026-02-25)
+
+=== Lean-related files ===
+
+
+=== Forbidden token scan ===
+No sorry/admit/unsafe/autoImplicit true found.
+
+=== Global axiom scan ===
+No global axiom declarations found.
+
+=== Legacy trivial layer scan ===
+No legacy LayerRealizable := True definition found.
+
+=== R1956D analytic interface wrapper scan ===
+R1956D analytic interface wrapper entries found.
+
+=== R1956D analytic input/output/compatibility scan ===
+R1956D analytic interface object entries found.
+
+=== R1956D estimate slot scan ===
+R1956D estimate slot entries found.
+
+=== R1956D mathlib anchor scan ===
+R1956D mathlib anchor entries found.
+
+=== R1956D interface obligation scan ===
+R1956D interface obligation entries found.
+
+=== R1956D interface axiom/theorem scan ===
+R1956D analytic interface theorem entries found.
+
+=== R1956D toy interface scan ===
+R1956D toy interface entries found.
+
+=== Theorem list ===
+
+=== Lake build ===
+info: R1956DLeanInterface: no previous manifest, creating one from scratch
+info: toolchain not updated; already up-to-date
+Build completed successfully (45 jobs).
+
+=== Main.lean check ===
+R1949DLean.conditional_main_no_escape_from_all_obligations (B : AbelBookkeeping) (AI : AbelIdentityAxioms B)
+  (SO : SameObjectPreservationAxioms B) (Th : Theory) (SE : SupportExhaustionAxioms Th)
+  (LR : LayerRealizationAxioms Th.layerCtx) (GR : GeneratorRealizationAxioms Th) (TE : TerminalExtensionAxioms Th)
+  (T : CoherentOperation) (C : TerminalClass) (hReady : AbelReady B) (hCoh : Th.InCoherentClosure T)
+  (hNonzero : Th.TerminalClassNonzero C) :
+  B.finiteToAbelClosureNecessity ∧ Th.InGeneratedClosure T ∧ ¬Th.InternallyKills T C
+R1949DLean.conditional_kill_attempt_forces_terminal_extension (B : AbelBookkeeping) (AI : AbelIdentityAxioms B)
+  (SO : SameObjectPreservationAxioms B) (Th : Theory) (SE : SupportExhaustionAxioms Th)
+  (LR : LayerRealizationAxioms Th.layerCtx) (GR : GeneratorRealizationAxioms Th) (TE : TerminalExtensionAxioms Th)
+  (T : CoherentOperation) (C : TerminalClass) (hReady : AbelReady B) (hCoh : Th.InCoherentClosure T)
+  (hNonzero : Th.TerminalClassNonzero C) (hAttempt : Th.AttemptsToKill T C) :
+  B.finiteToAbelClosureNecessity ∧ Th.TerminalIdealExtension C
+R1952DLeanSupport.version_map_declares_unmodified_verified_core :
+  r1952UsesR1949Core.manuscriptVersion = "R1952D" ∧
+    r1952UsesR1949Core.supportPacketVersion = "R1953D_LEAN" ∧
+      r1952UsesR1949Core.coreNamespace = "R1949DLean" ∧
+        r1952UsesR1949Core.coreUnchanged = true ∧ r1952UsesR1949Core.manuscriptChangesArePresentationOnly = true
+R1952DLeanSupport.r1952_conditional_main_no_escape_from_verified_core (B : AbelBookkeeping) (AI : AbelIdentityAxioms B)
+  (SO : SameObjectPreservationAxioms B) (Th : Theory) (SE : SupportExhaustionAxioms Th)
+  (LR : LayerRealizationAxioms Th.layerCtx) (GR : GeneratorRealizationAxioms Th) (TE : TerminalExtensionAxioms Th)
+  (T : CoherentOperation) (C : TerminalClass) (hReady : AbelReady B) (hCoh : Th.InCoherentClosure T)
+  (hNonzero : Th.TerminalClassNonzero C) :
+  B.finiteToAbelClosureNecessity ∧ Th.InGeneratedClosure T ∧ ¬Th.InternallyKills T C
+R1952DLeanSupport.r1952_conditional_terminal_extension_from_verified_core (B : AbelBookkeeping)
+  (AI : AbelIdentityAxioms B) (SO : SameObjectPreservationAxioms B) (Th : Theory) (SE : SupportExhaustionAxioms Th)
+  (LR : LayerRealizationAxioms Th.layerCtx) (GR : GeneratorRealizationAxioms Th) (TE : TerminalExtensionAxioms Th)
+  (T : CoherentOperation) (C : TerminalClass) (hReady : AbelReady B) (hCoh : Th.InCoherentClosure T)
+  (hNonzero : Th.TerminalClassNonzero C) (hAttempt : Th.AttemptsToKill T C) :
+  B.finiteToAbelClosureNecessity ∧ Th.TerminalIdealExtension C
+R1954DLeanBridge.bridge_version_declares_inherited_verified_support :
+  r1954BridgeUsesR1953Support.manuscriptVersion = "R1952D" ∧
+    r1954BridgeUsesR1953Support.bridgePacketVersion = "R1954D_LEAN_BRIDGE" ∧
+      r1954BridgeUsesR1953Support.inheritedSupportNamespace = "R1952DLeanSupport" ∧
+        r1954BridgeUsesR1953Support.inheritedCoreNamespace = "R1949DLean" ∧
+          r1954BridgeUsesR1953Support.analyticObjectsAreBridgedConditionally = true ∧
+            r1954BridgeUsesR1953Support.inheritedSupportUnchanged = true
+R1954DLeanBridge.bridge_conditional_no_escape_to_standard_conclusion (S : StandardRHBridgeContext)
+  (M : ManuscriptBridgeContext S) (BA : BridgeAxioms S M) (AI : AbelIdentityAxioms M.bookkeeping)
+  (SO : SameObjectPreservationAxioms M.bookkeeping) (SE : SupportExhaustionAxioms M.theory)
+  (LR : LayerRealizationAxioms M.theory.layerCtx) (GR : GeneratorRealizationAxioms M.theory)
+  (TE : TerminalExtensionAxioms M.theory) (hReady : AbelReady M.bookkeeping)
+  (hCoh : M.theory.InCoherentClosure M.operation) (hNonzero : M.theory.TerminalClassNonzero M.terminalClass) :
+  S.standardAnalyticConclusion
+R1954DLeanBridge.bridge_conditional_kill_attempt_to_standard_conclusion (S : StandardRHBridgeContext)
+  (M : ManuscriptBridgeContext S) (BA : BridgeAxioms S M) (AI : AbelIdentityAxioms M.bookkeeping)
+  (SO : SameObjectPreservationAxioms M.bookkeeping) (SE : SupportExhaustionAxioms M.theory)
+  (LR : LayerRealizationAxioms M.theory.layerCtx) (GR : GeneratorRealizationAxioms M.theory)
+  (TE : TerminalExtensionAxioms M.theory) (hReady : AbelReady M.bookkeeping)
+  (hCoh : M.theory.InCoherentClosure M.operation) (hNonzero : M.theory.TerminalClassNonzero M.terminalClass)
+  (hAttempt : M.theory.AttemptsToKill M.operation M.terminalClass) : S.standardAnalyticConclusion
+R1955DLeanScaffold.r1955_version_declares_intermediate_refined_scaffold :
+  r1955RefinesR1954Bridge.manuscriptVersion = "R1952D" ∧
+    r1955RefinesR1954Bridge.refinedPacketVersion = "R1955D_LEAN" ∧
+      r1955RefinesR1954Bridge.inheritedBridgeNamespace = "R1954DLeanBridge" ∧
+        r1955RefinesR1954Bridge.inheritedSupportNamespace = "R1952DLeanSupport" ∧
+          r1955RefinesR1954Bridge.inheritedCoreNamespace = "R1949DLean" ∧
+            r1955RefinesR1954Bridge.r1954BridgeUnchanged = true ∧
+              r1955RefinesR1954Bridge.refinedLayerIsIntermediate = true ∧
+                r1955RefinesR1954Bridge.fullAnalyticFormalizationClaimed = false
+R1955DLeanScaffold.standard_li_scaffold_ready_unpacks (S : StandardLiScaffold) (h : StandardLiScaffoldReady S) :
+  StandardRHReady S.standardContext ∧
+    S.hasLiCoefficientFamily ∧
+      S.hasLiKernelObject ∧
+        S.hasZeroDataObject ∧
+          S.hasPrimePacketObject ∧
+            S.hasEndpointBoundaryObject ∧
+              S.hasAbelRegularizationObject ∧ S.hasScaleTopologyObject ∧ S.hasObstructionQuotientObject
+R1955DLeanScaffold.manuscript_analytic_scaffold_ready_unpacks {S : StandardLiScaffold}
+  (M : ManuscriptAnalyticScaffold S) (h : ManuscriptAnalyticScaffoldReady M) :
+  ManuscriptBridgeReady M.bridgeContext ∧
+    FiniteLiObjectReady M.finiteLiObject ∧
+      AbelBoundaryObjectReady M.abelBoundaryObject ∧
+        ExplicitFormulaPacketObjectReady M.explicitFormulaPacketObject ∧
+          CoherentClosureObjectReady M.coherentClosureObject ∧
+            ScaleTopologyObjectReady M.scaleTopologyObject ∧
+              TerminalPacketObjectReady M.terminalPacketObject ∧
+                ObstructionQuotientObjectReady M.obstructionQuotientObject
+R1955DLeanScaffold.refined_bridge_conditional_no_escape_to_standard_conclusion (S : StandardLiScaffold)
+  (M : ManuscriptAnalyticScaffold S) (RA : RefinedBridgeAxioms S M)
+  (AI : AbelIdentityAxioms M.bridgeContext.bookkeeping) (SO : SameObjectPreservationAxioms M.bridgeContext.bookkeeping)
+  (SE : SupportExhaustionAxioms M.bridgeContext.theory) (LR : LayerRealizationAxioms M.bridgeContext.theory.layerCtx)
+  (GR : GeneratorRealizationAxioms M.bridgeContext.theory) (TE : TerminalExtensionAxioms M.bridgeContext.theory)
+  (hReady : AbelReady M.bridgeContext.bookkeeping)
+  (hCoh : M.bridgeContext.theory.InCoherentClosure M.bridgeContext.operation)
+  (hNonzero : M.bridgeContext.theory.TerminalClassNonzero M.bridgeContext.terminalClass) :
+  S.standardContext.standardAnalyticConclusion
+R1955DLeanScaffold.refined_bridge_conditional_kill_attempt_to_standard_conclusion (S : StandardLiScaffold)
+  (M : ManuscriptAnalyticScaffold S) (RA : RefinedBridgeAxioms S M)
+  (AI : AbelIdentityAxioms M.bridgeContext.bookkeeping) (SO : SameObjectPreservationAxioms M.bridgeContext.bookkeeping)
+  (SE : SupportExhaustionAxioms M.bridgeContext.theory) (LR : LayerRealizationAxioms M.bridgeContext.theory.layerCtx)
+  (GR : GeneratorRealizationAxioms M.bridgeContext.theory) (TE : TerminalExtensionAxioms M.bridgeContext.theory)
+  (hReady : AbelReady M.bridgeContext.bookkeeping)
+  (hCoh : M.bridgeContext.theory.InCoherentClosure M.bridgeContext.operation)
+  (hNonzero : M.bridgeContext.theory.TerminalClassNonzero M.bridgeContext.terminalClass)
+  (hAttempt : M.bridgeContext.theory.AttemptsToKill M.bridgeContext.operation M.bridgeContext.terminalClass) :
+  S.standardContext.standardAnalyticConclusion
+R1956DLeanInterface.r1956_version_declares_preformal_analytic_interface :
+  r1956RefinesR1955Scaffold.manuscriptVersion = "R1952D" ∧
+    r1956RefinesR1955Scaffold.interfacePacketVersion = "R1956D_LEAN" ∧
+      r1956RefinesR1955Scaffold.inheritedScaffoldNamespace = "R1955DLeanScaffold" ∧
+        r1956RefinesR1955Scaffold.inheritedBridgeNamespace = "R1954DLeanBridge" ∧
+          r1956RefinesR1955Scaffold.inheritedSupportNamespace = "R1952DLeanSupport" ∧
+            r1956RefinesR1955Scaffold.inheritedCoreNamespace = "R1949DLean" ∧
+              r1956RefinesR1955Scaffold.r1955ScaffoldUnchanged = true ∧
+                r1956RefinesR1955Scaffold.analyticInterfaceIsPreformal = true ∧
+                  r1956RefinesR1955Scaffold.estimateSlotsExplicitlyNamed = true ∧
+                    r1956RefinesR1955Scaffold.mathlibAnchorsAreDeclaredOnly = true ∧
+                      r1956RefinesR1955Scaffold.fullAnalyticFormalizationClaimed = false
+R1956DLeanInterface.analytic_input_interface_ready_unpacks (I : AnalyticInputInterface)
+  (h : AnalyticInputInterfaceReady I) : I.objectDeclared ∧ I.standardAnchorDeclared ∧ I.manuscriptAnchorDeclared
+R1956DLeanInterface.analytic_output_interface_ready_unpacks (O : AnalyticOutputInterface)
+  (h : AnalyticOutputInterfaceReady O) : O.conclusionDeclared ∧ O.outputIsStandardFacing
+R1956DLeanInterface.compatibility_interface_ready_unpacks (C : CompatibilityInterface)
+  (h : CompatibilityInterfaceReady C) : C.sourceCompatible ∧ C.targetCompatible ∧ C.estimateFlowRecorded
+R1956DLeanInterface.analytic_estimate_slots_declared :
+  analyticEstimateSlots =
+    [liKernelEstimateSlot, finiteLiCompatibilitySlot, abelBoundaryEstimateSlot, explicitFormulaPrimeSlot,
+      explicitFormulaZeroSlot, endpointBoundarySlot, scaleTopologyEstimateSlot, uniformLittleOhEstimateSlot,
+      terminalClassificationSlot, obstructionLedgerSlot, conclusionTransferSlot]
+R1956DLeanInterface.estimate_slots_are_pending_formalization_examples :
+  EstimateSlotPendingFormalization liKernelEstimateSlot ∧
+    EstimateSlotPendingFormalization abelBoundaryEstimateSlot ∧
+      EstimateSlotPendingFormalization explicitFormulaPrimeSlot ∧
+        EstimateSlotPendingFormalization scaleTopologyEstimateSlot ∧
+          EstimateSlotPendingFormalization terminalClassificationSlot ∧
+            EstimateSlotPendingFormalization obstructionLedgerSlot
+R1956DLeanInterface.mathlib_anchors_declared_external :
+  MathlibAnchorDeclaredExternal zetaFunctionAnchor ∧
+    MathlibAnchorDeclaredExternal liCriterionAnchor ∧
+      MathlibAnchorDeclaredExternal explicitFormulaAnchor ∧ MathlibAnchorDeclaredExternal scaleEstimateAnchor
+R1956DLeanInterface.interface_obligation_table_has_all_labels :
+  interfaceObligationLabels =
+    [InterfaceObligationLabel.ioStd1ZetaObjectAnchor, InterfaceObligationLabel.ioStd2LiCriterionAnchor,
+      InterfaceObligationLabel.ioLi1CoefficientFamilyInput, InterfaceObligationLabel.ioLi2KernelIdentitySlot,
+      InterfaceObligationLabel.ioLi3FiniteLiCompatibilitySlot, InterfaceObligationLabel.ioAbel1RegularizationInput,
+      InterfaceObligationLabel.ioAbel2BoundaryPassageEstimate, InterfaceObligationLabel.ioEF1PrimePacketEstimate,
+      InterfaceObligationLabel.ioEF2ZeroPacketEstimate, InterfaceObligationLabel.ioEF3EndpointBoundaryEstimate,
+      InterfaceObligationLabel.ioScale1AdmissibleTopologyInput,
+      InterfaceObligationLabel.ioScale2UniformLittleOhEstimate,
+      InterfaceObligationLabel.ioTerm1TerminalPacketClassifier,
+      InterfaceObligationLabel.ioTerm2TerminalNoAbsorptionInterface,
+      InterfaceObligationLabel.ioOQ1ObstructionLedgerInput,
+      InterfaceObligationLabel.ioOQ2NonInternalCancellationInterface,
+      InterfaceObligationLabel.ioConclusion1LiTargetTransfer]
+R1956DLeanInterface.interface_projection_records_refined_targets :
+  interfaceProjectionToRefinedLabels =
+    [RefinedBridgeObligationLabel.rbStd1StandardRHAndLiTarget, RefinedBridgeObligationLabel.rbStd1StandardRHAndLiTarget,
+      RefinedBridgeObligationLabel.rbLi1LiCoefficientFamily, RefinedBridgeObligationLabel.rbLi2LiKernelCompatibility,
+      RefinedBridgeObligationLabel.rbLi3FiniteLiInputCompatibility,
+      RefinedBridgeObligationLabel.rbAbel1AbelRegularizationObject,
+      RefinedBridgeObligationLabel.rbAbel2SameScaleBoundaryCoordinate,
+      RefinedBridgeObligationLabel.rbEF1PrimePacketRealization, RefinedBridgeObligationLabel.rbEF2ZeroPacketRealization,
+      RefinedBridgeObligationLabel.rbEF3EndpointBoundaryTerm,
+      RefinedBridgeObligationLabel.rbScale1AdmissibleScaleTopology,
+      RefinedBridgeObligationLabel.rbScale2UniformLittleOhTracking,
+      RefinedBridgeObligationLabel.rbTerm1TerminalPacketClassification,
+      RefinedBridgeObligationLabel.rbTerm2TerminalNonAbsorption,
+      RefinedBridgeObligationLabel.rbOQ1ObstructionQuotientLedger,
+      RefinedBridgeObligationLabel.rbOQ2NonInternalCancellationLedger,
+      RefinedBridgeObligationLabel.rbConclusion1LiTargetToStandardConclusion]
+R1956DLeanInterface.preformal_interface_ready_unpacks {S : StandardLiScaffold} {M : ManuscriptAnalyticScaffold S}
+  (P : PreformalAnalyticInterface S M) (h : PreformalAnalyticInterfaceReady P) :
+  AnalyticInputInterfaceReady P.standardInput ∧
+    AnalyticInputInterfaceReady P.manuscriptInput ∧
+      AnalyticOutputInterfaceReady P.analyticOutput ∧
+        CompatibilityInterfaceReady P.bridgeCompatibility ∧
+          EstimateSlotPendingFormalization P.liKernelEstimate ∧
+            EstimateSlotPendingFormalization P.finiteLiCompatibilityEstimate ∧
+              EstimateSlotPendingFormalization P.abelBoundaryEstimate ∧
+                EstimateSlotPendingFormalization P.explicitFormulaPrimeEstimate ∧
+                  EstimateSlotPendingFormalization P.explicitFormulaZeroEstimate ∧
+                    EstimateSlotPendingFormalization P.endpointBoundaryEstimate ∧
+                      EstimateSlotPendingFormalization P.scaleTopologyEstimate ∧
+                        EstimateSlotPendingFormalization P.uniformLittleOhEstimate ∧
+                          EstimateSlotPendingFormalization P.terminalClassificationEstimate ∧
+                            EstimateSlotPendingFormalization P.obstructionLedgerEstimate ∧
+                              EstimateSlotPendingFormalization P.conclusionTransferEstimate ∧
+                                MathlibAnchorDeclaredExternal P.zetaAnchor ∧
+                                  MathlibAnchorDeclaredExternal P.liCriterionAnchor ∧
+                                    MathlibAnchorDeclaredExternal P.explicitFormulaAnchor ∧
+                                      MathlibAnchorDeclaredExternal P.scaleEstimateAnchor
+R1956DLeanInterface.analytic_interface_assembles_refined_bridge_axioms (S : StandardLiScaffold)
+  (M : ManuscriptAnalyticScaffold S) (IA : AnalyticInterfaceAxioms S M) : Nonempty (RefinedBridgeAxioms S M)
+R1956DLeanInterface.analytic_interface_provides_ready_certificate (S : StandardLiScaffold)
+  (M : ManuscriptAnalyticScaffold S) (IA : AnalyticInterfaceAxioms S M) : PreformalAnalyticInterfaceReady IA.interface
+R1956DLeanInterface.analytic_interface_conditional_no_escape_to_standard_conclusion (S : StandardLiScaffold)
+  (M : ManuscriptAnalyticScaffold S) (IA : AnalyticInterfaceAxioms S M)
+  (AI : AbelIdentityAxioms M.bridgeContext.bookkeeping) (SO : SameObjectPreservationAxioms M.bridgeContext.bookkeeping)
+  (SE : SupportExhaustionAxioms M.bridgeContext.theory) (LR : LayerRealizationAxioms M.bridgeContext.theory.layerCtx)
+  (GR : GeneratorRealizationAxioms M.bridgeContext.theory) (TE : TerminalExtensionAxioms M.bridgeContext.theory)
+  (hReady : AbelReady M.bridgeContext.bookkeeping)
+  (hCoh : M.bridgeContext.theory.InCoherentClosure M.bridgeContext.operation)
+  (hNonzero : M.bridgeContext.theory.TerminalClassNonzero M.bridgeContext.terminalClass) :
+  S.standardContext.standardAnalyticConclusion
+R1956DLeanInterface.analytic_interface_conditional_kill_attempt_to_standard_conclusion (S : StandardLiScaffold)
+  (M : ManuscriptAnalyticScaffold S) (IA : AnalyticInterfaceAxioms S M)
+  (AI : AbelIdentityAxioms M.bridgeContext.bookkeeping) (SO : SameObjectPreservationAxioms M.bridgeContext.bookkeeping)
+  (SE : SupportExhaustionAxioms M.bridgeContext.theory) (LR : LayerRealizationAxioms M.bridgeContext.theory.layerCtx)
+  (GR : GeneratorRealizationAxioms M.bridgeContext.theory) (TE : TerminalExtensionAxioms M.bridgeContext.theory)
+  (hReady : AbelReady M.bridgeContext.bookkeeping)
+  (hCoh : M.bridgeContext.theory.InCoherentClosure M.bridgeContext.operation)
+  (hNonzero : M.bridgeContext.theory.TerminalClassNonzero M.bridgeContext.terminalClass)
+  (hAttempt : M.bridgeContext.theory.AttemptsToKill M.bridgeContext.operation M.bridgeContext.terminalClass) :
+  S.standardContext.standardAnalyticConclusion
+R1956DLeanInterface.toy_analytic_interface_assembles_refined_axioms :
+  Nonempty (RefinedBridgeAxioms toyStandardLiScaffold toyManuscriptAnalyticScaffold)
+R1956DLeanInterface.toy_analytic_interface_runs_no_escape_standard_conclusion :
+  toyStandardLiScaffold.standardContext.standardAnalyticConclusion
+R1956DLeanInterface.toy_analytic_interface_runs_terminal_extension_standard_conclusion
+  (hAttempt : toyTheory.AttemptsToKill toyOperation toyTerminal) :
+  toyStandardLiScaffold.standardContext.standardAnalyticConclusion
+
+R1956D Lean analytic interface packet completed successfully.
+FullName
+--------
+C:\Users\akimi\Desktop\R1956D_LEAN\lakefile.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\lean-toolchain
+C:\Users\akimi\Desktop\R1956D_LEAN\Main.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1952DLeanSupport.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1954DLeanBridge.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\AbelBookkeeping.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\AssumptionPackages.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\Basic.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\DependencyCertificates.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\FiniteToAbelChain.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\MainLogicalChain.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\ProofObligationMap.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\StructuralLayers.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\StructuralSupportChain.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\TerminalClasses.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\TerminalRigidityChain.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1949DLean\ToyModel.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1952DLeanSupport\ObligationFieldBindings.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1952DLeanSupport\ProfileCoverage.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1952DLeanSupport\SupportTheorems.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1952DLeanSupport\ToySupport.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1952DLeanSupport\VersionMap.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1954DLeanBridge\BridgeObligations.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1954DLeanBridge\BridgeTheorems.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1954DLeanBridge\ManuscriptObjects.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1954DLeanBridge\StandardTargets.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1954DLeanBridge\ToyBridge.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1954DLeanBridge\VersionBridge.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold\ManuscriptScaffolds.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold\RefinedBridgeAxioms.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold\RefinedBridgeObligations.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold\RefinedBridgeTheorems.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold\SemiConcreteTargets.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold\ToyScaffold.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1955DLeanScaffold\VersionScaffold.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\AnalyticInterfaces.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\EstimateSlots.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\InterfaceAxioms.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\InterfaceObligations.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\InterfaceTheorems.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\MathlibAnchors.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\ToyInterface.lean
+C:\Users\akimi\Desktop\R1956D_LEAN\R1956DLeanInterface\VersionInterface.lean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+theorem abel_ready_unpacks (B : AbelBookkeeping) (h : AbelReady B) :
+theorem finite_to_abel_certificate_shape :
+theorem layer_realization_certificate_shape :
+theorem structural_support_certificate_shape :
+theorem terminal_rigidity_certificate_shape :
+theorem main_no_escape_certificate_shape :
+theorem same_scale_coordinate_from_identity
+theorem coordinate_closure_from_same_object
+theorem finite_to_abel_from_bookkeeping
+theorem conditional_finite_to_abel_and_terminal_chain
+theorem conditional_main_no_escape_from_all_obligations
+theorem conditional_kill_attempt_forces_terminal_extension
+theorem layer_realization_obligation_is_no_longer_trivial_true_definition :
+theorem structural_profile_uses_layer_realization :
+theorem main_profile_uses_all_hardened_packages :
+theorem main_terminal_extension_profile_includes_classification :
+theorem listed_layer_realizable_from_axioms
+theorem structural_support_layer_realizable
+theorem structural_support_exists
+theorem generator_realized_from_support
+theorem coherent_closure_normal_form_chain
+theorem terminal_kind_cases (C : TerminalClass) :
+theorem branch_cases_exhaustive (b : TerminalBranch) :
+theorem terminal_preserved_by_generated_operation
+theorem terminal_no_escape_chain
+theorem kill_attempt_forces_terminal_ideal_extension
+theorem toy_model_runs_conditional_main :
+theorem toy_model_terminal_branch_consistency :
+theorem obligation_binding_table_has_all_labels :
+theorem main_profile_and_binding_table_align_on_no_escape_labels :
+theorem main_profile_contains_finite_to_abel_labels :
+theorem main_profile_contains_structural_labels :
+theorem main_profile_contains_terminal_no_escape_labels :
+theorem terminal_extension_profile_contains_classification_label :
+theorem support_wrapper_keeps_main_profile_certificate :
+theorem r1952_conditional_main_no_escape_from_verified_core
+theorem r1952_conditional_terminal_extension_from_verified_core
+theorem toy_model_satisfies_all_hardened_packages :
+theorem toy_model_ready_and_main_run :
+theorem toy_model_terminal_extension_branch_runs
+theorem toy_model_uses_verified_support_wrapper :
+theorem version_map_declares_unmodified_verified_core :
+theorem bridge_obligation_table_has_all_labels :
+theorem finite_to_abel_bridge_labels_match_core_profile :
+theorem coherent_closure_bridge_labels_match_core_profile :
+theorem terminal_bridge_labels_extend_no_escape_profile :
+theorem bridge_profiles_cover_main_terminal_extension_profile :
+theorem bridge_axioms_provide_standard_readiness
+theorem bridge_axioms_provide_manuscript_readiness
+theorem bridge_conditional_no_escape_to_standard_conclusion
+theorem bridge_conditional_kill_attempt_to_standard_conclusion
+theorem manuscript_bridge_ready_unpacks
+theorem standard_rh_ready_unpacks
+theorem toy_bridge_runs_no_escape_standard_conclusion :
+theorem toy_bridge_runs_terminal_extension_standard_conclusion
+theorem bridge_version_declares_inherited_verified_support :
+theorem manuscript_analytic_scaffold_ready_implies_bridge_ready
+theorem manuscript_analytic_scaffold_ready_unpacks
+theorem refined_bridge_axioms_assemble_r1954_bridge_axioms
+theorem refined_bridge_axioms_provide_standard_scaffold_readiness
+theorem refined_bridge_axioms_provide_manuscript_scaffold_readiness
+theorem refined_bridge_axioms_provide_r1954_standard_readiness
+theorem refined_bridge_axioms_provide_r1954_manuscript_readiness
+theorem refined_bridge_obligation_table_has_all_labels :
+theorem refined_scaffold_covers_r1954_bridge_labels :
+theorem refined_projection_records_expected_r1954_targets :
+theorem refined_bridge_conditional_no_escape_to_standard_conclusion
+theorem refined_bridge_conditional_kill_attempt_to_standard_conclusion
+theorem standard_li_scaffold_ready_unpacks
+theorem toy_refined_scaffold_runs_no_escape_standard_conclusion :
+theorem toy_refined_scaffold_runs_terminal_extension_standard_conclusion
+theorem r1955_version_declares_intermediate_refined_scaffold :
+theorem analytic_input_interface_ready_unpacks
+theorem analytic_output_interface_ready_unpacks
+theorem compatibility_interface_ready_unpacks
+theorem analytic_estimate_slots_declared :
+theorem estimate_slots_are_pending_formalization_examples :
+theorem preformal_interface_ready_unpacks
+theorem analytic_interface_assembles_refined_bridge_axioms
+theorem analytic_interface_provides_ready_certificate
+theorem interface_obligation_table_has_all_labels :
+theorem interface_projection_records_refined_targets :
+theorem analytic_interface_conditional_no_escape_to_standard_conclusion
+theorem analytic_interface_conditional_kill_attempt_to_standard_conclusion
+theorem mathlib_anchors_declared_external :
+theorem toy_analytic_interface_assembles_refined_axioms :
+theorem toy_analytic_interface_runs_no_escape_standard_conclusion :
+theorem toy_analytic_interface_runs_terminal_extension_standard_conclusion
+theorem r1956_version_declares_preformal_analytic_interface :
+
+
+PS C:\Users\akimi\Desktop\R1956D_LEAN>
