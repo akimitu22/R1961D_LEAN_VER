@@ -1,0 +1,11 @@
+Main.lean
+PATCH_MANIFEST.txt
+R1962DLeanAnalyticRealization.lean
+R1962DLeanAnalyticRealization/AnalyticObligationTargets.lean
+R1962DLeanAnalyticRealization/ToyAnalyticRealization.lean
+R1962D_ANALYTIC_OBLIGATION_LEDGER.md
+R1962D_FIRST_BEST_STEP.md
+README_LEAN.md
+SHA256SUMS_R1962D_FIRST_STEP.txt
+VERIFY_STATUS_R1962D_FIRST_STEP.md
+lakefile.lean

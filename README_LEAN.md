@@ -64,3 +64,47 @@ powershell -ExecutionPolicy Bypass -File .\verify.ps1
 ## What this does not prove
 
 R1961D does not formalize the actual explicit formula, actual prime packet estimate, actual zero packet estimate, actual endpoint estimate, Riemann--von Mangoldt formula, Li criterion, zeta-function theory, terminal packet estimates, or RH. These remain external analytic targets as recorded by the inherited interface, audit, transfer, limit, and non-claim certificates.
+
+## GitHub Codespaces verification
+
+A user-run GitHub Codespaces log is included at:
+
+```text
+VERIFY_LOG_CODESPACES.txt
+```
+
+Recorded environment and result:
+
+```text
+Lean 4.31.0
+Lake version 5.0.0-src+68218e8
+Build completed successfully (75 jobs).
+```
+
+Re-run command:
+
+```bash
+lake build
+```
+
+## R1962D first analytic-realization target layer
+
+R1962D adds the library:
+
+```text
+R1962DLeanAnalyticRealization
+```
+
+The central file is:
+
+```text
+R1962DLeanAnalyticRealization/AnalyticObligationTargets.lean
+```
+
+The central bridge theorem is:
+
+```lean
+R1962DLeanAnalyticRealization.analytic_realization_packet_balance_to_li_target
+```
+
+This theorem converts the remaining concrete analytic obligations into the R1961D packet-balance system.  It does not prove the concrete zeta-theoretic estimates; it makes their exact Lean target shape explicit.

@@ -1,4 +1,5 @@
 import R1961DLeanPacket
+import R1962DLeanAnalyticRealization
 
 open R1949DLean
 open R1952DLeanSupport
@@ -10,6 +11,7 @@ open R1958DLeanAudit
 open R1959DLeanTransfer
 open R1960DLeanLimit
 open R1961DLeanPacket
+open R1962DLeanAnalyticRealization
 
 #check R1949DLean.conditional_main_no_escape_from_all_obligations
 #check R1949DLean.conditional_kill_attempt_forces_terminal_extension
@@ -107,3 +109,10 @@ open R1961DLeanPacket
 #check R1961DLeanPacket.toy_finite_to_packet_balance_witness_runs
 #check R1961DLeanPacket.toy_normalized_finite_tail_packet_balance_runs
 #check R1961DLeanPacket.r1961_version_declares_packet_balance_layer
+
+#check R1962DLeanAnalyticRealization.inherited_packet_slots_are_r1961_packet_slots
+#check R1962DLeanAnalyticRealization.toExplicitPacketBalanceSystem
+#check R1962DLeanAnalyticRealization.analytic_realization_packet_balance_to_li_target
+#check R1962DLeanAnalyticRealization.r1962_first_step_is_target_language_not_full_analytic_proof
+#check R1962DLeanAnalyticRealization.toy_analytic_realization_packet_bridge_runs
+#check R1962DLeanAnalyticRealization.toy_converted_packet_system_runs

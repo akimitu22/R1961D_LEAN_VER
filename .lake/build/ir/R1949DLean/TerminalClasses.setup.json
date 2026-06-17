@@ -1,9 +1,0 @@
-{"plugins": [],
- "package": "R1961DLeanPacket",
- "options": {},
- "name": "R1949DLean.TerminalClasses",
- "isModule": false,
- "importArts":
- {"R1949DLean.Basic":
-  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/Basic.olean"]},
- "dynlibs": []}

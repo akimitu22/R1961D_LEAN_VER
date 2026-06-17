@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1961DLeanPacket» where
+package «R1962DLeanAnalyticRealization» where
 
 lean_lib «R1949DLean» where
 
@@ -21,5 +21,7 @@ lean_lib «R1959DLeanTransfer» where
 
 lean_lib «R1960DLeanLimit» where
 
-@[default_target]
 lean_lib «R1961DLeanPacket» where
+
+@[default_target]
+lean_lib «R1962DLeanAnalyticRealization» where
