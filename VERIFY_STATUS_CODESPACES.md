@@ -1,34 +1,21 @@
-# Codespaces Verification Status — R1972D Final Audit Package
+# VERIFY STATUS -- Codespaces / Linux
 
-Current top Lean target:
+## Current top target
 
-```text
-R1972DLeanToyAbelModel
-```
+R1974DLeanFiniteAbelComponents
 
-Toolchain:
+## Status summary
 
-```text
-leanprover/lean4:v4.31.0
-```
+R1970D: verified, 110 jobs
+R1971D: verified, 114 jobs
+R1972D: verified, 118 jobs
+R1973D: verified, 122 jobs
+R1974D: verified, 126 jobs
 
-Current verified build:
+## R1974D recorded command
 
-```text
-Build completed successfully (118 jobs).
-```
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1974D_FINITE_ABEL_COMPONENTS.txt
 
-Included Codespaces logs:
+## R1974D recorded success line
 
-```text
-VERIFY_LOG_CODESPACES_R1970D_MINIMAL_FIRST_TARGET.txt
-VERIFY_LOG_CODESPACES_R1971D_ABEL_BOUNDARY_SKELETON.txt
-VERIFY_LOG_CODESPACES_R1972D_TOY_ABEL_MODEL.txt
-```
-
-Windows log status:
-
-```text
-No R1972D Windows verification log is claimed in this final audit patch. The
-included current verification record is the Codespaces/Linux Lean 4.31.0 build.
-```
+Build completed successfully (126 jobs).

@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-Write-Host "=== R1972D Lean Abel-boundary Toy Model Packet ==="
+Write-Host "=== R1974D Lean finite Abel component decomposition packet ==="
 Write-Host "Location: $(Get-Location)"
 
 Write-Host "`n=== Tool versions ==="
@@ -66,6 +66,18 @@ $R1972Scan
 if (($R1972Scan | Measure-Object).Count -lt 4) { throw "R1972D toy Abel model entries were not all found." }
 Write-Host "R1972D toy Abel model entries found."
 
+Write-Host "`n=== R1973D finite Abel identity shell scan ==="
+$R1973Scan = Select-String -Path $LeanFiles.FullName -Pattern 'structure\s+FiniteAbelTransformIdentityShell|structure\s+BoundaryCompatibilityLemmaShell|theorem\s+finite_abel_identity_shell_to_actual_li_target|theorem\s+r1973_twelfth_step_is_identity_shell_not_concrete_abel_boundary_proof|theorem\s+toy_finite_abel_identity_shell_to_actual_li_target_runs'
+$R1973Scan
+if (($R1973Scan | Measure-Object).Count -lt 5) { throw "R1973D finite Abel identity shell entries were not all found." }
+Write-Host "R1973D finite Abel identity shell entries found."
+
+Write-Host "`n=== R1974D finite Abel component decomposition scan ==="
+$R1974Scan = Select-String -Path $LeanFiles.FullName -Pattern 'structure\s+FiniteSumOperatorSlot|structure\s+FiniteAbelWeightSystemSlot|structure\s+EndpointCorrectionSlot|structure\s+BoundaryErrorTermSlot|theorem\s+finite_abel_components_to_actual_li_target|theorem\s+r1974_thirteenth_step_is_component_shell_not_concrete_abel_proof|def\s+toy_finite_abel_components_to_actual_li_target_runs'
+$R1974Scan
+if (($R1974Scan | Measure-Object).Count -lt 7) { throw "R1974D finite Abel component decomposition entries were not all found." }
+Write-Host "R1974D finite Abel component decomposition entries found."
+
 Write-Host "`n=== Theorem list ==="
 Select-String -Path $LeanFiles.FullName -Pattern '^\s*theorem\s+' | ForEach-Object { $_.Line.Trim() }
 
@@ -77,4 +89,4 @@ Write-Host "`n=== Main.lean check ==="
 lake env lean Main.lean
 if ($LASTEXITCODE -ne 0) { throw "lake env lean Main.lean failed." }
 
-Write-Host "`nR1972D Lean Abel-boundary toy model packet completed successfully." -ForegroundColor Green
+Write-Host "`nR1974D Lean finite Abel component decomposition packet completed successfully." -ForegroundColor Green

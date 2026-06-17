@@ -1,0 +1,44 @@
+# PATCH MANIFEST — R1974D final audit patch
+
+## Patch role
+
+This patch supersedes the previous R1974D component patch for submission/audit
+packaging purposes. It combines the R1974D finite Abel component layer with
+R1974D-facing audit cleanup files.
+
+## Includes
+
+```text
+R1974D component decomposition Lean files
+README_LEAN.md updated from R1972D wording to R1974D wording
+verify.ps1 updated with R1973D/R1974D theorem scans
+MANIFEST_R1974D_FINAL.txt
+PATCH_MANIFEST_R1974D_FINAL.txt
+VERIFY_STATUS_CODESPACES.md
+VERIFY_STATUS_R1973D_FINITE_ABEL_IDENTITY.md
+VERIFY_STATUS_R1974D_FINITE_ABEL_COMPONENTS.md
+VERIFY_LOG_CODESPACES_R1973D_FINITE_ABEL_IDENTITY.txt
+VERIFY_LOG_CODESPACES_R1974D_FINITE_ABEL_COMPONENTS.txt placeholder
+SHA256SUMS_R1974D_FINAL.txt placeholder to be regenerated after the local Codespaces run
+R1974D_FINAL_AUDIT_NOTE.md
+```
+
+## Required post-apply commands
+
+After applying the patch, run:
+
+```bash
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1974D_FINITE_ABEL_COMPONENTS.txt
+```
+
+Then refresh the R1974D status files and regenerate:
+
+```text
+SHA256SUMS_R1974D_FINAL.txt
+```
+
+## Expected success line
+
+```text
+Build completed successfully (126 jobs).
+```

@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1973DLeanFiniteAbelIdentity» where
+package «R1974DLeanFiniteAbelComponents» where
 
 lean_lib «R1949DLean» where
 
@@ -45,5 +45,7 @@ lean_lib «R1971DLeanAbelBoundarySkeleton» where
 
 lean_lib «R1972DLeanToyAbelModel» where
 
-@[default_target]
 lean_lib «R1973DLeanFiniteAbelIdentity» where
+
+@[default_target]
+lean_lib «R1974DLeanFiniteAbelComponents» where
