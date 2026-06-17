@@ -1,13 +1,13 @@
-# R1990D Lean package
+# R1991D Lean endpoint concrete proof-route bank
 
-This package extends the verified R1989D endpoint concrete-lemma stub bank with an endpoint concrete-lemma statement bank.
+This patch adds the R1991D endpoint concrete proof-route bank layer.
 
-The default Lean target is `R1990DLeanEndpointConcreteLemmaStatementBank`.
+It imports the verified R1990D aggregate module directly so the prior aggregate
+and toy verification spine remains part of the default build graph.
 
 Run:
 
 ```bash
-lake build
+export PATH="$HOME/.elan/bin:$PATH"
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1991D_ENDPOINT_CONCRETE_PROOF_ROUTE_BANK.txt
 ```
-
-A successful build verifies only the formal routing, statement-bank, dependency-matrix, and non-claim certificates included here.

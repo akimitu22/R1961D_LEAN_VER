@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1990DLeanEndpointConcreteLemmaStatementBank» where
+package «R1991DLeanEndpointConcreteProofRouteBank» where
 
 lean_lib «R1949DLean» where
 
@@ -79,5 +79,7 @@ lean_lib «R1988DLeanEndpointKernelAxiomBoundary» where
 
 lean_lib «R1989DLeanEndpointConcreteLemmaStubs» where
 
-@[default_target]
 lean_lib «R1990DLeanEndpointConcreteLemmaStatementBank» where
+
+@[default_target]
+lean_lib «R1991DLeanEndpointConcreteProofRouteBank» where
