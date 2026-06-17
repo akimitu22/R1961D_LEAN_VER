@@ -1,30 +1,25 @@
-# R1997D Lean support package
+# R1999D Lean support package
 
-This package preserves the verified aggregate import spine through R1997D and
-adds the endpoint executable proof-kernel stub layer.
+This patch advances the endpoint branch by two layers at once:
 
-## Current endpoint continuation spine
+- R1998D: endpoint executable proof-kernel body plan / dependency grid.
+- R1999D: endpoint first concrete discharge interface / dependency interface.
 
-- R1995D: endpoint first executable skeleton
-- R1996D: endpoint executable kernel boundary
-- R1997D: endpoint executable proof-kernel stub
+The default target is `R1999DLeanEndpointFirstConcreteDischargeInterface`.
+The aggregate import spine explicitly preserves `R1997DLeanEndpointExecutableProofKernelStub` through `R1998DLeanEndpointExecutableProofKernelBodyPlan` and then into R1999D.
 
-## R1997D Endpoint Executable Proof-Kernel Stub
+Non-claim boundary:
 
-Adds `R1997DLeanEndpointExecutableProofKernelStub`, refining the R1996D endpoint
-executable kernel boundary into an executable proof-kernel stub and dependency
-plan. This remains a non-claim layer: no endpoint proof-kernel execution and no
-analytic estimate discharge are performed here.
+- No endpoint proof kernel is implemented here.
+- No endpoint proof kernel is executed here.
+- No concrete endpoint lemma is discharged here.
+- No endpoint estimate, boundary-error estimate, remainder-uniformity estimate, sign-transfer estimate, explicit formula, or RH statement is proved here.
 
-## Verification boundary
+Expected Codespaces verification:
 
-The Codespaces verification log for R1997D recorded:
-
-```text
-Build completed successfully (243 jobs).
+```bash
+export PATH="$HOME/.elan/bin:$PATH"
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1999D_ENDPOINT_FIRST_CONCRETE_DISCHARGE_INTERFACE.txt
 ```
 
-The layer is verified as an import/spine/stub layer only. It does not prove the
-endpoint estimate, boundary-error estimate, remainder-uniformity estimate,
-sign-transfer estimate, explicit formula, Li criterion, terminal estimates, or
-RH.
+Expected result: `Build completed successfully (... jobs).`  Because R1997D previously built with 243 jobs, this two-layer patch should not be accepted if the job count falls below 243.
