@@ -1,0 +1,22 @@
+# R1997D patch manifest
+
+- `.gitignore`
+- `Main.lean`
+- `R1995D_ENDPOINT_FIRST_EXECUTABLE_SKELETON_LEDGER.md`
+- `R1995D_THIRTY_FOURTH_BEST_STEP.md`
+- `R1996D_ENDPOINT_EXECUTABLE_KERNEL_BOUNDARY_LEDGER.md`
+- `R1996D_THIRTY_FIFTH_BEST_STEP.md`
+- `R1997DLeanEndpointExecutableProofKernelStub/EndpointExecutableProofKernelStubBridge.lean`
+- `R1997DLeanEndpointExecutableProofKernelStub/EndpointExecutableProofKernelStubDependencyPlan.lean`
+- `R1997DLeanEndpointExecutableProofKernelStub/EndpointExecutableProofKernelStubSlots.lean`
+- `R1997DLeanEndpointExecutableProofKernelStub/ToyEndpointExecutableProofKernelStub.lean`
+- `R1997DLeanEndpointExecutableProofKernelStub.lean`
+- `R1997D_ENDPOINT_EXECUTABLE_PROOF_KERNEL_STUB_LEDGER.md`
+- `R1997D_PATCH_MANIFEST.txt`
+- `R1997D_THIRTY_SIXTH_BEST_STEP.md`
+- `README_LEAN.md`
+- `SHA256SUMS_R1997D_ENDPOINT_EXECUTABLE_PROOF_KERNEL_STUB.txt`
+- `VERIFY_STATUS_R1995D_ENDPOINT_FIRST_EXECUTABLE_SKELETON.md`
+- `VERIFY_STATUS_R1996D_ENDPOINT_EXECUTABLE_KERNEL_BOUNDARY.md`
+- `VERIFY_STATUS_R1997D_ENDPOINT_EXECUTABLE_PROOF_KERNEL_STUB.md`
+- `lakefile.lean`
