@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1986DLeanEndpointStatementGroup» where
+package «R1987DLeanEndpointProofKernelInterface» where
 
 lean_lib «R1949DLean» where
 
@@ -71,5 +71,7 @@ lean_lib «R1984DLeanManuscriptObligationImplementationQueue» where
 
 lean_lib «R1985DLeanEndpointFirstImplementationBlock» where
 
-@[default_target]
 lean_lib «R1986DLeanEndpointStatementGroup» where
+
+@[default_target]
+lean_lib «R1987DLeanEndpointProofKernelInterface» where
