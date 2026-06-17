@@ -1,13 +1,10 @@
-# R1991D Lean endpoint concrete proof-route bank
+# R1992D Lean package
 
-This patch adds the R1991D endpoint concrete proof-route bank layer.
-
-It imports the verified R1990D aggregate module directly so the prior aggregate
-and toy verification spine remains part of the default build graph.
+This package extends the manuscript-anchored endpoint branch through the endpoint
+proof-kernel execution checklist layer.
 
 Run:
 
 ```bash
-export PATH="$HOME/.elan/bin:$PATH"
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1991D_ENDPOINT_CONCRETE_PROOF_ROUTE_BANK.txt
+lake build
 ```

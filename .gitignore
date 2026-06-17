@@ -1,7 +1,2 @@
-.lake/
-build/
-*.olean
-*.ilean
-*.c
-*.o
-.DS_Store
+/.lake/
+/build/
