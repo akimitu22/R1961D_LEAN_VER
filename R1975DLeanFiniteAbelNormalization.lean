@@ -1,0 +1,3 @@
+import R1975DLeanFiniteAbelNormalization.NormalizationSlots
+import R1975DLeanFiniteAbelNormalization.NormalizationBridge
+import R1975DLeanFiniteAbelNormalization.ToyFiniteNormalization

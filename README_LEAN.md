@@ -1,14 +1,14 @@
 # R1974D Lean package — finite Abel component decomposition
 
-This repository contains the R1961D–R1974D Lean support package for the proof-system manuscript.
+This repository contains the R1961D–R1975D Lean support package for the proof-system manuscript.
 
 ## Current top target
 
 ```text
-R1974DLeanFiniteAbelComponents
+R1975DLeanFiniteAbelNormalization
 ```
 
-`lakefile.lean` sets the default target to `R1974DLeanFiniteAbelComponents`, and
+`lakefile.lean` sets the default target to `R1975DLeanFiniteAbelNormalization`, and
 `Main.lean` imports/checks the chain through R1974D.
 
 ## Verification status
@@ -26,21 +26,23 @@ VERIFY_LOG_CODESPACES_R1973D_FINITE_ABEL_IDENTITY.txt
 Build completed successfully (122 jobs).
 ```
 
-R1974D should be verified after applying this final-audit patch by running:
+R1974D has a recorded GitHub Codespaces / Linux build log:
+
+```text
+VERIFY_LOG_CODESPACES_R1974D_FINITE_ABEL_COMPONENTS.txt
+Build completed successfully (126 jobs).
+```
+
+The authoritative whole-package checksum ledger for this cleaned final package is:
+
+```text
+SHA256SUMS_R1974D_FINAL.txt
+```
+
+To reproduce the verification, run:
 
 ```bash
 lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1974D_FINITE_ABEL_COMPONENTS.txt
-```
-
-After that run, refresh the final whole-package checksum ledger:
-
-```bash
-find . -type f \
-  ! -path './.git/*' \
-  ! -path './.lake/*' \
-  ! -name 'SHA256SUMS_R1974D_FINAL.txt' \
-  ! -name '*.zip' \
-  | sort | xargs sha256sum > SHA256SUMS_R1974D_FINAL.txt
 sha256sum -c SHA256SUMS_R1974D_FINAL.txt
 ```
 
@@ -69,7 +71,7 @@ R1974D: finite Abel component decomposition
 R1971DLeanAbelBoundarySkeleton.abel_boundary_skeleton_to_actual_li_target
 R1972DLeanToyAbelModel.toy_abel_model_to_actual_li_target
 R1973DLeanFiniteAbelIdentity.finite_abel_identity_shell_to_actual_li_target
-R1974DLeanFiniteAbelComponents.finite_abel_components_to_actual_li_target
+R1975DLeanFiniteAbelNormalization.finite_abel_components_to_actual_li_target
 ```
 
 ## R1973D finite Abel identity shell
@@ -113,19 +115,19 @@ boundary error term slot
 Main R1974D bridge theorem:
 
 ```lean
-R1974DLeanFiniteAbelComponents.finite_abel_components_to_actual_li_target
+R1975DLeanFiniteAbelNormalization.finite_abel_components_to_actual_li_target
 ```
 
 Toy execution check:
 
 ```lean
-R1974DLeanFiniteAbelComponents.toy_finite_abel_components_to_actual_li_target_runs
+R1975DLeanFiniteAbelNormalization.toy_finite_abel_components_to_actual_li_target_runs
 ```
 
 Non-claim certificate:
 
 ```lean
-R1974DLeanFiniteAbelComponents.r1974_thirteenth_step_is_component_shell_not_concrete_abel_proof
+R1975DLeanFiniteAbelNormalization.r1974_thirteenth_step_is_component_shell_not_concrete_abel_proof
 ```
 
 R1974D does not prove the concrete finite Abel identity, endpoint estimate,
@@ -148,9 +150,7 @@ VERIFY_LOG_CODESPACES_R1973D_FINITE_ABEL_IDENTITY.txt
 VERIFY_LOG_CODESPACES_R1974D_FINITE_ABEL_COMPONENTS.txt
 ```
 
-Older `SHA256SUMS_R19xx...txt` and patch-manifest files are retained as historical
-per-patch records. The authoritative whole-package digest for the R1974D final
-audit state is:
+Historical per-patch checksum ledgers were removed from this cleaned final ZIP to avoid stale checksum failures after later audit updates. Patch manifests are retained as historical descriptions. The authoritative whole-package digest for the R1974D final audit state is:
 
 ```text
 SHA256SUMS_R1974D_FINAL.txt
@@ -162,3 +162,27 @@ This Lean package verifies the abstract proof architecture and the analytic-obli
 tracking path through finite Abel identity/component shell layers. It does not claim
 to formally prove the real Abel-boundary identity, real boundary-limit theorem,
 explicit formula, Li criterion, terminal packet estimates, or the Riemann Hypothesis.
+
+
+## R1975D finite Abel normalization/routing layer
+
+R1975D adds a normalization and routing shell over the R1974D finite Abel
+component decomposition.  It records finite-sum normalization, weight
+normalization, endpoint/boundary routing, and boundary-error normalization
+slots while preserving the inherited actual-Li-target bridge.
+
+Central theorem:
+
+```lean
+R1975DLeanFiniteAbelNormalization.finite_abel_normalization_to_actual_li_target
+```
+
+Non-claim boundary:
+
+```lean
+R1975DLeanFiniteAbelNormalization.r1975_fourteenth_step_is_normalization_shell_not_concrete_abel_proof
+```
+
+R1975D does not prove a concrete finite Abel identity, endpoint estimate,
+boundary-error estimate, real Abel-boundary identity, explicit formula, or RH.
+It is a proof-obligation / target-language refinement layer.
