@@ -1,0 +1,23 @@
+R1981D concrete proof skeleton patch contents
+
+MODIFIED:
+- .gitignore
+- Main.lean
+- README_LEAN.md
+- lakefile.lean
+
+ADDED:
+- R1981DLeanConcreteProofSkeletons.lean
+- R1981DLeanConcreteProofSkeletons/ProofSkeletonSlots.lean
+- R1981DLeanConcreteProofSkeletons/EndpointSkeletons.lean
+- R1981DLeanConcreteProofSkeletons/BoundaryErrorSkeletons.lean
+- R1981DLeanConcreteProofSkeletons/RemainderUniformitySkeletons.lean
+- R1981DLeanConcreteProofSkeletons/SignTransferSkeletons.lean
+- R1981DLeanConcreteProofSkeletons/SkeletonBridge.lean
+- R1981DLeanConcreteProofSkeletons/ToyProofSkeletons.lean
+- R1981D_CONCRETE_PROOF_SKELETONS_LEDGER.md
+- R1981D_TWENTIETH_BEST_STEP.md
+- R1981D_PATCH_MANIFEST.txt
+- SHA256SUMS_R1981D_CONCRETE_PROOF_SKELETONS.txt
+- VERIFY_STATUS_R1980D_CONCRETE_ESTIMATE_STATEMENTS.md
+- VERIFY_STATUS_R1981D_CONCRETE_PROOF_SKELETONS.md

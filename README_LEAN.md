@@ -264,3 +264,19 @@ R1979D blueprint and preserves the existing actual-Li bridge.  R1980D is not a
 proof of the endpoint estimate, boundary-error estimate, remainder estimate,
 Abel-parameter uniformity estimate, real Abel-boundary identity, explicit
 formula, or RH.
+
+
+## R1981D concrete proof skeleton layer
+
+R1981D turns the R1980D concrete estimate statement bank into explicit proof
+skeleton families.  It records endpoint, boundary-error, remainder/uniformity,
+and sign-transfer proof skeletons, together with a combined skeleton plan that
+forgets back to the R1980D statement bank.  The top target is now
+`R1981DLeanConcreteProofSkeletons`.
+
+The main bridge is
+`concrete_proof_skeleton_plan_to_actual_li_target`, which forgets to the R1980D
+statement-bank layer and preserves the existing actual-Li bridge.  R1981D is not
+a proof of the endpoint estimate, boundary-error estimate, remainder estimate,
+Abel-parameter uniformity estimate, real Abel-boundary identity, explicit
+formula, or RH.

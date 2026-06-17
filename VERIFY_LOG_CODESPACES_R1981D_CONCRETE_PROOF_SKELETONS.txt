@@ -1,0 +1,8 @@
+✔ [155/162] Built R1981DLeanConcreteProofSkeletons.RemainderUniformitySkeletons (2.6s)
+✔ [156/162] Built R1981DLeanConcreteProofSkeletons.SignTransferSkeletons (2.6s)
+✔ [157/162] Built R1981DLeanConcreteProofSkeletons.EndpointSkeletons (586ms)
+✔ [158/162] Built R1981DLeanConcreteProofSkeletons.BoundaryErrorSkeletons (587ms)
+✔ [159/162] Built R1981DLeanConcreteProofSkeletons.SkeletonBridge (608ms)
+✔ [160/162] Built R1981DLeanConcreteProofSkeletons.ToyProofSkeletons (359ms)
+✔ [161/162] Built R1981DLeanConcreteProofSkeletons (345ms)
+Build completed successfully (162 jobs).

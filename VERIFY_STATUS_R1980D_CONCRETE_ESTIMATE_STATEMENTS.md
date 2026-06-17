@@ -2,15 +2,19 @@
 
 ## Status
 
-Pending external GitHub Codespaces / Linux verification.
+Verified in GitHub Codespaces / Linux.
 
-## Intended command
+## Recorded command
 
 lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1980D_CONCRETE_ESTIMATE_STATEMENTS.txt
 
-## Expected success line
+## Recorded success line
 
 Build completed successfully (155 jobs).
+
+## Recorded log
+
+VERIFY_LOG_CODESPACES_R1980D_CONCRETE_ESTIMATE_STATEMENTS.txt
 
 ## Scope
 
