@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1976DLeanFiniteAbelEstimateGates» where
+package «R1977DLeanEstimateDependencyClosure» where
 
 lean_lib «R1949DLean» where
 
@@ -51,5 +51,7 @@ lean_lib «R1974DLeanFiniteAbelComponents» where
 
 lean_lib «R1975DLeanFiniteAbelNormalization» where
 
-@[default_target]
 lean_lib «R1976DLeanFiniteAbelEstimateGates» where
+
+@[default_target]
+lean_lib «R1977DLeanEstimateDependencyClosure» where

@@ -1,20 +1,20 @@
-# VERIFY STATUS — R1976D finite Abel estimate gates
+# VERIFY STATUS -- R1976D finite Abel estimate gates
 
 ## Status
 
-Pending user-side GitHub Codespaces verification.
+Verified in GitHub Codespaces / Linux.
 
-## Expected command
+## Recorded command
 
-```bash
 lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1976D_FINITE_ABEL_ESTIMATE_GATES.txt
-```
 
-## Expected success line
+## Recorded success line
 
-```text
 Build completed successfully (134 jobs).
-```
+
+## Recorded log
+
+VERIFY_LOG_CODESPACES_R1976D_FINITE_ABEL_ESTIMATE_GATES.txt
 
 ## Scope
 

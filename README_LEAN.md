@@ -188,7 +188,7 @@ boundary-error estimate, real Abel-boundary identity, explicit formula, or RH.
 It is a proof-obligation / target-language refinement layer.
 
 
-## R1976D finite Abel estimate-gate shell
+## R1977D finite Abel estimate dependency-closure shell
 
 R1976D adds a larger post-normalization target layer.  It packages four finite
 Abel estimate gates: endpoint estimate, boundary-error estimate, summation
@@ -201,3 +201,18 @@ realization target.
 R1976D is not a concrete proof of endpoint estimates, boundary-error estimates,
 uniformity estimates, a real Abel-boundary identity, the explicit formula, or RH.
 Those analytic estimates remain the external mathematical obligations.
+
+
+## R1977D finite Abel estimate dependency-closure shell
+
+R1977D consolidates the R1976D estimate gates into explicit dependency tables:
+endpoint dependencies, boundary-error dependencies, joint remainder/uniformity
+dependencies, and one closure/audit table.  The top target is now
+`R1977DLeanEstimateDependencyClosure`.  The recorded bridge is
+`finite_abel_dependency_closure_to_actual_li_target`, which forgets through the
+R1976D estimate-gate plan and preserves the existing chain to the analytic
+realization target.
+
+R1977D is not a concrete proof of endpoint estimates, boundary-error estimates,
+uniformity estimates, a real Abel-boundary identity, the explicit formula, or RH.
+It is a dependency-closure table for the remaining analytic estimate obligations.
