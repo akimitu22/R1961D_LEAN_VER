@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1981DLeanConcreteProofSkeletons» where
+package «R1982DLeanProofObligationExecutionPlan» where
 
 lean_lib «R1949DLean» where
 
@@ -61,5 +61,7 @@ lean_lib «R1979DLeanConcreteEstimateBlueprint» where
 
 lean_lib «R1980DLeanConcreteEstimateStatements» where
 
-@[default_target]
 lean_lib «R1981DLeanConcreteProofSkeletons» where
+
+@[default_target]
+lean_lib «R1982DLeanProofObligationExecutionPlan» where
