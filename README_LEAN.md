@@ -1,33 +1,31 @@
-# R1971D Lean patch — Abel-Boundary Definition Skeleton
+# R1972D Lean patch — Toy Analytic Abel Model
 
-This patch adds the R1971D layer:
+This patch adds the R1972D layer:
 
 ```text
-R1971DLeanAbelBoundarySkeleton
+R1972DLeanToyAbelModel
 ```
 
-It refines the R1970D minimal first formalization target by giving the
-Abel-boundary definition target a Lean-visible skeleton:
+It refines the R1971D Abel-boundary definition skeleton by attaching:
 
 ```text
-parameter list
-admissibility hypotheses
-definition skeleton
-target-statement shell
+finite surrogate Abel transform
+boundary-limit placeholder
+toy analytic Abel model
 ```
 
 Main theorem:
 
 ```lean
-R1971DLeanAbelBoundarySkeleton.abel_boundary_skeleton_to_actual_li_target
+R1972DLeanToyAbelModel.toy_abel_model_to_actual_li_target
 ```
 
 Expected Codespaces verification after application:
 
 ```text
-Build completed successfully (114 jobs).
+Build completed successfully (118 jobs).
 ```
 
-Non-claim boundary: this is not a full formalization of the Abel-boundary
-identity, Li criterion, explicit formula, packet estimates, or RH. It is a
-formalization-entry layer for the first selected analytic target.
+Non-claim boundary: this is not a proof of the real Abel-boundary identity, real
+boundary-limit theorem, Li criterion, explicit formula, packet estimates, or RH.
+It is the first toy model/placeholder layer for the selected Abel-boundary target.
