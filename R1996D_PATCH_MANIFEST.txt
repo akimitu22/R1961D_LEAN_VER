@@ -1,0 +1,22 @@
+# R1996D patch manifest
+
+- `.gitignore`
+- `Main.lean`
+- `R1994D_ENDPOINT_PROOF_KERNEL_EXECUTION_INTERFACE_LEDGER.md`
+- `R1994D_THIRTY_THIRD_BEST_STEP.md`
+- `R1995D_ENDPOINT_FIRST_EXECUTABLE_SKELETON_LEDGER.md`
+- `R1995D_THIRTY_FOURTH_BEST_STEP.md`
+- `R1996DLeanEndpointExecutableKernelBoundary/EndpointExecutableKernelBoundaryBridge.lean`
+- `R1996DLeanEndpointExecutableKernelBoundary/EndpointExecutableKernelBoundaryDependencyPlan.lean`
+- `R1996DLeanEndpointExecutableKernelBoundary/EndpointExecutableKernelBoundarySlots.lean`
+- `R1996DLeanEndpointExecutableKernelBoundary/ToyEndpointExecutableKernelBoundary.lean`
+- `R1996DLeanEndpointExecutableKernelBoundary.lean`
+- `R1996D_ENDPOINT_EXECUTABLE_KERNEL_BOUNDARY_LEDGER.md`
+- `R1996D_PATCH_MANIFEST.txt`
+- `R1996D_THIRTY_FIFTH_BEST_STEP.md`
+- `README_LEAN.md`
+- `SHA256SUMS_R1996D_ENDPOINT_EXECUTABLE_KERNEL_BOUNDARY.txt`
+- `VERIFY_STATUS_R1994D_ENDPOINT_PROOF_KERNEL_EXECUTION_INTERFACE.md`
+- `VERIFY_STATUS_R1995D_ENDPOINT_FIRST_EXECUTABLE_SKELETON.md`
+- `VERIFY_STATUS_R1996D_ENDPOINT_EXECUTABLE_KERNEL_BOUNDARY.md`
+- `lakefile.lean`
