@@ -1,38 +1,20 @@
-# R1969D Lean verification package
+# R1970D Lean patch — Minimal First Formalization Target
 
-R1969D extends the existing R1961D--R1968D Lean package by adding a formalization-priority layer.
-
-## New layer
+This patch adds the R1970D layer:
 
 ```text
-R1969DLeanFormalizationPriority.lean
-R1969DLeanFormalizationPriority/PriorityKinds.lean
-R1969DLeanFormalizationPriority/PriorityBridge.lean
-R1969DLeanFormalizationPriority/ToyFormalizationPriority.lean
+R1970DLeanFirstFormalizationTarget
 ```
 
-## Main bridge
+It selects a minimal first formalization target, currently the Abel-boundary
+definition target, and connects that selection to the R1969D formalization
+priority plan.
+
+Main theorem:
 
 ```lean
-R1969DLeanFormalizationPriority.priority_plan_to_actual_li_target
+R1970DLeanFirstFormalizationTarget.minimal_first_target_plan_to_actual_li_target
 ```
 
-This bridge states that a formalization-priority plan preserves the existing verified bridge from anchor classification to the actual Li target.
-
-## Verification
-
-Run:
-
-```bash
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1969D_FORMALIZATION_PRIORITY.txt
-```
-
-Expected result:
-
-```text
-Build completed successfully (106 jobs).
-```
-
-## Boundary
-
-R1969D is not a full analytic formalization.  It does not prove the concrete Li kernel, the explicit formula, packet estimates, the Li criterion, or RH.
+Non-claim boundary: this is not a full formalization of the Abel-boundary
+identity, Li criterion, explicit formula, packet estimates, or RH.

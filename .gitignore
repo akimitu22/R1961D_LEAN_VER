@@ -3,6 +3,5 @@
 *.ilean
 *.trace
 *.c
-*.o
-*.out
+*.setup.json
 .DS_Store
