@@ -1,10 +1,3 @@
-# R1994D Lean package
+# R1995D Lean patch
 
-This package extends the manuscript-anchored endpoint branch through the
-endpoint proof-kernel execution interface layer.
-
-Run:
-
-```bash
-lake build
-```
+Adds `R1995DLeanEndpointFirstExecutableSkeleton`, preserving the aggregate import spine from R1994D.
