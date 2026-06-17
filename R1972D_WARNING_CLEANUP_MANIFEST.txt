@@ -1,0 +1,11 @@
+R1972D warning cleanup patch
+
+Files included:
+- R1972DLeanToyAbelModel/ToyAnalyticAbelModel.lean
+- R1972D_WARNING_CLEANUP_NOTE.md
+- R1972D_WARNING_CLEANUP_MANIFEST.txt
+- SHA256SUMS_R1972D_WARNING_CLEANUP.txt
+
+Purpose:
+- Rename the intentionally unused theorem argument `M` to `_M`.
+- Remove the Codespaces Lean linter warning without changing the proof chain.

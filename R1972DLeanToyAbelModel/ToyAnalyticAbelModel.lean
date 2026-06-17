@@ -83,7 +83,7 @@ structure ToyAnalyticAbelModel
 theorem toy_abel_model_target_is_abel_boundary_definition
     {A : AnalyticRealizationObligations}
     {P : AbelBoundaryDefinitionSkeletonPlan A}
-    (M : ToyAnalyticAbelModel P) :
+    (_M : ToyAnalyticAbelModel P) :
     P.definitionSkeleton.selectedTarget = FirstFormalizationTargetKind.abelBoundaryDefinition := by
   exact P.definitionSkeleton.selectedTargetIsAbelDefinition
 
