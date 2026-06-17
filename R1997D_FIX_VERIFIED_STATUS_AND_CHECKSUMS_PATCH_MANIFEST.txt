@@ -1,0 +1,21 @@
+# R1997D fix patch manifest
+
+Patch: R1997D_FIX_VERIFIED_STATUS_AND_CHECKSUMS_PATCH.zip
+
+Files updated or added:
+
+```text
+README_LEAN.md
+VERIFY_STATUS_R1997D_ENDPOINT_EXECUTABLE_PROOF_KERNEL_STUB.md
+SHA256SUMS_R1997D_ENDPOINT_EXECUTABLE_PROOF_KERNEL_STUB.txt
+R1997D_FIX_VERIFIED_STATUS_AND_CHECKSUMS_NOTE.md
+R1997D_FIX_VERIFIED_STATUS_AND_CHECKSUMS_PATCH_MANIFEST.txt
+```
+
+Purpose:
+
+```text
+Update R1997D verification status from prepared to verified,
+correct the README title/scope,
+and remove the unstable self-checksum entry from the R1997D patch checksum ledger.
+```

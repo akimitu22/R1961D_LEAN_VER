@@ -1,0 +1,11 @@
+R1997D final verified clean export helper patch
+
+Files:
+- MAKE_R1997D_SUB_VER_ENDPOINT_EXECUTABLE_PROOF_KERNEL_STUB_FINAL_VERIFIED_CLEAN.sh
+- R1997D_FINAL_VERIFIED_CLEAN_EXPORT_NOTE.md
+- R1997D_FINAL_CLEAN_EXPORT_PATCH_MANIFEST.txt
+- SHA256SUMS_R1997D_FINAL_CLEAN_EXPORT_PATCH.txt
+
+Purpose:
+- Generate R1997D_SUB_VER_ENDPOINT_EXECUTABLE_PROOF_KERNEL_STUB_FINAL_VERIFIED_CLEAN.zip after R1997D has built successfully in Codespaces.
+- Use temporary staging outside the Git worktree to prevent accidental stage-directory commits.
