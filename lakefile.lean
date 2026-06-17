@@ -67,5 +67,7 @@ lean_lib «R1982DLeanProofObligationExecutionPlan» where
 
 lean_lib «R1983DLeanMainManuscriptAnchoredVerificationSpine» where
 
-@[default_target]
 lean_lib «R1984DLeanManuscriptObligationImplementationQueue» where
+
+@[default_target]
+lean_lib «R1985DLeanEndpointFirstImplementationBlock» where

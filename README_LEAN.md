@@ -1,41 +1,22 @@
-# R1984D Lean manuscript-obligation implementation queue
+# R1985D Lean Package
 
-R1984D adds the first implementation queue as a child layer of the R1983D
-main-manuscript-anchored verification spine.
+R1985D adds the manuscript-anchored endpoint first implementation block.
 
-## Top module
+It is designed to be applied after the verified R1984D layer.
 
-```lean
-import R1984DLeanManuscriptObligationImplementationQueue
+```bash
+git pull
+unzip R1985D_MANUSCRIPT_ENDPOINT_FIRST_IMPLEMENTATION_BLOCK_PATCH.zip -d r1985_patch
+cp -r r1985_patch/. .
+rm -rf r1985_patch
+rm R1985D_MANUSCRIPT_ENDPOINT_FIRST_IMPLEMENTATION_BLOCK_PATCH.zip
+
+export PATH="$HOME/.elan/bin:$PATH"
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1985D_MANUSCRIPT_ENDPOINT_FIRST_IMPLEMENTATION_BLOCK.txt
 ```
 
-## Main theorem
-
-```lean
-R1984DLeanManuscriptObligationImplementationQueue.manuscript_anchored_obligation_queue_to_actual_li_target
-```
-
-## Added layer
+Success criterion:
 
 ```text
-R1984DLeanManuscriptObligationImplementationQueue.lean
-R1984DLeanManuscriptObligationImplementationQueue/
-├── MainAnchoredQueueSlots.lean
-├── FirstImplementationFrontier.lean
-├── QueueBridge.lean
-└── ToyMainAnchoredQueue.lean
+Build completed successfully (... jobs).
 ```
-
-## Verification-spine policy
-
-R1984D imports R1983D as a normal predecessor library and makes R1984D the
-default target.  The aggregate module also imports R1961D through R1983D, so
-`lake build` should continue to traverse the manuscript-compatible spine rather
-than narrowing to a local queue-only graph.
-
-## Scope boundary
-
-R1984D records a queue and dependency frontier.  It does not prove endpoint
-estimates, boundary-error estimates, remainder estimates, Abel-parameter
-uniformity estimates, sign-transfer estimates, the real Abel-boundary identity,
-the explicit formula, or RH.
