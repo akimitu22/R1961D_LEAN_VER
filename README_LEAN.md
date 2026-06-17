@@ -186,3 +186,18 @@ R1975DLeanFiniteAbelNormalization.r1975_fourteenth_step_is_normalization_shell_n
 R1975D does not prove a concrete finite Abel identity, endpoint estimate,
 boundary-error estimate, real Abel-boundary identity, explicit formula, or RH.
 It is a proof-obligation / target-language refinement layer.
+
+
+## R1976D finite Abel estimate-gate shell
+
+R1976D adds a larger post-normalization target layer.  It packages four finite
+Abel estimate gates: endpoint estimate, boundary-error estimate, summation
+remainder, and Abel-parameter uniformity.  The top target is now
+`R1976DLeanFiniteAbelEstimateGates`.  The recorded bridge is
+`finite_abel_estimate_gates_to_actual_li_target`, which forgets through the
+R1975D normalization plan and preserves the existing chain to the analytic
+realization target.
+
+R1976D is not a concrete proof of endpoint estimates, boundary-error estimates,
+uniformity estimates, a real Abel-boundary identity, the explicit formula, or RH.
+Those analytic estimates remain the external mathematical obligations.

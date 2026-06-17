@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1975DLeanFiniteAbelNormalization» where
+package «R1976DLeanFiniteAbelEstimateGates» where
 
 lean_lib «R1949DLean» where
 
@@ -49,5 +49,7 @@ lean_lib «R1973DLeanFiniteAbelIdentity» where
 
 lean_lib «R1974DLeanFiniteAbelComponents» where
 
-@[default_target]
 lean_lib «R1975DLeanFiniteAbelNormalization» where
+
+@[default_target]
+lean_lib «R1976DLeanFiniteAbelEstimateGates» where
