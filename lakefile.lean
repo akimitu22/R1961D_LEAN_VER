@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1983DLeanMainManuscriptAnchoredVerificationSpine» where
+package «R1984DLeanManuscriptObligationImplementationQueue» where
 
 lean_lib «R1949DLean» where
 
@@ -65,5 +65,7 @@ lean_lib «R1981DLeanConcreteProofSkeletons» where
 
 lean_lib «R1982DLeanProofObligationExecutionPlan» where
 
-@[default_target]
 lean_lib «R1983DLeanMainManuscriptAnchoredVerificationSpine» where
+
+@[default_target]
+lean_lib «R1984DLeanManuscriptObligationImplementationQueue» where
