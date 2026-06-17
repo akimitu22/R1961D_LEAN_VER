@@ -1,0 +1,29 @@
+{"plugins": [],
+ "package": "R1961DLeanPacket",
+ "options": {},
+ "name": "R1949DLean.ToyModel",
+ "isModule": false,
+ "importArts":
+ {"R1949DLean.TerminalRigidityChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/TerminalRigidityChain.olean"],
+  "R1949DLean.TerminalClasses":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/TerminalClasses.olean"],
+  "R1949DLean.StructuralSupportChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/StructuralSupportChain.olean"],
+  "R1949DLean.StructuralLayers":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/StructuralLayers.olean"],
+  "R1949DLean.ProofObligationMap":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/ProofObligationMap.olean"],
+  "R1949DLean.MainLogicalChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/MainLogicalChain.olean"],
+  "R1949DLean.FiniteToAbelChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/FiniteToAbelChain.olean"],
+  "R1949DLean.DependencyCertificates":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/DependencyCertificates.olean"],
+  "R1949DLean.Basic":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/Basic.olean"],
+  "R1949DLean.AssumptionPackages":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/AssumptionPackages.olean"],
+  "R1949DLean.AbelBookkeeping":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/AbelBookkeeping.olean"]},
+ "dynlibs": []}

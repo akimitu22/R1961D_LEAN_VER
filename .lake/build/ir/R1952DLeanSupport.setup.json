@@ -1,0 +1,43 @@
+{"plugins": [],
+ "package": "R1961DLeanPacket",
+ "options": {},
+ "name": "R1952DLeanSupport",
+ "isModule": false,
+ "importArts":
+ {"R1952DLeanSupport.VersionMap":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1952DLeanSupport/VersionMap.olean"],
+  "R1952DLeanSupport.ToySupport":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1952DLeanSupport/ToySupport.olean"],
+  "R1952DLeanSupport.SupportTheorems":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1952DLeanSupport/SupportTheorems.olean"],
+  "R1952DLeanSupport.ProfileCoverage":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1952DLeanSupport/ProfileCoverage.olean"],
+  "R1952DLeanSupport.ObligationFieldBindings":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1952DLeanSupport/ObligationFieldBindings.olean"],
+  "R1949DLean.ToyModel":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/ToyModel.olean"],
+  "R1949DLean.TerminalRigidityChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/TerminalRigidityChain.olean"],
+  "R1949DLean.TerminalClasses":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/TerminalClasses.olean"],
+  "R1949DLean.StructuralSupportChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/StructuralSupportChain.olean"],
+  "R1949DLean.StructuralLayers":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/StructuralLayers.olean"],
+  "R1949DLean.ProofObligationMap":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/ProofObligationMap.olean"],
+  "R1949DLean.MainLogicalChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/MainLogicalChain.olean"],
+  "R1949DLean.FiniteToAbelChain":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/FiniteToAbelChain.olean"],
+  "R1949DLean.DependencyCertificates":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/DependencyCertificates.olean"],
+  "R1949DLean.Basic":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/Basic.olean"],
+  "R1949DLean.AssumptionPackages":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/AssumptionPackages.olean"],
+  "R1949DLean.AbelBookkeeping":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean/AbelBookkeeping.olean"],
+  "R1949DLean":
+  ["/workspaces/R1961D_LEAN_VER/.lake/build/lib/lean/R1949DLean.olean"]},
+ "dynlibs": []}
