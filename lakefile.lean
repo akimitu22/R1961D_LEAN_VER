@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1988DLeanEndpointKernelAxiomBoundary» where
+package «R1989DLeanEndpointConcreteLemmaStubs» where
 
 lean_lib «R1949DLean» where
 
@@ -75,5 +75,7 @@ lean_lib «R1986DLeanEndpointStatementGroup» where
 
 lean_lib «R1987DLeanEndpointProofKernelInterface» where
 
-@[default_target]
 lean_lib «R1988DLeanEndpointKernelAxiomBoundary» where
+
+@[default_target]
+lean_lib «R1989DLeanEndpointConcreteLemmaStubs» where
