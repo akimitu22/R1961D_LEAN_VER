@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2003DLeanEndpointFirstDischargeAttemptBoundary» where
+package «R2005DLeanEndpointFirstDischargeExecutionPrecheck» where
 
 lean_lib «R1949DLean» where
 
@@ -105,5 +105,9 @@ lean_lib «R2001DLeanEndpointFirstDischargeCertificateInterface» where
 
 lean_lib «R2002DLeanEndpointFirstCertificatePayloadSlots» where
 
-@[default_target]
 lean_lib «R2003DLeanEndpointFirstDischargeAttemptBoundary» where
+
+lean_lib «R2004DLeanEndpointFirstDischargeAttemptInputSlots» where
+
+@[default_target]
+lean_lib «R2005DLeanEndpointFirstDischargeExecutionPrecheck» where
