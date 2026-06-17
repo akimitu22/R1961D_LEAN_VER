@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1993DLeanEndpointProofKernelImplementationLedger» where
+package «R1994DLeanEndpointProofKernelExecutionInterface» where
 
 lean_lib «R1949DLean» where
 
@@ -85,5 +85,7 @@ lean_lib «R1991DLeanEndpointConcreteProofRouteBank» where
 
 lean_lib «R1992DLeanEndpointProofKernelExecutionChecklist» where
 
-@[default_target]
 lean_lib «R1993DLeanEndpointProofKernelImplementationLedger» where
+
+@[default_target]
+lean_lib «R1994DLeanEndpointProofKernelExecutionInterface» where
