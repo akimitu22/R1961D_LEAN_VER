@@ -1,25 +1,25 @@
-# R1999D Lean support package
+# R2001D Lean support package
 
-This patch advances the endpoint branch by two layers at once:
+This combined patch advances the endpoint branch by two layers at once:
 
-- R1998D: endpoint executable proof-kernel body plan / dependency grid.
-- R1999D: endpoint first concrete discharge interface / dependency interface.
+- R2000D: endpoint concrete-discharge obligation slots / dependency table.
+- R2001D: endpoint first discharge certificate interface / dependency map.
 
-The default target is `R1999DLeanEndpointFirstConcreteDischargeInterface`.
-The aggregate import spine explicitly preserves `R1997DLeanEndpointExecutableProofKernelStub` through `R1998DLeanEndpointExecutableProofKernelBodyPlan` and then into R1999D.
+The default target is `R2001DLeanEndpointFirstDischargeCertificateInterface`.
+The aggregate import spine explicitly preserves `R1999DLeanEndpointFirstConcreteDischargeInterface` through `R2000DLeanEndpointConcreteDischargeObligationSlots` and then into R2001D.
 
 Non-claim boundary:
 
-- No endpoint proof kernel is implemented here.
 - No endpoint proof kernel is executed here.
 - No concrete endpoint lemma is discharged here.
+- No proof certificate term is supplied here.
 - No endpoint estimate, boundary-error estimate, remainder-uniformity estimate, sign-transfer estimate, explicit formula, or RH statement is proved here.
 
 Expected Codespaces verification:
 
 ```bash
 export PATH="$HOME/.elan/bin:$PATH"
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1999D_ENDPOINT_FIRST_CONCRETE_DISCHARGE_INTERFACE.txt
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R2001D_ENDPOINT_FIRST_DISCHARGE_CERTIFICATE_INTERFACE.txt
 ```
 
-Expected result: `Build completed successfully (... jobs).`  Because R1997D previously built with 243 jobs, this two-layer patch should not be accepted if the job count falls below 243.
+Expected result: `Build completed successfully (... jobs).` Because R1999D previously built with 253 jobs, this two-layer patch should not be accepted if the job count falls below 253.

@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1999DLeanEndpointFirstConcreteDischargeInterface» where
+package «R2001DLeanEndpointFirstDischargeCertificateInterface» where
 
 lean_lib «R1949DLean» where
 
@@ -97,5 +97,9 @@ lean_lib «R1997DLeanEndpointExecutableProofKernelStub» where
 
 lean_lib «R1998DLeanEndpointExecutableProofKernelBodyPlan» where
 
-@[default_target]
 lean_lib «R1999DLeanEndpointFirstConcreteDischargeInterface» where
+
+lean_lib «R2000DLeanEndpointConcreteDischargeObligationSlots» where
+
+@[default_target]
+lean_lib «R2001DLeanEndpointFirstDischargeCertificateInterface» where
