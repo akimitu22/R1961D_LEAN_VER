@@ -1,3 +1,0 @@
-import R1970DLeanFirstFormalizationTarget.MinimalTargetKinds
-import R1970DLeanFirstFormalizationTarget.FirstTargetBridge
-import R1970DLeanFirstFormalizationTarget.ToyFirstFormalizationTarget

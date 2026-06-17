@@ -1,3 +1,0 @@
-import R1969DLeanFormalizationPriority.PriorityKinds
-import R1969DLeanFormalizationPriority.PriorityBridge
-import R1969DLeanFormalizationPriority.ToyFormalizationPriority

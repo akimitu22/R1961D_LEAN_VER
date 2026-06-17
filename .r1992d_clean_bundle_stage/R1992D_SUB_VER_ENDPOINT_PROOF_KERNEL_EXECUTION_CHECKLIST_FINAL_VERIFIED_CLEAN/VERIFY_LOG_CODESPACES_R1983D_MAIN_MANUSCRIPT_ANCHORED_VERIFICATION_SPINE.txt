@@ -1,6 +1,0 @@
-✔ [168/173] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.ManuscriptAnchorSlots (956ms)
-✔ [169/173] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.VerificationSpineLedger (1.2s)
-✔ [170/173] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.SpineBridge (783ms)
-✔ [171/173] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.ToyAnchoredSpine (577ms)
-✔ [172/173] Built R1983DLeanMainManuscriptAnchoredVerificationSpine (570ms)
-Build completed successfully (173 jobs).

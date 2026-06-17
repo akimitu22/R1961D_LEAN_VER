@@ -1,3 +1,0 @@
-import R1974DLeanFiniteAbelComponents.ComponentSlots
-import R1974DLeanFiniteAbelComponents.ComponentBridge
-import R1974DLeanFiniteAbelComponents.ToyFiniteComponents

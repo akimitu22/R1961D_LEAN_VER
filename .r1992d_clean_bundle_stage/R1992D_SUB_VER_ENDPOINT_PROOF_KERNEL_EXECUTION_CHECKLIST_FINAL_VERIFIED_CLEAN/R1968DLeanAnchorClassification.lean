@@ -1,3 +1,0 @@
-import R1968DLeanAnchorClassification.AnchorKinds
-import R1968DLeanAnchorClassification.AnchorBridge
-import R1968DLeanAnchorClassification.ToyAnchorClassification
