@@ -1,0 +1,13 @@
+R2009D final verified clean export helper patch
+
+Files:
+- MAKE_R2009D_SUB_VER_ENDPOINT_FIRST_DISCHARGE_WITNESS_HANDOFF_INTERFACE_FINAL_VERIFIED_CLEAN.sh
+- R2009D_FINAL_VERIFIED_CLEAN_EXPORT_NOTE.md
+- R2009D_FINAL_CLEAN_EXPORT_PATCH_MANIFEST.txt
+- SHA256SUMS_R2009D_FINAL_CLEAN_EXPORT_PATCH.txt
+
+Purpose:
+- Generate R2009D_SUB_VER_ENDPOINT_FIRST_DISCHARGE_WITNESS_HANDOFF_INTERFACE_FINAL_VERIFIED_CLEAN.zip after R2009D has built successfully in Codespaces.
+- Require VERIFY_LOG_CODESPACES_R2009D_ENDPOINT_FIRST_DISCHARGE_WITNESS_HANDOFF_INTERFACE.txt to contain a successful 303+ job build line.
+- Use temporary staging outside the Git worktree to prevent accidental stage-directory commits.
+- Preserve logs, status files, source files, ledgers, and checksum ledgers while excluding .git, .lake, patch zips, standalone .sha256 files, and temporary staging directories.

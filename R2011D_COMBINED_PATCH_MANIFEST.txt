@@ -1,0 +1,19 @@
+R2011D combined endpoint execution handoff boundary patch
+
+Files:
+- Main.lean
+- lakefile.lean
+- R2010DLeanEndpointFirstWitnessValidationSlots.lean
+- R2010DLeanEndpointFirstWitnessValidationSlots/EndpointFirstWitnessValidationSlots.lean
+- R2010DLeanEndpointFirstWitnessValidationSlots/EndpointFirstWitnessValidationDependencyAudit.lean
+- R2010DLeanEndpointFirstWitnessValidationSlots/EndpointFirstWitnessValidationBridge.lean
+- R2010DLeanEndpointFirstWitnessValidationSlots/ToyEndpointFirstWitnessValidationSlots.lean
+- R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary.lean
+- R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary/EndpointFirstDischargeExecutionHandoffSlots.lean
+- R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary/EndpointFirstDischargeExecutionHandoffDependencyAudit.lean
+- R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary/EndpointFirstDischargeExecutionHandoffBridge.lean
+- R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary/ToyEndpointFirstDischargeExecutionHandoffBoundary.lean
+- ledgers, best-step notes, verify status files, README, SHA256SUMS
+
+Non-claim boundary:
+No endpoint proof kernel execution, no concrete endpoint lemma discharge, no endpoint estimate, no explicit formula, and no RH proof are claimed.
