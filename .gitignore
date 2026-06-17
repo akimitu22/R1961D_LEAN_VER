@@ -1,5 +1,7 @@
 .lake/
-r1962_patch/
-r1963_patch/
-r1963_fix/
-r1963_toy_fix/
+*.olean
+*.ilean
+*.trace
+*.c
+*.setup.json
+.DS_Store

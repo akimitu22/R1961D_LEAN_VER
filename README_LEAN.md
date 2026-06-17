@@ -1,24 +1,20 @@
-# R1963D Lean analytic decomposition patch
+# R1964D Lean Verification Package
 
-This patch extends the R1962D analytic-realization target layer.
+This repository contains a Lean companion package for the R-series proof
+candidate.  The R1964D layer adds an analytic micro-target refinement layer.
 
-## New layer
+## Current layer sequence
 
 ```text
+R1961DLeanPacket
+  packet-balance layer
+R1962DLeanAnalyticRealization
+  analytic realization target language
 R1963DLeanAnalyticDecomposition
+  analytic obligation decomposition layer
+R1964DLeanAnalyticMicroTargets
+  micro-target refinement layer
 ```
-
-## Main purpose
-
-R1963D decomposes the remaining analytic obligations into Lean-checkable profiles and a pre-target realization matrix.
-
-The key new bridge theorem is:
-
-```lean
-R1963DLeanAnalyticDecomposition.realized_pre_target_slots_to_actual_li_target
-```
-
-It says that once the nine pre-target analytic slots are realized, the actual Li target follows through the R1962D analytic-realization bridge and the R1961D packet-balance layer.
 
 ## Build command
 
@@ -26,12 +22,23 @@ It says that once the nine pre-target analytic slots are realized, the actual Li
 lake build
 ```
 
-For a saved Codespaces log:
+For Codespaces log capture:
 
 ```bash
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1963D_ANALYTIC_DECOMPOSITION.txt
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1964D_MICRO_TARGETS.txt
 ```
+
+## R1964D central theorem
+
+```lean
+R1964DLeanAnalyticMicroTargets.micro_targets_to_actual_li_target
+```
+
+This theorem says that a full micro-target realization package implies the
+actual Li target through the already verified R1963D/R1962D/R1961D bridge chain.
 
 ## Non-claim boundary
 
-This patch does not prove the actual explicit formula, actual prime/zero packet estimates, endpoint estimates, Li criterion, or RH.  It prepares the remaining analytic layer for stepwise Lean formalization.
+The R1964D layer does not claim a complete Lean formalization of the Riemann
+Hypothesis or of the analytic number theory required for it. It gives the next
+Lean-checkable target language for the remaining analytic realization problem.
