@@ -1,18 +1,19 @@
-# R1985D Lean Package
+# R1986D Lean Package
 
-R1985D adds the manuscript-anchored endpoint first implementation block.
+R1986D adds the endpoint statement group layer under the verified R1985D endpoint
+first implementation block.
 
-It is designed to be applied after the verified R1984D layer.
+It is designed to be applied after the verified R1985D layer.
 
 ```bash
 git pull
-unzip R1985D_MANUSCRIPT_ENDPOINT_FIRST_IMPLEMENTATION_BLOCK_PATCH.zip -d r1985_patch
-cp -r r1985_patch/. .
-rm -rf r1985_patch
-rm R1985D_MANUSCRIPT_ENDPOINT_FIRST_IMPLEMENTATION_BLOCK_PATCH.zip
+unzip R1986D_ENDPOINT_STATEMENT_GROUP_PATCH.zip -d r1986_patch
+cp -r r1986_patch/. .
+rm -rf r1986_patch
+rm R1986D_ENDPOINT_STATEMENT_GROUP_PATCH.zip
 
 export PATH="$HOME/.elan/bin:$PATH"
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1985D_MANUSCRIPT_ENDPOINT_FIRST_IMPLEMENTATION_BLOCK.txt
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1986D_ENDPOINT_STATEMENT_GROUP.txt
 ```
 
 Success criterion:
