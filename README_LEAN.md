@@ -1,110 +1,37 @@
-# R1961D Lean Abstract Explicit-Packet Balance Packet — VERIFIED
+# R1963D Lean analytic decomposition patch
 
-Status: VERIFIED by external Windows Lean/Lake rerun.
+This patch extends the R1962D analytic-realization target layer.
 
-R1961D extends R1960D by adding one deeper abstract theorem layer: after an Abel-boundary target is available, an explicit-formula-style packet balance with controlled prime, zero, endpoint, scale-error, and obstruction packets, together with a no-hidden-residual certificate, yields an abstract Li target.
+## New layer
 
-## Version position
+```text
+R1963DLeanAnalyticDecomposition
+```
 
-- R1956D: preformal analytic interface with estimate slots and mathlib-facing anchors.
-- R1957D: interface coverage and dependency certificates.
-- R1958D: audit/no-orphan/non-claim layer.
-- R1959D: formally verified abstract same-scale finite-to-Abel transfer layer.
-- R1960D: formally verified abstract Abel-boundary limit-passage layer.
-- R1961D: formally verified abstract explicit-packet balance / no-hidden-residual layer.
+## Main purpose
 
-## New R1961D namespace
+R1963D decomposes the remaining analytic obligations into Lean-checkable profiles and a pre-target realization matrix.
+
+The key new bridge theorem is:
 
 ```lean
-R1961DLeanPacket
+R1963DLeanAnalyticDecomposition.realized_pre_target_slots_to_actual_li_target
 ```
 
-Main new theorems:
+It says that once the nine pre-target analytic slots are realized, the actual Li target follows through the R1962D analytic-realization bridge and the R1961D packet-balance layer.
 
-```lean
-explicit_packet_balance_to_target
-no_hidden_residual_packet_transfer
-controlled_prime_zero_endpoint_packets_to_li_target
-abel_boundary_packet_balance_to_li_target
-finite_tail_boundary_packet_balance_to_li_target
-finite_to_packet_balance_target
-normalized_finite_tail_boundary_packet_balance_to_li_target
-```
-
-## What this proves
-
-R1961D proves, in Lean, the following abstract mechanism:
-
-```text
-Abel boundary target
-+ prime / zero / endpoint / scale-error / obstruction packet controls
-+ no hidden residual packet
-  => abstract Li target
-```
-
-This is stronger than merely recording pending explicit-formula packet slots. The packet-balance transfer theorem itself is part of the Lean code.
-
-## Verification result
-
-The included Windows PowerShell log `VERIFY_LOG_WINDOWS.txt` records:
-
-```text
-Build completed successfully (75 jobs).
-R1961D Lean abstract explicit-packet balance packet completed successfully.
-```
-
-## Verification command
-
-Run from the packet root:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\verify.ps1
-```
-
-## What this does not prove
-
-R1961D does not formalize the actual explicit formula, actual prime packet estimate, actual zero packet estimate, actual endpoint estimate, Riemann--von Mangoldt formula, Li criterion, zeta-function theory, terminal packet estimates, or RH. These remain external analytic targets as recorded by the inherited interface, audit, transfer, limit, and non-claim certificates.
-
-## GitHub Codespaces verification
-
-A user-run GitHub Codespaces log is included at:
-
-```text
-VERIFY_LOG_CODESPACES.txt
-```
-
-Recorded environment and result:
-
-```text
-Lean 4.31.0
-Lake version 5.0.0-src+68218e8
-Build completed successfully (75 jobs).
-```
-
-Re-run command:
+## Build command
 
 ```bash
 lake build
 ```
 
-## R1962D first analytic-realization target layer
+For a saved Codespaces log:
 
-R1962D adds the library:
-
-```text
-R1962DLeanAnalyticRealization
+```bash
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1963D_ANALYTIC_DECOMPOSITION.txt
 ```
 
-The central file is:
+## Non-claim boundary
 
-```text
-R1962DLeanAnalyticRealization/AnalyticObligationTargets.lean
-```
-
-The central bridge theorem is:
-
-```lean
-R1962DLeanAnalyticRealization.analytic_realization_packet_balance_to_li_target
-```
-
-This theorem converts the remaining concrete analytic obligations into the R1961D packet-balance system.  It does not prove the concrete zeta-theoretic estimates; it makes their exact Lean target shape explicit.
+This patch does not prove the actual explicit formula, actual prime/zero packet estimates, endpoint estimates, Li criterion, or RH.  It prepares the remaining analytic layer for stepwise Lean formalization.

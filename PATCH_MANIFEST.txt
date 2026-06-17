@@ -1,11 +1,17 @@
-Main.lean
-PATCH_MANIFEST.txt
-R1962DLeanAnalyticRealization.lean
-R1962DLeanAnalyticRealization/AnalyticObligationTargets.lean
-R1962DLeanAnalyticRealization/ToyAnalyticRealization.lean
-R1962D_ANALYTIC_OBLIGATION_LEDGER.md
-R1962D_FIRST_BEST_STEP.md
-README_LEAN.md
-SHA256SUMS_R1962D_FIRST_STEP.txt
-VERIFY_STATUS_R1962D_FIRST_STEP.md
+R1963D analytic decomposition patch
+
+Files included:
+
 lakefile.lean
+Main.lean
+R1963DLeanAnalyticDecomposition.lean
+R1963DLeanAnalyticDecomposition/ObligationProfiles.lean
+R1963DLeanAnalyticDecomposition/PacketConnectionMatrix.lean
+R1963DLeanAnalyticDecomposition/ToyDecomposition.lean
+R1963D_ANALYTIC_DECOMPOSITION_LEDGER.md
+R1963D_SECOND_BEST_STEP.md
+VERIFY_STATUS_R1963D_ANALYTIC_DECOMPOSITION.md
+README_LEAN.md
+SHA256SUMS_R1963D_ANALYTIC_DECOMPOSITION.txt
+
+Apply to a repository that already contains R1962DLeanAnalyticRealization.

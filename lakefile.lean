@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1962DLeanAnalyticRealization» where
+package «R1963DLeanAnalyticDecomposition» where
 
 lean_lib «R1949DLean» where
 
@@ -23,5 +23,7 @@ lean_lib «R1960DLeanLimit» where
 
 lean_lib «R1961DLeanPacket» where
 
-@[default_target]
 lean_lib «R1962DLeanAnalyticRealization» where
+
+@[default_target]
+lean_lib «R1963DLeanAnalyticDecomposition» where
