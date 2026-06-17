@@ -1,27 +1,31 @@
-# VERIFY STATUS — R1971D Abel-Boundary Definition Skeleton
+# VERIFY STATUS — R1971D Abel-boundary Definition Skeleton
 
-## Local generation status
+## Codespaces verification
 
-Generated as a patch layer on top of R1970D verified-log integration.
+Status: VERIFIED in GitHub Codespaces.
 
-## Required external verification
-
-Run in GitHub Codespaces:
+Command:
 
 ```bash
 lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1971D_ABEL_BOUNDARY_SKELETON.txt
 ```
 
-Expected target count if the patch is accepted:
+Observed result:
 
 ```text
 Build completed successfully (114 jobs).
 ```
 
-## Scope statement
+## Static audit boundary
 
-R1971D is an Abel-boundary definition-skeleton layer. It does not prove the
-Abel-boundary identity itself. It records the parameter list, admissibility
-hypotheses, definition carriers, and target-statement shell needed for the first
-actual formalization target, and it proves that this skeleton preserves the
-inherited bridge to the abstract actual-Li target.
+R1971D adds a definition skeleton, parameter list, admissibility-hypothesis
+shell, and target-statement shell for the selected Abel-boundary first
+formalization target. It preserves the inherited bridge to the abstract
+actual-Li target through:
+
+```lean
+R1971DLeanAbelBoundarySkeleton.abel_boundary_skeleton_to_actual_li_target
+```
+
+R1971D is not a proof of the real Abel-boundary identity, the real boundary-limit
+theorem, the explicit formula, Li criterion, packet estimates, or RH.

@@ -1,25 +1,21 @@
 # R1972D warning cleanup note
 
-This patch removes the Lean linter warning reported in the Codespaces build of
-R1972D.
+This cleanup changes only an intentionally unused binder name in
+`R1972DLeanToyAbelModel/ToyAnalyticAbelModel.lean`:
 
-## Change
+```lean
+M
+```
 
-In `R1972DLeanToyAbelModel/ToyAnalyticAbelModel.lean`, the theorem
-`toy_abel_model_target_is_abel_boundary_definition` kept a model argument for
-interface readability, but the proof only needs the skeleton plan `P`.
+to:
 
-The argument name was changed from `M` to `_M`, making the intentional unused
-status explicit to Lean.
+```lean
+_M
+```
 
-## Scope
+This removes the Lean linter warning while preserving the R1972D toy Abel model
+and the bridge theorem:
 
-- No theorem statement is materially changed.
-- No proof dependency is changed.
-- No analytic claim is strengthened.
-- This is a warning-cleanup patch only.
-
-## Expected verification
-
-After applying the patch, `lake build` should still complete with 118 jobs, now
-without the unused-variable warning in `ToyAnalyticAbelModel.lean`.
+```lean
+R1972DLeanToyAbelModel.toy_abel_model_to_actual_li_target
+```

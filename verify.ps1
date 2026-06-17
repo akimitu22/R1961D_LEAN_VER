@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-Write-Host "=== R1961D Lean Abstract Explicit-Packet Balance Packet ==="
+Write-Host "=== R1972D Lean Abel-boundary Toy Model Packet ==="
 Write-Host "Location: $(Get-Location)"
 
 Write-Host "`n=== Tool versions ==="
@@ -42,35 +42,29 @@ $LegacyLayer = Select-String -Path $LeanFiles.FullName -Pattern 'def\s+LayerReal
 if ($LegacyLayer) { throw "Legacy trivial LayerRealizable definition found." }
 Write-Host "No legacy LayerRealizable := True definition found." -ForegroundColor Green
 
-Write-Host "`n=== R1960D inherited limit wrapper scan ==="
-$LimitVersion = Select-String -Path $LeanFiles.FullName -Pattern 'namespace\s+R1960DLeanLimit|structure\s+BoundaryLimitSystem|theorem\s+same_scale_boundary_limit_transfer|theorem\s+finite_to_abel_boundary_limit_transfer|theorem\s+r1960_version_declares_abel_boundary_limit_layer'
-$LimitVersion
-if (($LimitVersion | Measure-Object).Count -lt 5) { throw "R1960D inherited limit entries were not all found." }
-Write-Host "R1960D inherited limit wrapper entries found."
+Write-Host "`n=== R1961D packet-balance scan ==="
+$PacketScan = Select-String -Path $LeanFiles.FullName -Pattern 'structure\s+ExplicitPacketBalanceSystem|theorem\s+explicit_packet_balance_to_target|theorem\s+controlled_prime_zero_endpoint_packets_to_li_target|theorem\s+normalized_finite_tail_boundary_packet_balance_to_li_target'
+$PacketScan
+if (($PacketScan | Measure-Object).Count -lt 4) { throw "R1961D packet-balance entries were not all found." }
+Write-Host "R1961D packet-balance entries found."
 
-Write-Host "`n=== R1961D packet balance system scan ==="
-$PacketSystem = Select-String -Path $LeanFiles.FullName -Pattern 'namespace\s+R1961DLeanPacket|structure\s+ExplicitPacketBalanceSystem|def\s+AllPacketsControlled|def\s+NoHiddenResidualPacket|theorem\s+explicit_packet_balance_to_target|theorem\s+no_hidden_residual_packet_transfer|theorem\s+controlled_prime_zero_endpoint_packets_to_li_target'
-$PacketSystem
-if (($PacketSystem | Measure-Object).Count -lt 7) { throw "R1961D packet balance system entries were not all found." }
-Write-Host "R1961D packet balance system entries found."
+Write-Host "`n=== R1962D-R1970D analytic obligation path scan ==="
+$PathScan = Select-String -Path $LeanFiles.FullName -Pattern 'theorem\s+analytic_realization_packet_balance_to_li_target|theorem\s+realized_pre_target_slots_to_actual_li_target|theorem\s+micro_targets_to_actual_li_target|theorem\s+realized_interfaces_to_actual_li_target|theorem\s+concrete_sources_to_actual_li_target|theorem\s+source_evidence_slots_to_actual_li_target|theorem\s+anchor_classification_to_actual_li_target|theorem\s+priority_plan_to_actual_li_target|theorem\s+minimal_first_target_plan_to_actual_li_target'
+$PathScan
+if (($PathScan | Measure-Object).Count -lt 9) { throw "R1962D-R1970D analytic-obligation path entries were not all found." }
+Write-Host "R1962D-R1970D analytic-obligation path entries found."
 
-Write-Host "`n=== R1961D boundary-to-packet transfer scan ==="
-$PacketTransfer = Select-String -Path $LeanFiles.FullName -Pattern 'structure\s+BoundaryPacketBalance|theorem\s+abel_boundary_yields_all_packet_controls|theorem\s+abel_boundary_packet_balance_to_li_target|theorem\s+finite_tail_boundary_packet_balance_to_li_target|theorem\s+no_hidden_residual_boundary_packet_transfer|structure\s+FiniteToPacketBalanceWitness|theorem\s+finite_to_packet_balance_target|structure\s+NormalizedBoundaryPacketBalance|theorem\s+normalized_finite_tail_boundary_packet_balance_to_li_target'
-$PacketTransfer
-if (($PacketTransfer | Measure-Object).Count -lt 9) { throw "R1961D boundary-to-packet transfer entries were not all found." }
-Write-Host "R1961D boundary-to-packet transfer entries found."
+Write-Host "`n=== R1971D Abel-boundary skeleton scan ==="
+$R1971Scan = Select-String -Path $LeanFiles.FullName -Pattern 'structure\s+AbelBoundaryDefinitionSkeletonPlan|theorem\s+abel_boundary_skeleton_to_actual_li_target|theorem\s+r1971_tenth_step_is_definition_skeleton_not_abel_boundary_proof'
+$R1971Scan
+if (($R1971Scan | Measure-Object).Count -lt 3) { throw "R1971D Abel-boundary skeleton entries were not all found." }
+Write-Host "R1971D Abel-boundary skeleton entries found."
 
-Write-Host "`n=== R1961D certificate scan ==="
-$PacketCert = Select-String -Path $LeanFiles.FullName -Pattern 'def\s+packetBalanceCriticalSlots|structure\s+PacketBalanceDepthCertificate|def\s+r1961PacketBalanceDepthCertificate|theorem\s+r1961_critical_slots_are_inherited_from_r1956_interface|theorem\s+r1961_packet_depth_certificate_records_actual_abstract_theorems|theorem\s+r1961_packet_layer_keeps_r1958_non_claim_boundary|structure\s+PacketVersionCompatibility|def\s+r1961DeepensR1960Limit|theorem\s+r1961_version_declares_packet_balance_layer'
-$PacketCert
-if (($PacketCert | Measure-Object).Count -lt 9) { throw "R1961D packet certificate entries were not all found." }
-Write-Host "R1961D packet certificate entries found."
-
-Write-Host "`n=== R1961D toy packet-balance scan ==="
-$ToyPacket = Select-String -Path $LeanFiles.FullName -Pattern 'def\s+toyExplicitPacketBalanceSystem|theorem\s+toy_packet_balance_runs|def\s+toyBoundaryPacketBalance|def\s+toyFiniteToPacketBalanceWitness|theorem\s+toy_boundary_packet_balance_runs|theorem\s+toy_finite_tail_packet_balance_runs|theorem\s+toy_finite_to_packet_balance_witness_runs|def\s+toyNormalizedBoundaryPacketBalance|theorem\s+toy_normalized_finite_tail_packet_balance_runs'
-$ToyPacket
-if (($ToyPacket | Measure-Object).Count -lt 9) { throw "R1961D toy packet-balance entries were not all found." }
-Write-Host "R1961D toy packet-balance entries found."
+Write-Host "`n=== R1972D toy Abel model scan ==="
+$R1972Scan = Select-String -Path $LeanFiles.FullName -Pattern 'structure\s+ToyAnalyticAbelModelPlan|theorem\s+toy_abel_model_to_actual_li_target|theorem\s+r1972_eleventh_step_is_toy_model_not_concrete_abel_boundary_proof|theorem\s+toy_abel_model_to_actual_li_target_runs'
+$R1972Scan
+if (($R1972Scan | Measure-Object).Count -lt 4) { throw "R1972D toy Abel model entries were not all found." }
+Write-Host "R1972D toy Abel model entries found."
 
 Write-Host "`n=== Theorem list ==="
 Select-String -Path $LeanFiles.FullName -Pattern '^\s*theorem\s+' | ForEach-Object { $_.Line.Trim() }
@@ -83,4 +77,4 @@ Write-Host "`n=== Main.lean check ==="
 lake env lean Main.lean
 if ($LASTEXITCODE -ne 0) { throw "lake env lean Main.lean failed." }
 
-Write-Host "`nR1961D Lean abstract explicit-packet balance packet completed successfully." -ForegroundColor Green
+Write-Host "`nR1972D Lean Abel-boundary toy model packet completed successfully." -ForegroundColor Green

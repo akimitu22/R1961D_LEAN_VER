@@ -1,34 +1,34 @@
-# GitHub Codespaces Verification Status
+# Codespaces Verification Status — R1972D Final Audit Package
 
-## Legacy R1961D log
-
-Status: VERIFIED IN USER-RUN GITHUB CODESPACES SESSION
-
-The file `VERIFY_LOG_CODESPACES.txt` records the earlier GitHub Codespaces build
-for the R1961D packet-balance project.
-
-Recorded result:
+Current top Lean target:
 
 ```text
-Build completed successfully (75 jobs).
+R1972DLeanToyAbelModel
 ```
 
-## Extended R1970D log
-
-Status: VERIFIED IN USER-RUN GITHUB CODESPACES SESSION, from user-provided
-terminal transcript
-
-The file `VERIFY_LOG_CODESPACES_R1970D_MINIMAL_FIRST_TARGET.txt` records the
-extended build through R1970D.
-
-Recorded result:
+Toolchain:
 
 ```text
-Build completed successfully (110 jobs).
+leanprover/lean4:v4.31.0
 ```
 
-## Scope note
+Current verified build:
 
-Codespaces build verification means that the Lean project typechecks in the
-recorded environment. It does not by itself establish a complete formal proof of
-RH, the zeta explicit formula, the Li criterion, or the analytic estimates.
+```text
+Build completed successfully (118 jobs).
+```
+
+Included Codespaces logs:
+
+```text
+VERIFY_LOG_CODESPACES_R1970D_MINIMAL_FIRST_TARGET.txt
+VERIFY_LOG_CODESPACES_R1971D_ABEL_BOUNDARY_SKELETON.txt
+VERIFY_LOG_CODESPACES_R1972D_TOY_ABEL_MODEL.txt
+```
+
+Windows log status:
+
+```text
+No R1972D Windows verification log is claimed in this final audit patch. The
+included current verification record is the Codespaces/Linux Lean 4.31.0 build.
+```

@@ -1,0 +1,41 @@
+# PATCH MANIFEST — R1972D final audit cleanup
+
+Purpose:
+
+```text
+Integrate R1972D verification/audit packaging fixes before continuing to R1973D.
+```
+
+This patch addresses the following review points:
+
+```text
+1. Add/update Codespaces verification records through R1972D.
+2. Mark R1971D and R1972D status files as Codespaces verified.
+3. Add SHA256SUMS_R1972D_FINAL.txt as the final whole-package digest.
+4. Add MANIFEST_R1972D_FINAL.txt and PATCH_MANIFEST_R1972D_FINAL.txt.
+5. Update README_LEAN.md for the R1972D final audit state.
+6. Update verify.ps1 to scan R1970D–R1972D theorem names.
+7. Correct the R1972D warning-cleanup manifest/checksum presence.
+```
+
+Files added or updated:
+
+```text
+README_LEAN.md
+verify.ps1
+VERIFY_LOG_CODESPACES_R1971D_ABEL_BOUNDARY_SKELETON.txt
+VERIFY_LOG_CODESPACES_R1972D_TOY_ABEL_MODEL.txt
+VERIFY_STATUS_CODESPACES.md
+VERIFY_STATUS_R1971D_ABEL_BOUNDARY_SKELETON.md
+VERIFY_STATUS_R1972D_TOY_ABEL_MODEL.md
+MANIFEST_R1972D_FINAL.txt
+PATCH_MANIFEST_R1972D_FINAL.txt
+R1972D_FINAL_AUDIT_CLEANUP_NOTE.md
+R1972D_WARNING_CLEANUP_MANIFEST.txt
+R1972D_WARNING_CLEANUP_NOTE.md
+SHA256SUMS_R1972D_WARNING_CLEANUP.txt
+SHA256SUMS_R1972D_FINAL.txt
+```
+
+No Lean theorem/proof content is changed except retaining the already-applied
+R1972D warning-cleanup binder name `_M`.

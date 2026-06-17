@@ -1,31 +1,93 @@
-# R1972D Lean patch — Toy Analytic Abel Model
+# R1972D Lean package — final audit cleanup
 
-This patch adds the R1972D layer:
+This repository contains the R1961D–R1972D Lean support package for the proof-system manuscript.
+
+## Current top target
 
 ```text
 R1972DLeanToyAbelModel
 ```
 
-It refines the R1971D Abel-boundary definition skeleton by attaching:
+`lakefile.lean` sets the default target to `R1972DLeanToyAbelModel`, and
+`Main.lean` imports/checks the chain through R1972D.
 
-```text
-finite surrogate Abel transform
-boundary-limit placeholder
-toy analytic Abel model
-```
+## Verified build status
 
-Main theorem:
-
-```lean
-R1972DLeanToyAbelModel.toy_abel_model_to_actual_li_target
-```
-
-Expected Codespaces verification after application:
+GitHub Codespaces / Linux verification is recorded through R1972D:
 
 ```text
 Build completed successfully (118 jobs).
 ```
 
-Non-claim boundary: this is not a proof of the real Abel-boundary identity, real
-boundary-limit theorem, Li criterion, explicit formula, packet estimates, or RH.
-It is the first toy model/placeholder layer for the selected Abel-boundary target.
+Primary log:
+
+```text
+VERIFY_LOG_CODESPACES_R1972D_TOY_ABEL_MODEL.txt
+```
+
+R1970D and R1971D logs are also included:
+
+```text
+VERIFY_LOG_CODESPACES_R1970D_MINIMAL_FIRST_TARGET.txt
+VERIFY_LOG_CODESPACES_R1971D_ABEL_BOUNDARY_SKELETON.txt
+```
+
+## Layer progression
+
+```text
+R1961D: packet-balance abstract proof layer
+R1962D: analytic realization obligations
+R1963D: analytic decomposition matrix
+R1964D: analytic micro-targets
+R1965D: realization interface blocks
+R1966D: concrete analytic source categories
+R1967D: source-evidence checklist slots
+R1968D: anchor classification
+R1969D: formalization priority / severity / burden plan
+R1970D: minimal first formalization target selection
+R1971D: Abel-boundary definition skeleton
+R1972D: toy analytic Abel model and boundary-limit placeholder
+```
+
+## Main R1971D/R1972D bridge theorems
+
+```lean
+R1971DLeanAbelBoundarySkeleton.abel_boundary_skeleton_to_actual_li_target
+R1972DLeanToyAbelModel.toy_abel_model_to_actual_li_target
+```
+
+Non-claim certificates:
+
+```lean
+R1971DLeanAbelBoundarySkeleton.r1971_tenth_step_is_definition_skeleton_not_abel_boundary_proof
+R1972DLeanToyAbelModel.r1972_eleventh_step_is_toy_model_not_concrete_abel_boundary_proof
+```
+
+## Final audit files
+
+Use these as the final audit references for the R1972D package:
+
+```text
+MANIFEST_R1972D_FINAL.txt
+PATCH_MANIFEST_R1972D_FINAL.txt
+SHA256SUMS_R1972D_FINAL.txt
+VERIFY_STATUS_CODESPACES.md
+VERIFY_STATUS_R1971D_ABEL_BOUNDARY_SKELETON.md
+VERIFY_STATUS_R1972D_TOY_ABEL_MODEL.md
+```
+
+Older `SHA256SUMS_R19xx...txt` and patch-manifest files are retained as historical
+per-patch records. The authoritative whole-package digest for this final audit
+state is:
+
+```text
+SHA256SUMS_R1972D_FINAL.txt
+```
+
+## Non-claim boundary
+
+This Lean package verifies the abstract proof architecture and the analytic-obligation
+tracking path through a toy Abel-boundary model layer. It does not claim to
+formally prove the real Abel-boundary identity, real boundary-limit theorem,
+explicit formula, Li criterion, terminal packet estimates, or the Riemann
+Hypothesis.
