@@ -1,23 +1,13 @@
-# R1989D Lean Package
+# R1990D Lean package
 
-R1989D adds the endpoint concrete-lemma stub layer under the verified R1988D
-endpoint kernel axiom boundary and first concrete-lemma boundary.
+This package extends the verified R1989D endpoint concrete-lemma stub bank with an endpoint concrete-lemma statement bank.
 
-It is designed to be applied after the verified R1988D layer.
+The default Lean target is `R1990DLeanEndpointConcreteLemmaStatementBank`.
+
+Run:
 
 ```bash
-git pull
-unzip R1989D_ENDPOINT_CONCRETE_LEMMA_STUBS_PATCH.zip -d r1989_patch
-cp -r r1989_patch/. .
-rm -rf r1989_patch
-rm R1989D_ENDPOINT_CONCRETE_LEMMA_STUBS_PATCH.zip
-
-export PATH="$HOME/.elan/bin:$PATH"
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1989D_ENDPOINT_CONCRETE_LEMMA_STUBS.txt
+lake build
 ```
 
-Success criterion:
-
-```text
-Build completed successfully (... jobs).
-```
+A successful build verifies only the formal routing, statement-bank, dependency-matrix, and non-claim certificates included here.

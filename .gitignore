@@ -1,7 +1,8 @@
 .lake/
+build/
 *.olean
 *.ilean
-*.trace
 *.c
-*.setup.json
+*.o
+*.so
 .DS_Store
