@@ -1,0 +1,74 @@
+# MANIFEST — R1992D final clean export package
+
+## Package scope
+
+This is the R1961D–R1992D Lean support package clean-export manifest.
+It is modeled on the R1974D clean sub-version package layout, but extends the
+verified spine through the R1992D endpoint proof-kernel execution checklist
+layer.
+
+## Current Lean target
+
+```text
+R1992DLeanEndpointProofKernelExecutionChecklist
+```
+
+## Current build result
+
+```text
+Build completed successfully (218 jobs).
+```
+
+## Source commit at export time
+
+```text
+ceac656
+```
+
+## Current endpoint continuation spine
+
+```text
+R1983D — main-manuscript anchored verification spine
+R1984D — manuscript-obligation implementation queue
+R1985D — endpoint first implementation block
+R1986D — endpoint statement group
+R1987D — endpoint proof-kernel interface
+R1988D — endpoint kernel axiom boundary
+R1989D — endpoint concrete-lemma stubs
+R1990D — endpoint concrete-lemma statement bank
+R1991D — endpoint concrete proof-route bank
+R1992D — endpoint proof-kernel execution checklist
+```
+
+## New R1992D files expected in this export
+
+```text
+R1992DLeanEndpointProofKernelExecutionChecklist.lean
+R1992DLeanEndpointProofKernelExecutionChecklist/EndpointExecutionChecklistSlots.lean
+R1992DLeanEndpointProofKernelExecutionChecklist/EndpointExecutionDependencyChecklist.lean
+R1992DLeanEndpointProofKernelExecutionChecklist/EndpointExecutionChecklistBridge.lean
+R1992DLeanEndpointProofKernelExecutionChecklist/ToyEndpointExecutionChecklist.lean
+R1992D_ENDPOINT_PROOF_KERNEL_EXECUTION_CHECKLIST_LEDGER.md
+R1992D_THIRTY_FIRST_BEST_STEP.md
+R1992D_PATCH_MANIFEST.txt
+VERIFY_STATUS_R1992D_ENDPOINT_PROOF_KERNEL_EXECUTION_CHECKLIST.md
+VERIFY_LOG_CODESPACES_R1992D_ENDPOINT_PROOF_KERNEL_EXECUTION_CHECKLIST.txt
+SHA256SUMS_R1992D_ENDPOINT_PROOF_KERNEL_EXECUTION_CHECKLIST.txt
+```
+
+## Clean-export files
+
+```text
+MANIFEST_R1992D_FINAL.txt
+PATCH_MANIFEST_R1992D_FINAL.txt
+SHA256SUMS_R1992D_FINAL.txt
+R1992D_FINAL_VERIFIED_CLEAN_EXPORT_NOTE.md
+MAKE_R1992D_SUB_VER_ENDPOINT_PROOF_KERNEL_EXECUTION_CHECKLIST_FINAL_VERIFIED_CLEAN.sh
+```
+
+## Non-claim boundary
+
+This package is a Lean proof-system / proof-obligation / route-checklist package.
+It does not prove the endpoint estimate, boundary-error estimate,
+remainder-uniformity estimate, sign-transfer estimate, explicit formula, Li
+criterion, terminal estimates, or RH.

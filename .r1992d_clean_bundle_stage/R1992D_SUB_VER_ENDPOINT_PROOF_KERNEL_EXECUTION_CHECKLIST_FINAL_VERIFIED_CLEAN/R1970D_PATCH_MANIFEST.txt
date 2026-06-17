@@ -1,0 +1,17 @@
+R1970D_PATCH_MANIFEST
+
+Added files:
+- R1970DLeanFirstFormalizationTarget.lean
+- R1970DLeanFirstFormalizationTarget/MinimalTargetKinds.lean
+- R1970DLeanFirstFormalizationTarget/FirstTargetBridge.lean
+- R1970DLeanFirstFormalizationTarget/ToyFirstFormalizationTarget.lean
+- R1970D_MINIMAL_FIRST_TARGET_LEDGER.md
+- R1970D_NINTH_BEST_STEP.md
+- VERIFY_STATUS_R1970D_MINIMAL_FIRST_TARGET.md
+- README_LEAN.md
+- SHA256SUMS_R1970D_MINIMAL_FIRST_TARGET.txt
+
+Updated files:
+- lakefile.lean
+- Main.lean
+- .gitignore

@@ -1,0 +1,17 @@
+R1993D_ENDPOINT_PROOF_KERNEL_IMPLEMENTATION_LEDGER_PATCH
+
+Files:
+- .gitignore
+- Main.lean
+- lakefile.lean
+- R1993DLeanEndpointProofKernelImplementationLedger.lean
+- R1993DLeanEndpointProofKernelImplementationLedger/EndpointKernelImplementationLedgerSlots.lean
+- R1993DLeanEndpointProofKernelImplementationLedger/EndpointKernelImplementationDependencyLedger.lean
+- R1993DLeanEndpointProofKernelImplementationLedger/EndpointKernelImplementationLedgerBridge.lean
+- R1993DLeanEndpointProofKernelImplementationLedger/ToyEndpointKernelImplementationLedger.lean
+- R1993D_ENDPOINT_PROOF_KERNEL_IMPLEMENTATION_LEDGER.md
+- R1993D_THIRTY_SECOND_BEST_STEP.md
+- R1993D_PATCH_MANIFEST.txt
+- README_LEAN.md
+- VERIFY_STATUS_R1993D_ENDPOINT_PROOF_KERNEL_IMPLEMENTATION_LEDGER.md
+- SHA256SUMS_R1993D_ENDPOINT_PROOF_KERNEL_IMPLEMENTATION_LEDGER.txt

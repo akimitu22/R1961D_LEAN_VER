@@ -1,0 +1,17 @@
+R1976D finite Abel estimate-gate patch
+
+Files added:
+- R1976DLeanFiniteAbelEstimateGates.lean
+- R1976DLeanFiniteAbelEstimateGates/EstimateGateSlots.lean
+- R1976DLeanFiniteAbelEstimateGates/EstimateGateBridge.lean
+- R1976DLeanFiniteAbelEstimateGates/ToyEstimateGates.lean
+- R1976D_FINITE_ABEL_ESTIMATE_GATES_LEDGER.md
+- R1976D_FIFTEENTH_BEST_STEP.md
+- R1976D_PATCH_MANIFEST.txt
+- SHA256SUMS_R1976D_FINITE_ABEL_ESTIMATE_GATES.txt
+- VERIFY_STATUS_R1976D_FINITE_ABEL_ESTIMATE_GATES.md
+
+Files updated:
+- Main.lean
+- lakefile.lean
+- README_LEAN.md

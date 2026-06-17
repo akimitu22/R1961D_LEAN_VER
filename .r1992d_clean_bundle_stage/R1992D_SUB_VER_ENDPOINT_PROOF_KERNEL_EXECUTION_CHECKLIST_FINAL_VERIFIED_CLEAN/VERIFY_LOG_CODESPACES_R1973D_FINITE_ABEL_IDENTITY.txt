@@ -1,0 +1,22 @@
+# VERIFY LOG — R1973D finite Abel identity shell
+
+Environment: GitHub Codespaces / Linux
+Command: lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1973D_FINITE_ABEL_IDENTITY.txt
+
+Copied from the R1973D Codespaces transcript supplied after applying the R1973D patch.
+
+Relevant terminal output:
+
+```text
+✔ [118/122] Built R1973DLeanFiniteAbelIdentity.FiniteIdentityShell
+✔ [119/122] Built R1973DLeanFiniteAbelIdentity.BoundaryCompatibility
+✔ [120/122] Built R1973DLeanFiniteAbelIdentity.ToyFiniteAbelIdentity
+✔ [121/122] Built R1973DLeanFiniteAbelIdentity
+Build completed successfully (122 jobs).
+```
+
+Commit recorded after the run:
+
+```text
+[main afc8967] Add R1973D finite Abel identity shell layer
+```

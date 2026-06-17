@@ -1,0 +1,15 @@
+R1966D_SOURCE_CATEGORIES_PATCH
+
+Files:
+- lakefile.lean
+- Main.lean
+- .gitignore
+- R1966DLeanSourceCategories.lean
+- R1966DLeanSourceCategories/SourceCategories.lean
+- R1966DLeanSourceCategories/SourceBridge.lean
+- R1966DLeanSourceCategories/ToySourceCategories.lean
+- R1966D_SOURCE_CATEGORY_LEDGER.md
+- R1966D_FIFTH_BEST_STEP.md
+- VERIFY_STATUS_R1966D_SOURCE_CATEGORIES.md
+- README_LEAN.md
+- SHA256SUMS_R1966D_SOURCE_CATEGORIES.txt

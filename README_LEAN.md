@@ -1,7 +1,7 @@
-# R1992D Lean package
+# R1993D Lean package
 
-This package extends the manuscript-anchored endpoint branch through the endpoint
-proof-kernel execution checklist layer.
+This package extends the manuscript-anchored endpoint branch through the
+endpoint proof-kernel implementation ledger layer.
 
 Run:
 

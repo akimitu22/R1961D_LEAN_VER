@@ -1,0 +1,14 @@
+R1974D finite Abel component decomposition patch
+
+Files:
+- R1974DLeanFiniteAbelComponents.lean
+- R1974DLeanFiniteAbelComponents/ComponentSlots.lean
+- R1974DLeanFiniteAbelComponents/ComponentBridge.lean
+- R1974DLeanFiniteAbelComponents/ToyFiniteComponents.lean
+- Main.lean
+- lakefile.lean
+- README_LEAN.md
+- R1974D_FINITE_ABEL_COMPONENTS_LEDGER.md
+- R1974D_THIRTEENTH_BEST_STEP.md
+- VERIFY_STATUS_R1974D_FINITE_ABEL_COMPONENTS.md
+- SHA256SUMS_R1974D_FINITE_ABEL_COMPONENTS.txt

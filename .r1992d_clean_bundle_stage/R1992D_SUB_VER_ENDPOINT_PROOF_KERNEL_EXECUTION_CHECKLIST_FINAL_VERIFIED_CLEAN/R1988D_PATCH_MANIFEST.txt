@@ -1,0 +1,17 @@
+R1988D_ENDPOINT_KERNEL_AXIOM_BOUNDARY_PATCH
+
+Files:
+- .gitignore
+- lakefile.lean
+- Main.lean
+- R1988DLeanEndpointKernelAxiomBoundary.lean
+- R1988DLeanEndpointKernelAxiomBoundary/EndpointKernelAxiomSlots.lean
+- R1988DLeanEndpointKernelAxiomBoundary/EndpointFirstConcreteLemmaBoundary.lean
+- R1988DLeanEndpointKernelAxiomBoundary/EndpointKernelAxiomBridge.lean
+- R1988DLeanEndpointKernelAxiomBoundary/ToyEndpointKernelAxiomBoundary.lean
+- R1988D_ENDPOINT_KERNEL_AXIOM_BOUNDARY_LEDGER.md
+- R1988D_TWENTY_SEVENTH_BEST_STEP.md
+- R1988D_PATCH_MANIFEST.txt
+- README_LEAN.md
+- VERIFY_STATUS_R1988D_ENDPOINT_KERNEL_AXIOM_BOUNDARY.md
+- SHA256SUMS_R1988D_ENDPOINT_KERNEL_AXIOM_BOUNDARY.txt

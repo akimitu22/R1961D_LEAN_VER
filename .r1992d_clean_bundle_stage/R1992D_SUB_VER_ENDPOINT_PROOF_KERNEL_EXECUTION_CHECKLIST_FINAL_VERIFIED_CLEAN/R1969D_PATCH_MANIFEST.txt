@@ -1,0 +1,15 @@
+R1969D patch manifest
+
+Files added or replaced:
+- .gitignore
+- lakefile.lean
+- Main.lean
+- README_LEAN.md
+- R1969DLeanFormalizationPriority.lean
+- R1969DLeanFormalizationPriority/PriorityKinds.lean
+- R1969DLeanFormalizationPriority/PriorityBridge.lean
+- R1969DLeanFormalizationPriority/ToyFormalizationPriority.lean
+- R1969D_EIGHTH_BEST_STEP.md
+- R1969D_PRIORITY_BURDEN_LEDGER.md
+- VERIFY_STATUS_R1969D_FORMALIZATION_PRIORITY.md
+- SHA256SUMS_R1969D_FORMALIZATION_PRIORITY.txt

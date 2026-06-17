@@ -1,0 +1,16 @@
+R1980D concrete estimate statement-bank patch
+
+Files:
+- R1980DLeanConcreteEstimateStatements.lean
+- R1980DLeanConcreteEstimateStatements/StatementBankSlots.lean
+- R1980DLeanConcreteEstimateStatements/StatementDependencyBridge.lean
+- R1980DLeanConcreteEstimateStatements/ProofFileRouting.lean
+- R1980DLeanConcreteEstimateStatements/StatementBankBridge.lean
+- R1980DLeanConcreteEstimateStatements/ToyStatementBank.lean
+- R1980D_CONCRETE_ESTIMATE_STATEMENTS_LEDGER.md
+- R1980D_NINETEENTH_BEST_STEP.md
+- VERIFY_STATUS_R1980D_CONCRETE_ESTIMATE_STATEMENTS.md
+- SHA256SUMS_R1980D_CONCRETE_ESTIMATE_STATEMENTS.txt
+- Main.lean
+- lakefile.lean
+- README_LEAN.md

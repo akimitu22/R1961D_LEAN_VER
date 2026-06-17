@@ -1,0 +1,19 @@
+R1978D quantitative estimate target matrix patch
+
+Files added:
+- R1978DLeanQuantitativeEstimateMatrix.lean
+- R1978DLeanQuantitativeEstimateMatrix/QuantitativeTargetSlots.lean
+- R1978DLeanQuantitativeEstimateMatrix/ProofStrategySlots.lean
+- R1978DLeanQuantitativeEstimateMatrix/MatrixBridge.lean
+- R1978DLeanQuantitativeEstimateMatrix/ToyQuantitativeMatrix.lean
+- R1978D_QUANTITATIVE_ESTIMATE_MATRIX_LEDGER.md
+- R1978D_SEVENTEENTH_BEST_STEP.md
+- R1978D_PATCH_MANIFEST.txt
+- SHA256SUMS_R1978D_QUANTITATIVE_ESTIMATE_MATRIX.txt
+- VERIFY_STATUS_R1978D_QUANTITATIVE_ESTIMATE_MATRIX.md
+
+Files updated:
+- Main.lean
+- lakefile.lean
+- README_LEAN.md
+- VERIFY_STATUS_R1977D_ESTIMATE_DEPENDENCY_CLOSURE.md

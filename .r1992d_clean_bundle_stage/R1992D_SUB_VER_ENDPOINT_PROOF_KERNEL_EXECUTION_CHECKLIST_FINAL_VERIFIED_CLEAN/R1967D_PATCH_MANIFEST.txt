@@ -1,0 +1,12 @@
+R1967DLeanSourceEvidence.lean
+R1967DLeanSourceEvidence/EvidenceSlots.lean
+R1967DLeanSourceEvidence/ChecklistBridge.lean
+R1967DLeanSourceEvidence/ToySourceEvidence.lean
+lakefile.lean
+Main.lean
+.gitignore
+R1967D_SOURCE_EVIDENCE_LEDGER.md
+R1967D_SIXTH_BEST_STEP.md
+VERIFY_STATUS_R1967D_SOURCE_EVIDENCE.md
+README_LEAN.md
+SHA256SUMS_R1967D_SOURCE_EVIDENCE.txt
