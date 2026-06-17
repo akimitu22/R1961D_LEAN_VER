@@ -1,0 +1,15 @@
+R1965D_REALIZATION_INTERFACES_PATCH
+
+Files:
+- lakefile.lean
+- Main.lean
+- .gitignore
+- R1965DLeanRealizationInterfaces.lean
+- R1965DLeanRealizationInterfaces/RealizationBlocks.lean
+- R1965DLeanRealizationInterfaces/InterfaceBridge.lean
+- R1965DLeanRealizationInterfaces/ToyRealizationInterfaces.lean
+- R1965D_REALIZATION_INTERFACE_LEDGER.md
+- R1965D_FOURTH_BEST_STEP.md
+- VERIFY_STATUS_R1965D_REALIZATION_INTERFACES.md
+- README_LEAN.md
+- SHA256SUMS_R1965D_REALIZATION_INTERFACES.txt

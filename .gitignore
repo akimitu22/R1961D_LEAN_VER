@@ -1,7 +1,7 @@
 .lake/
 *.olean
 *.ilean
-*.trace
 *.c
-*.setup.json
+*.trace
+*.hash
 .DS_Store

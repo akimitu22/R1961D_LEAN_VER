@@ -1,44 +1,29 @@
-# R1964D Lean Verification Package
+# R1965D Lean Verification Package
 
-This repository contains a Lean companion package for the R-series proof
-candidate.  The R1964D layer adds an analytic micro-target refinement layer.
+R1965D extends the R1964D micro-target layer with realization interfaces for the
+remaining analytic blocks.
 
-## Current layer sequence
+## Verification
 
-```text
-R1961DLeanPacket
-  packet-balance layer
-R1962DLeanAnalyticRealization
-  analytic realization target language
-R1963DLeanAnalyticDecomposition
-  analytic obligation decomposition layer
-R1964DLeanAnalyticMicroTargets
-  micro-target refinement layer
-```
-
-## Build command
+Run:
 
 ```bash
 lake build
 ```
 
-For Codespaces log capture:
+or, to save a Codespaces log:
 
 ```bash
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1964D_MICRO_TARGETS.txt
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1965D_REALIZATION_INTERFACES.txt
 ```
 
-## R1964D central theorem
+## Main new theorem
 
 ```lean
-R1964DLeanAnalyticMicroTargets.micro_targets_to_actual_li_target
+R1965DLeanRealizationInterfaces.realized_interfaces_to_actual_li_target
 ```
 
-This theorem says that a full micro-target realization package implies the
-actual Li target through the already verified R1963D/R1962D/R1961D bridge chain.
+## Scope
 
-## Non-claim boundary
-
-The R1964D layer does not claim a complete Lean formalization of the Riemann
-Hypothesis or of the analytic number theory required for it. It gives the next
-Lean-checkable target language for the remaining analytic realization problem.
+This is a verified interface layer.  It is not a complete formalization of the
+zeta explicit formula, Li criterion, terminal estimates, or RH.
