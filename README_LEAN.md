@@ -1,14 +1,14 @@
-# R1972D Lean package — final audit cleanup
+# R1973D Lean package — finite Abel identity shell
 
 This repository contains the R1961D–R1972D Lean support package for the proof-system manuscript.
 
 ## Current top target
 
 ```text
-R1972DLeanToyAbelModel
+R1973DLeanFiniteAbelIdentity
 ```
 
-`lakefile.lean` sets the default target to `R1972DLeanToyAbelModel`, and
+`lakefile.lean` sets the default target to `R1973DLeanFiniteAbelIdentity`, and
 `Main.lean` imports/checks the chain through R1972D.
 
 ## Verified build status
@@ -16,7 +16,7 @@ R1972DLeanToyAbelModel
 GitHub Codespaces / Linux verification is recorded through R1972D:
 
 ```text
-Build completed successfully (118 jobs).
+Expected after applying R1973D: Build completed successfully (122 jobs).
 ```
 
 Primary log:
@@ -53,14 +53,14 @@ R1972D: toy analytic Abel model and boundary-limit placeholder
 
 ```lean
 R1971DLeanAbelBoundarySkeleton.abel_boundary_skeleton_to_actual_li_target
-R1972DLeanToyAbelModel.toy_abel_model_to_actual_li_target
+R1973DLeanFiniteAbelIdentity.toy_abel_model_to_actual_li_target
 ```
 
 Non-claim certificates:
 
 ```lean
 R1971DLeanAbelBoundarySkeleton.r1971_tenth_step_is_definition_skeleton_not_abel_boundary_proof
-R1972DLeanToyAbelModel.r1972_eleventh_step_is_toy_model_not_concrete_abel_boundary_proof
+R1973DLeanFiniteAbelIdentity.r1972_eleventh_step_is_toy_model_not_concrete_abel_boundary_proof
 ```
 
 ## Final audit files
@@ -91,3 +91,30 @@ tracking path through a toy Abel-boundary model layer. It does not claim to
 formally prove the real Abel-boundary identity, real boundary-limit theorem,
 explicit formula, Li criterion, terminal packet estimates, or the Riemann
 Hypothesis.
+
+## R1973D finite Abel identity shell
+
+R1973D extends the R1972D toy Abel model by adding:
+
+```text
+finite Abel transform identity shell
+boundary compatibility lemma shell
+finite-identity-to-actual-Li bridge preservation
+```
+
+Main R1973D bridge theorem:
+
+```lean
+R1973DLeanFiniteAbelIdentity.finite_abel_identity_shell_to_actual_li_target
+```
+
+Non-claim certificate:
+
+```lean
+R1973DLeanFiniteAbelIdentity.r1973_twelfth_step_is_identity_shell_not_concrete_abel_boundary_proof
+```
+
+R1973D does not prove the concrete finite Abel identity, the concrete boundary
+compatibility theorem, the real Abel-boundary identity, the explicit formula, or
+RH.  It records a Lean-visible shell that preserves the inherited bridge from
+R1972D.
