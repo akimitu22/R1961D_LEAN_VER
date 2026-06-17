@@ -1,0 +1,19 @@
+R2009D combined endpoint witness handoff interface patch
+
+Files:
+- Main.lean
+- lakefile.lean
+- R2008DLeanEndpointFirstDischargeDryRunResultSlots.lean
+- R2008DLeanEndpointFirstDischargeDryRunResultSlots/EndpointFirstDischargeDryRunResultSlots.lean
+- R2008DLeanEndpointFirstDischargeDryRunResultSlots/EndpointFirstDischargeDryRunResultDependencyAudit.lean
+- R2008DLeanEndpointFirstDischargeDryRunResultSlots/EndpointFirstDischargeDryRunResultBridge.lean
+- R2008DLeanEndpointFirstDischargeDryRunResultSlots/ToyEndpointFirstDischargeDryRunResultSlots.lean
+- R2009DLeanEndpointFirstDischargeWitnessHandoffInterface.lean
+- R2009DLeanEndpointFirstDischargeWitnessHandoffInterface/EndpointFirstDischargeWitnessHandoffSlots.lean
+- R2009DLeanEndpointFirstDischargeWitnessHandoffInterface/EndpointFirstDischargeWitnessHandoffDependencyAudit.lean
+- R2009DLeanEndpointFirstDischargeWitnessHandoffInterface/EndpointFirstDischargeWitnessHandoffBridge.lean
+- R2009DLeanEndpointFirstDischargeWitnessHandoffInterface/ToyEndpointFirstDischargeWitnessHandoffInterface.lean
+- ledgers, best-step notes, verify status files, README, SHA256SUMS
+
+Non-claim boundary:
+No endpoint proof kernel execution, no concrete endpoint lemma discharge, no endpoint estimate, no explicit formula, and no RH proof are claimed.

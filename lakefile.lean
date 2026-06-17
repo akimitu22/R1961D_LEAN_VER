@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2007DLeanEndpointFirstDischargeDryRunTrace» where
+package «R2009DLeanEndpointFirstDischargeWitnessHandoffInterface» where
 
 lean_lib «R1949DLean» where
 
@@ -113,5 +113,9 @@ lean_lib «R2005DLeanEndpointFirstDischargeExecutionPrecheck» where
 
 lean_lib «R2006DLeanEndpointFirstDischargeExecutionGate» where
 
-@[default_target]
 lean_lib «R2007DLeanEndpointFirstDischargeDryRunTrace» where
+
+lean_lib «R2008DLeanEndpointFirstDischargeDryRunResultSlots» where
+
+@[default_target]
+lean_lib «R2009DLeanEndpointFirstDischargeWitnessHandoffInterface» where

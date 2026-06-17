@@ -1,12 +1,8 @@
-# R2007D Lean support package
+# R2009D Lean support package
 
-This combined patch adds two layers:
+This combined patch adds R2008D and R2009D on top of the verified R2007D spine.
 
-- R2006D: endpoint first-discharge execution gate.
-- R2007D: endpoint first-discharge dry-run trace.
+- R2008D: endpoint first-discharge dry-run result slots.
+- R2009D: endpoint first-discharge witness handoff interface.
 
-The default target is `R2007DLeanEndpointFirstDischargeDryRunTrace`.
-
-Non-claim boundary: this package still does not execute the endpoint proof
-kernel, discharge a concrete endpoint lemma, prove an endpoint estimate, prove
-the explicit formula, or prove RH.
+The package preserves the non-claim boundary: no endpoint proof kernel execution, no concrete endpoint lemma discharge, no endpoint estimate, no explicit formula, and no RH proof are claimed here.
