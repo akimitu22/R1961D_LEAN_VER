@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1979DLeanConcreteEstimateBlueprint» where
+package «R1980DLeanConcreteEstimateStatements» where
 
 lean_lib «R1949DLean» where
 
@@ -57,5 +57,7 @@ lean_lib «R1977DLeanEstimateDependencyClosure» where
 
 lean_lib «R1978DLeanQuantitativeEstimateMatrix» where
 
-@[default_target]
 lean_lib «R1979DLeanConcreteEstimateBlueprint» where
+
+@[default_target]
+lean_lib «R1980DLeanConcreteEstimateStatements» where

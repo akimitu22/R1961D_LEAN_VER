@@ -248,3 +248,19 @@ quantitative estimate matrix and preserves the previously checked actual-Li
 bridge.  R1979D is not a proof of the endpoint estimate, boundary-error
 estimate, remainder estimate, Abel-parameter uniformity estimate, real
 Abel-boundary identity, explicit formula, or RH.
+
+
+## R1980D concrete estimate statement-bank layer
+
+R1980D turns the R1979D concrete estimate blueprint into named future theorem
+statement slots.  It adds a statement bank, dependency-closure records, and
+proof-file routing metadata for endpoint, boundary-error, remainder/uniformity,
+and sign-transfer estimates.  The top target is now
+`R1980DLeanConcreteEstimateStatements`.
+
+The main bridge is
+`concrete_estimate_statement_bank_to_actual_li_target`, which forgets to the
+R1979D blueprint and preserves the existing actual-Li bridge.  R1980D is not a
+proof of the endpoint estimate, boundary-error estimate, remainder estimate,
+Abel-parameter uniformity estimate, real Abel-boundary identity, explicit
+formula, or RH.
