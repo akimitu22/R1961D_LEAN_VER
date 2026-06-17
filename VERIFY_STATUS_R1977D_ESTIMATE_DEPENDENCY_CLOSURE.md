@@ -2,15 +2,19 @@
 
 ## Status
 
-Pending user-side GitHub Codespaces verification.
+Verified in GitHub Codespaces / Linux.
 
-## Expected command
+## Recorded command
 
 lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1977D_ESTIMATE_DEPENDENCY_CLOSURE.txt
 
-## Expected success line
+## Recorded success line
 
 Build completed successfully (138 jobs).
+
+## Recorded log
+
+VERIFY_LOG_CODESPACES_R1977D_ESTIMATE_DEPENDENCY_CLOSURE.txt
 
 ## Scope
 

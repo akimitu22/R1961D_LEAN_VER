@@ -188,7 +188,7 @@ boundary-error estimate, real Abel-boundary identity, explicit formula, or RH.
 It is a proof-obligation / target-language refinement layer.
 
 
-## R1977D finite Abel estimate dependency-closure shell
+## R1978D quantitative estimate target matrix shell
 
 R1976D adds a larger post-normalization target layer.  It packages four finite
 Abel estimate gates: endpoint estimate, boundary-error estimate, summation
@@ -203,7 +203,7 @@ uniformity estimates, a real Abel-boundary identity, the explicit formula, or RH
 Those analytic estimates remain the external mathematical obligations.
 
 
-## R1977D finite Abel estimate dependency-closure shell
+## R1978D quantitative estimate target matrix shell
 
 R1977D consolidates the R1976D estimate gates into explicit dependency tables:
 endpoint dependencies, boundary-error dependencies, joint remainder/uniformity
@@ -216,3 +216,19 @@ realization target.
 R1977D is not a concrete proof of endpoint estimates, boundary-error estimates,
 uniformity estimates, a real Abel-boundary identity, the explicit formula, or RH.
 It is a dependency-closure table for the remaining analytic estimate obligations.
+
+
+## R1978D quantitative estimate target matrix shell
+
+R1978D takes the R1977D dependency-closure tables and refines them into named
+quantitative estimate targets: endpoint target, boundary-error target, joint
+remainder/uniformity target, and sign-transfer target.  It also records proof
+strategy metadata for these targets.  The top target is now
+`R1978DLeanQuantitativeEstimateMatrix`.
+
+The main bridge is
+`finite_abel_quantitative_matrix_to_actual_li_target`, which forgets to the
+R1977D dependency closure plan and preserves the already checked actual-Li
+bridge.  R1978D is not a concrete endpoint estimate, boundary-error estimate,
+uniformity estimate, real Abel-boundary identity, explicit formula proof, or RH
+proof.
