@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1968DLeanAnchorClassification» where
+package «R1969DLeanFormalizationPriority» where
 
 lean_lib «R1949DLean» where
 
@@ -35,5 +35,7 @@ lean_lib «R1966DLeanSourceCategories» where
 
 lean_lib «R1967DLeanSourceEvidence» where
 
-@[default_target]
 lean_lib «R1968DLeanAnchorClassification» where
+
+@[default_target]
+lean_lib «R1969DLeanFormalizationPriority» where
