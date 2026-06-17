@@ -1,30 +1,21 @@
-# R1966D Lean Verification Package
+# R1967D Lean Verification Package
 
-R1966D extends the R1965D realization-interface layer with concrete analytic
-source categories.
+R1967D extends the R1966D concrete-source category layer by introducing
+source-evidence slots and a checklist bridge.
 
-## Verification
-
-Run:
+Verification command:
 
 ```bash
 lake build
 ```
 
-or, to save a Codespaces log:
+Codespaces log command:
 
 ```bash
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1966D_SOURCE_CATEGORIES.txt
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R1967D_SOURCE_EVIDENCE.txt
 ```
 
-## Main new theorem
-
-```lean
-R1966DLeanSourceCategories.concrete_sources_to_actual_li_target
-```
-
-## Scope
-
-This is a verified source-category bridge layer.  It is not a complete
-formalization of the zeta explicit formula, Li criterion, terminal estimates, or
-RH.
+Non-claim boundary: this package does not claim a complete Lean proof of the
+Riemann Hypothesis. It formalizes the bridge from future concrete analytic
+evidence slots to the already verified R1966D/R1965D/R1964D/R1963D/R1962D/R1961D
+abstract target chain.
