@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R1970DLeanFirstFormalizationTarget» where
+package «R1971DLeanAbelBoundarySkeleton» where
 
 lean_lib «R1949DLean» where
 
@@ -39,5 +39,7 @@ lean_lib «R1968DLeanAnchorClassification» where
 
 lean_lib «R1969DLeanFormalizationPriority» where
 
-@[default_target]
 lean_lib «R1970DLeanFirstFormalizationTarget» where
+
+@[default_target]
+lean_lib «R1971DLeanAbelBoundarySkeleton» where

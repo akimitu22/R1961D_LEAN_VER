@@ -1,0 +1,17 @@
+R1971D_PATCH_MANIFEST
+
+Added files:
+- R1971DLeanAbelBoundarySkeleton.lean
+- R1971DLeanAbelBoundarySkeleton/DefinitionSkeleton.lean
+- R1971DLeanAbelBoundarySkeleton/SkeletonBridge.lean
+- R1971DLeanAbelBoundarySkeleton/ToyAbelBoundarySkeleton.lean
+- R1971D_ABEL_BOUNDARY_SKELETON_LEDGER.md
+- R1971D_TENTH_BEST_STEP.md
+- VERIFY_STATUS_R1971D_ABEL_BOUNDARY_SKELETON.md
+- README_LEAN.md
+- SHA256SUMS_R1971D_ABEL_BOUNDARY_SKELETON.txt
+
+Updated files:
+- lakefile.lean
+- Main.lean
+- .gitignore
