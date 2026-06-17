@@ -232,3 +232,19 @@ R1977D dependency closure plan and preserves the already checked actual-Li
 bridge.  R1978D is not a concrete endpoint estimate, boundary-error estimate,
 uniformity estimate, real Abel-boundary identity, explicit formula proof, or RH
 proof.
+
+
+## R1979D concrete estimate blueprint layer
+
+R1979D converts the R1978D quantitative estimate matrix into a concrete estimate
+blueprint.  It names endpoint, boundary-error, remainder/uniformity, and
+sign-transfer lemma families, adds concrete lemma interface records, and records
+a review-facing gap table.  The top target is now
+`R1979DLeanConcreteEstimateBlueprint`.
+
+The main bridge is
+`concrete_estimate_blueprint_to_actual_li_target`, which forgets to the R1978D
+quantitative estimate matrix and preserves the previously checked actual-Li
+bridge.  R1979D is not a proof of the endpoint estimate, boundary-error
+estimate, remainder estimate, Abel-parameter uniformity estimate, real
+Abel-boundary identity, explicit formula, or RH.
