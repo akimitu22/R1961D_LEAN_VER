@@ -1,12 +1,8 @@
-# R2029D Lean support package
+# R2031D Lean support package
 
-Top target: `R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary`.
+This combined patch adds R2030D and R2031D endpoint layers.
 
-This patch adds two endpoint branch layers:
+- R2030D: endpoint first explicit-formula handoff certificate slots
+- R2031D: endpoint first RH-target integration boundary
 
-- R2028D: endpoint first estimate handoff certificate slots
-- R2029D: endpoint first explicit formula handoff boundary
-
-Expected GitHub Codespaces build: about 403 jobs.
-
-Non-claim boundary: endpoint estimate, explicit formula, and RH are not proved here.
+Non-claim boundary: no endpoint estimate proof, no explicit formula proof, and no RH proof are claimed here.
