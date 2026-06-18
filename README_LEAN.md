@@ -1,10 +1,10 @@
-# R2019D Lean support package
+# R2021D Lean support package
 
-This package adds the R2018D/R2019D two-layer endpoint continuation.
+This package adds the R2020D/R2021D two-layer endpoint continuation.
 
-- R2018D records endpoint first executable-attempt input slots.
-- R2019D records endpoint first executable-attempt start boundary.
+- R2020D records endpoint first executable-attempt start-certificate slots.
+- R2021D records endpoint first proof-kernel invocation boundary.
 
-The default Lean target is `R2019DLeanEndpointFirstExecutableAttemptStartBoundary`.
+The default Lean target is `R2021DLeanEndpointFirstProofKernelInvocationBoundary`.
 
-Non-claim boundary: these layers do not start an executable attempt, do not validate or supply witnesses, do not execute the endpoint proof kernel, do not discharge a concrete endpoint lemma, and do not prove RH.
+Non-claim boundary: these layers do not actually start an executable attempt, do not invoke or execute the endpoint proof kernel, do not discharge a concrete endpoint lemma, do not prove the endpoint estimate, do not prove the explicit formula, and do not prove RH.

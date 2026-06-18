@@ -1,0 +1,22 @@
+# R2021D combined patch manifest
+
+- `Main.lean`
+- `R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots.lean`
+- `R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots/EndpointFirstExecutableAttemptStartCertificateBridge.lean`
+- `R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots/EndpointFirstExecutableAttemptStartCertificateDependencyAudit.lean`
+- `R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots/EndpointFirstExecutableAttemptStartCertificateSlots.lean`
+- `R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots/ToyEndpointFirstExecutableAttemptStartCertificateSlots.lean`
+- `R2020D_ENDPOINT_FIRST_EXECUTABLE_ATTEMPT_START_CERTIFICATE_SLOTS_LEDGER.md`
+- `R2020D_FIFTY_NINTH_BEST_STEP.md`
+- `R2021DLeanEndpointFirstProofKernelInvocationBoundary.lean`
+- `R2021DLeanEndpointFirstProofKernelInvocationBoundary/EndpointFirstProofKernelInvocationBoundaryBridge.lean`
+- `R2021DLeanEndpointFirstProofKernelInvocationBoundary/EndpointFirstProofKernelInvocationBoundarySlots.lean`
+- `R2021DLeanEndpointFirstProofKernelInvocationBoundary/EndpointFirstProofKernelInvocationDependencyAudit.lean`
+- `R2021DLeanEndpointFirstProofKernelInvocationBoundary/ToyEndpointFirstProofKernelInvocationBoundary.lean`
+- `R2021D_ENDPOINT_FIRST_PROOF_KERNEL_INVOCATION_BOUNDARY_LEDGER.md`
+- `R2021D_SIXTIETH_BEST_STEP.md`
+- `README_LEAN.md`
+- `SHA256SUMS_R2021D_COMBINED_ENDPOINT_PROOF_KERNEL_INVOCATION_BOUNDARY.txt`
+- `VERIFY_STATUS_R2020D_ENDPOINT_FIRST_EXECUTABLE_ATTEMPT_START_CERTIFICATE_SLOTS.md`
+- `VERIFY_STATUS_R2021D_ENDPOINT_FIRST_PROOF_KERNEL_INVOCATION_BOUNDARY.md`
+- `lakefile.lean`
