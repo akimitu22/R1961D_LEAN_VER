@@ -1,15 +1,8 @@
-# R2037D combined endpoint final package closure boundary patch
+# R2038D/R2039D Combined Lean Patch
 
-This patch adds two Lean libraries:
+This patch adds two compile-checked endpoint support layers:
 
-- `R2036DLeanEndpointFinalRHClaimCertificateSlots`
-- `R2037DLeanEndpointFinalPackageClosureBoundary`
+1. `R2038DLeanEndpointFinalPackageClosureCertificateSlots`
+2. `R2039DLeanEndpointFinalArchiveExportBoundary`
 
-Run:
-
-```bash
-bash APPLY_R2037D_COMBINED_ENDPOINT_FINAL_PACKAGE_CLOSURE_BOUNDARY_PATCH.sh
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R2037D_ENDPOINT_FINAL_PACKAGE_CLOSURE_BOUNDARY.txt
-```
-
-The patch is non-claiming: it preserves `actualLiTarget` through certificate and closure scaffolding, but does not prove endpoint estimate, explicit formula, final theorem, RH, or full RH formalization.
+The patch is intentionally non-claiming: it preserves the existing analytic target while recording certificate/archive boundary structures only.

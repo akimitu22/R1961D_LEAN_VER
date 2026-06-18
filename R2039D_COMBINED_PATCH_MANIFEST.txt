@@ -1,0 +1,11 @@
+R2039D_COMBINED_ENDPOINT_FINAL_ARCHIVE_EXPORT_BOUNDARY_PATCH
+
+Files:
+- APPLY_R2039D_COMBINED_ENDPOINT_FINAL_ARCHIVE_EXPORT_BOUNDARY_PATCH.sh
+- R2038DLeanEndpointFinalPackageClosureCertificateSlots.lean
+- R2038DLeanEndpointFinalPackageClosureCertificateSlots/*
+- R2039DLeanEndpointFinalArchiveExportBoundary.lean
+- R2039DLeanEndpointFinalArchiveExportBoundary/*
+- R2038D/R2039D ledgers and verify notes
+
+Expected Codespaces build: approximately 453 jobs from the R2037D baseline of 443 jobs.

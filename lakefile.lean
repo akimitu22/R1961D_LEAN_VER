@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2037DLeanEndpointFinalPackageClosureBoundary» where
+package «R2039DLeanEndpointFinalArchiveExportBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -186,7 +186,12 @@ lean_lib «R2035DLeanEndpointFinalRHClaimBoundary» where
 
 lean_lib R2036DLeanEndpointFinalRHClaimCertificateSlots where
   roots := #[`R2036DLeanEndpointFinalRHClaimCertificateSlots]
-
-@[default_target]
 lean_lib R2037DLeanEndpointFinalPackageClosureBoundary where
   roots := #[`R2037DLeanEndpointFinalPackageClosureBoundary]
+
+lean_lib R2038DLeanEndpointFinalPackageClosureCertificateSlots where
+  roots := #[`R2038DLeanEndpointFinalPackageClosureCertificateSlots]
+
+@[default_target]
+lean_lib R2039DLeanEndpointFinalArchiveExportBoundary where
+  roots := #[`R2039DLeanEndpointFinalArchiveExportBoundary]
