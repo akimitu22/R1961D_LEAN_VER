@@ -1,10 +1,8 @@
-# R2023D Lean support package
+# R2025D Lean support package
 
-Top target: `R2023DLeanEndpointFirstProofKernelExecutionBoundary`.
+This patch adds the R2024D/R2025D endpoint branch layers:
 
-This patch adds two layers:
+- R2024DLeanEndpointFirstProofKernelExecutionCertificateSlots
+- R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary
 
-- R2022D: endpoint first proof-kernel invocation certificate slots
-- R2023D: endpoint first proof-kernel execution boundary
-
-Non-claim boundary: this package does not execute the endpoint proof kernel, does not discharge a concrete endpoint lemma, does not prove an endpoint estimate, does not prove an explicit formula, and does not prove RH.
+The patch records proof-kernel execution certificate slots and the first concrete lemma discharge boundary. It does not execute the endpoint proof kernel, discharge a concrete endpoint lemma, prove an endpoint estimate, prove an explicit formula, or prove RH.

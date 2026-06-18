@@ -1,0 +1,7 @@
+R2025D combined endpoint concrete lemma discharge boundary patch
+
+Adds:
+- R2024DLeanEndpointFirstProofKernelExecutionCertificateSlots
+- R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary
+- apply script for safe lakefile/Main.lean update
+- ledgers, verification status, checksum manifest
