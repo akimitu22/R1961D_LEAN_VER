@@ -125,5 +125,9 @@ lean_lib «R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary» where
 
 lean_lib «R2012DLeanEndpointFirstExecutionHandoffPayloadSlots» where
 
-@[default_target]
 lean_lib «R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary» where
+
+lean_lib «R2014DLeanEndpointFirstRehearsalResultSlots» where
+
+@[default_target]
+lean_lib «R2015DLeanEndpointFirstExecutionWitnessPacketBoundary» where

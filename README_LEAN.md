@@ -1,29 +1,10 @@
-# R2013D Lean support package
+# R2015D Lean support package
 
-This patch adds two endpoint-support layers:
+This combined patch adds R2014D and R2015D endpoint carrier layers.
 
-- R2012D: endpoint first execution handoff payload slots
-- R2013D: endpoint first discharge execution rehearsal boundary
+- R2014D: endpoint first rehearsal-result slots.
+- R2015D: endpoint first execution-witness packet boundary.
 
-The default target is `R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary`.
-
-## Verification
-
-Run:
-
-```bash
-export PATH="$HOME/.elan/bin:$PATH"
-lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R2013D_ENDPOINT_FIRST_DISCHARGE_EXECUTION_REHEARSAL_BOUNDARY.txt
-```
-
-Expected result:
-
-```text
-Build completed successfully (... jobs).
-```
-
-Stop if the job count drops below 313 jobs.
-
-## Non-claim boundary
-
-R2012D/R2013D do not execute the endpoint proof kernel, discharge a concrete endpoint lemma, prove the endpoint estimate, prove the explicit formula, or prove RH.
+The patch is non-claiming: it does not supply witnesses, start an executable attempt,
+run the endpoint proof kernel, discharge a concrete endpoint lemma, prove an endpoint
+estimate, prove the explicit formula, or prove RH.

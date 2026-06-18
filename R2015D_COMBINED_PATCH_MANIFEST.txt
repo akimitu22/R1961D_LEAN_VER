@@ -1,0 +1,8 @@
+R2015D combined patch manifest
+
+Adds:
+- R2014DLeanEndpointFirstRehearsalResultSlots aggregate and submodules
+- R2015DLeanEndpointFirstExecutionWitnessPacketBoundary aggregate and submodules
+- R2014D/R2015D ledgers and verify-status notes
+- Updates Main.lean #checks
+- Updates lakefile.lean default target to R2015D
