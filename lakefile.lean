@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2021DLeanEndpointFirstProofKernelInvocationBoundary» where
+package «R2023DLeanEndpointFirstProofKernelExecutionBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -142,5 +142,9 @@ lean_lib «R2018DLeanEndpointFirstExecutableAttemptInputSlots» where
 
 lean_lib «R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots» where
 
-@[default_target]
 lean_lib «R2021DLeanEndpointFirstProofKernelInvocationBoundary» where
+
+lean_lib «R2022DLeanEndpointFirstProofKernelInvocationCertificateSlots» where
+
+@[default_target]
+lean_lib «R2023DLeanEndpointFirstProofKernelExecutionBoundary» where
