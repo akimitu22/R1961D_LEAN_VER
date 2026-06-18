@@ -1,10 +1,15 @@
-# R2035D Lean support package
+# R2037D combined endpoint final package closure boundary patch
 
-Top target: `R2035DLeanEndpointFinalRHClaimBoundary`.
+This patch adds two Lean libraries:
 
-This patch adds:
+- `R2036DLeanEndpointFinalRHClaimCertificateSlots`
+- `R2037DLeanEndpointFinalPackageClosureBoundary`
 
-- R2034D endpoint final theorem handoff certificate slots
-- R2035D endpoint final RH claim boundary
+Run:
 
-Non-claim boundary: final theorem proof, RH proof, explicit formula proof, endpoint estimate proof, and full RH formalization are not claimed here.
+```bash
+bash APPLY_R2037D_COMBINED_ENDPOINT_FINAL_PACKAGE_CLOSURE_BOUNDARY_PATCH.sh
+lake build 2>&1 | tee VERIFY_LOG_CODESPACES_R2037D_ENDPOINT_FINAL_PACKAGE_CLOSURE_BOUNDARY.txt
+```
+
+The patch is non-claiming: it preserves `actualLiTarget` through certificate and closure scaffolding, but does not prove endpoint estimate, explicit formula, final theorem, RH, or full RH formalization.

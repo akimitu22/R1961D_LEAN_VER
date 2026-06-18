@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2035DLeanEndpointFinalRHClaimBoundary» where
+package «R2037DLeanEndpointFinalPackageClosureBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -181,7 +181,12 @@ lean_lib «R2033DLeanEndpointFinalTheoremHandoffBoundary» where
 
 lean_lib «R2034DLeanEndpointFinalTheoremHandoffCertificateSlots» where
   roots := #[`R2034DLeanEndpointFinalTheoremHandoffCertificateSlots]
-
-@[default_target]
 lean_lib «R2035DLeanEndpointFinalRHClaimBoundary» where
   roots := #[`R2035DLeanEndpointFinalRHClaimBoundary]
+
+lean_lib R2036DLeanEndpointFinalRHClaimCertificateSlots where
+  roots := #[`R2036DLeanEndpointFinalRHClaimCertificateSlots]
+
+@[default_target]
+lean_lib R2037DLeanEndpointFinalPackageClosureBoundary where
+  roots := #[`R2037DLeanEndpointFinalPackageClosureBoundary]
