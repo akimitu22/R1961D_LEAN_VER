@@ -2,7 +2,7 @@
 
 ## Current top target
 
-R1974DLeanFiniteAbelComponents
+R2015DLeanEndpointFirstExecutionWitnessPacketBoundary
 
 ## Status summary
 

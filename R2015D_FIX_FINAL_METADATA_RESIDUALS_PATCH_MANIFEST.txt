@@ -1,0 +1,12 @@
+R2015D final metadata residuals patch manifest
+
+Files included:
+- FIX_R2015D_FINAL_METADATA_RESIDUALS.sh
+- R2015D_FIX_FINAL_METADATA_RESIDUALS_NOTE.md
+- R2015D_FIX_FINAL_METADATA_RESIDUALS_PATCH_MANIFEST.txt
+- SHA256SUMS_R2015D_FIX_FINAL_METADATA_RESIDUALS_PATCH.txt
+
+Generated effects when script is run in repository root:
+- Updates VERIFY_STATUS_CODESPACES.md current top target to R2015DLeanEndpointFirstExecutionWitnessPacketBoundary.
+- Regenerates SHA256SUMS_R2015D_COMBINED_ENDPOINT_WITNESS_PACKET_BOUNDARY.txt against current R2015D files.
+- Adds/updates R2015D_FIX_FINAL_METADATA_RESIDUALS_NOTE.md.
