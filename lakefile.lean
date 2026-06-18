@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2017DLeanEndpointFirstExecutableAttemptShellBoundary» where
+package «R2019DLeanEndpointFirstExecutableAttemptStartBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -133,5 +133,9 @@ lean_lib «R2015DLeanEndpointFirstExecutionWitnessPacketBoundary» where
 
 lean_lib «R2016DLeanEndpointFirstExecutionWitnessValidationSlots» where
 
-@[default_target]
 lean_lib «R2017DLeanEndpointFirstExecutableAttemptShellBoundary» where
+
+lean_lib «R2018DLeanEndpointFirstExecutableAttemptInputSlots» where
+
+@[default_target]
+lean_lib «R2019DLeanEndpointFirstExecutableAttemptStartBoundary» where
