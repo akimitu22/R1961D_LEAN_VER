@@ -1,8 +1,10 @@
-# R2038D/R2039D Combined Lean Patch
+# R2041D Combined Endpoint Final Submission Boundary Patch
 
-This patch adds two compile-checked endpoint support layers:
+Adds two Lean layers:
 
-1. `R2038DLeanEndpointFinalPackageClosureCertificateSlots`
-2. `R2039DLeanEndpointFinalArchiveExportBoundary`
+- R2040DLeanEndpointFinalArchiveExportCertificateSlots
+- R2041DLeanEndpointFinalSubmissionBoundary
 
-The patch is intentionally non-claiming: it preserves the existing analytic target while recording certificate/archive boundary structures only.
+The patch updates `lakefile.lean` and `Main.lean` through `APPLY_R2041D_COMBINED_ENDPOINT_FINAL_SUBMISSION_BOUNDARY_PATCH.sh`.
+
+No new mathematical claim is made: the layers preserve `actualLiTarget` and record boundary/certificate carriers only.
