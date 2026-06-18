@@ -1,0 +1,7 @@
+R2027D combined patch manifest
+
+Adds:
+- R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots
+- R2027DLeanEndpointFirstEstimateHandoffBoundary
+- ledgers and verify-status documents
+- safe apply script for lakefile.lean and Main.lean
