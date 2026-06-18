@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-Write-Host "=== R1974D Lean finite Abel component decomposition packet ==="
+Write-Host "=== R2015D Lean endpoint first execution-witness packet boundary support package ==="
 Write-Host "Location: $(Get-Location)"
 
 Write-Host "`n=== Tool versions ==="
@@ -89,4 +89,4 @@ Write-Host "`n=== Main.lean check ==="
 lake env lean Main.lean
 if ($LASTEXITCODE -ne 0) { throw "lake env lean Main.lean failed." }
 
-Write-Host "`nR1974D Lean finite Abel component decomposition packet completed successfully." -ForegroundColor Green
+Write-Host "`nR2015D Lean endpoint first execution-witness packet boundary support package completed successfully." -ForegroundColor Green

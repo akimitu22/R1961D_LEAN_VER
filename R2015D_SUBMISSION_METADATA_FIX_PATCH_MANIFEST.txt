@@ -1,0 +1,13 @@
+R2015D submission metadata fix patch manifest
+
+Files in this patch:
+- FIX_R2015D_SUBMISSION_METADATA.sh
+- R2015D_SUBMISSION_METADATA_FIX_PATCH_NOTE.md
+
+Files created/updated when the script is run in the repository:
+- VERIFY_STATUS_R2015D_ENDPOINT_FIRST_EXECUTION_WITNESS_PACKET_BOUNDARY.md
+- VERIFY_STATUS_CODESPACES.md
+- verify.ps1
+- lakefile.lean
+- R2015D_FIX_SUBMISSION_METADATA_NOTE.md
+- SHA256SUMS_R2015D_SUBMISSION_METADATA_FIX.txt
