@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary» where
+package «R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -121,5 +121,9 @@ lean_lib «R2009DLeanEndpointFirstDischargeWitnessHandoffInterface» where
 
 lean_lib «R2010DLeanEndpointFirstWitnessValidationSlots» where
 
-@[default_target]
 lean_lib «R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary» where
+
+lean_lib «R2012DLeanEndpointFirstExecutionHandoffPayloadSlots» where
+
+@[default_target]
+lean_lib «R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary» where
