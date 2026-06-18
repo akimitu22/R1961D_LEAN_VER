@@ -1,14 +1,12 @@
-# R2027D Lean support package
+# R2029D Lean support package
 
-This patch adds R2026D and R2027D endpoint layers:
+Top target: `R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary`.
 
-- R2026D: endpoint first concrete-lemma discharge certificate slots
-- R2027D: endpoint first endpoint-estimate handoff boundary
+This patch adds two endpoint branch layers:
 
-The top target after applying the patch is:
+- R2028D: endpoint first estimate handoff certificate slots
+- R2029D: endpoint first explicit formula handoff boundary
 
-```text
-R2027DLeanEndpointFirstEstimateHandoffBoundary
-```
+Expected GitHub Codespaces build: about 403 jobs.
 
-Non-claim boundary: the patch does not prove endpoint estimates, an explicit formula, RH, or concrete endpoint lemma discharge.
+Non-claim boundary: endpoint estimate, explicit formula, and RH are not proved here.

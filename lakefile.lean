@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2027DLeanEndpointFirstEstimateHandoffBoundary» where
+package «R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -157,7 +157,13 @@ lean_lib «R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary» where
 lean_lib «R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots» where
   roots := #[`R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots]
 
-@[default_target]
 lean_lib «R2027DLeanEndpointFirstEstimateHandoffBoundary» where
   roots := #[`R2027DLeanEndpointFirstEstimateHandoffBoundary]
+
+lean_lib «R2028DLeanEndpointFirstEstimateHandoffCertificateSlots» where
+  roots := #[`R2028DLeanEndpointFirstEstimateHandoffCertificateSlots]
+
+@[default_target]
+lean_lib «R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary» where
+  roots := #[`R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary]
 
