@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2015DLeanEndpointFirstExecutionWitnessPacketBoundary» where
+package «R2017DLeanEndpointFirstExecutableAttemptShellBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -129,5 +129,9 @@ lean_lib «R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary» where
 
 lean_lib «R2014DLeanEndpointFirstRehearsalResultSlots» where
 
-@[default_target]
 lean_lib «R2015DLeanEndpointFirstExecutionWitnessPacketBoundary» where
+
+lean_lib «R2016DLeanEndpointFirstExecutionWitnessValidationSlots» where
+
+@[default_target]
+lean_lib «R2017DLeanEndpointFirstExecutableAttemptShellBoundary» where

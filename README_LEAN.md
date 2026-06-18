@@ -1,10 +1,10 @@
-# R2015D Lean support package
+# R2017D Lean support package
 
-This combined patch adds R2014D and R2015D endpoint carrier layers.
+This package adds the R2016D/R2017D two-layer endpoint continuation.
 
-- R2014D: endpoint first rehearsal-result slots.
-- R2015D: endpoint first execution-witness packet boundary.
+- R2016D records endpoint first execution-witness validation slots.
+- R2017D records endpoint first executable-attempt shell boundary.
 
-The patch is non-claiming: it does not supply witnesses, start an executable attempt,
-run the endpoint proof kernel, discharge a concrete endpoint lemma, prove an endpoint
-estimate, prove the explicit formula, or prove RH.
+The default Lean target is `R2017DLeanEndpointFirstExecutableAttemptShellBoundary`.
+
+Non-claim boundary: these layers do not validate or supply witnesses, do not start an executable attempt, do not execute the endpoint proof kernel, do not discharge a concrete endpoint lemma, and do not prove RH.
