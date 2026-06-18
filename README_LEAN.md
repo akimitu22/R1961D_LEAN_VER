@@ -1,8 +1,8 @@
-# R2031D Lean support package
+# R2033D Lean support package
 
-This combined patch adds R2030D and R2031D endpoint layers.
+This combined patch adds:
 
-- R2030D: endpoint first explicit-formula handoff certificate slots
-- R2031D: endpoint first RH-target integration boundary
+- R2032DLeanEndpointFirstRHTargetIntegrationCertificateSlots
+- R2033DLeanEndpointFinalTheoremHandoffBoundary
 
-Non-claim boundary: no endpoint estimate proof, no explicit formula proof, and no RH proof are claimed here.
+The patch preserves the non-claim boundary: it records certificate slots and a final theorem handoff boundary only. It does not prove RH, does not prove an explicit formula, and does not claim full RH formalization.
