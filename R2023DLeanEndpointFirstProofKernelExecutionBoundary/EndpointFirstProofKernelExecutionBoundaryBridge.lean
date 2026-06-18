@@ -13,11 +13,11 @@ def endpoint_first_proof_kernel_execution_boundary_to_dependency_audit
     EndpointFirstProofKernelExecutionDependencyAudit B :=
   { auditItemCount := B.executionBoundaryStageCount
     attachedToExecutionBoundary := B.recordsOnlyProofKernelExecutionBoundary
-    recordsNoEndpointProofKernelExecution := True.intro
-    recordsNoConcreteEndpointLemmaDischarge := True.intro
-    recordsNoEndpointEstimateProof := True.intro
-    recordsNoExplicitFormulaProof := True.intro
-    recordsNoRHProof := True.intro
+    recordsNoEndpointProofKernelExecution := True
+    recordsNoConcreteEndpointLemmaDischarge := True
+    recordsNoEndpointEstimateProof := True
+    recordsNoExplicitFormulaProof := True
+    recordsNoRHProof := True
     actualLiTarget := B.actualLiTarget }
 
 /-- The bridge preserves the analytic target. -/

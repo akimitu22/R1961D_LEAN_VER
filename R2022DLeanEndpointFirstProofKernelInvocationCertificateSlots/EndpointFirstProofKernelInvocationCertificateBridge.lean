@@ -11,11 +11,11 @@ def endpoint_first_proof_kernel_invocation_certificate_slots_to_dependency_audit
     EndpointFirstProofKernelInvocationCertificateDependencyAudit S :=
   { auditItemCount := S.invocationCertificateStageCount
     attachedToInvocationCertificateSlots := S.recordsOnlyInvocationCertificateSlots
-    recordsNoKernelExecution := True.intro
-    recordsNoConcreteEndpointLemmaDischarge := True.intro
-    recordsNoEndpointEstimateProof := True.intro
-    recordsNoExplicitFormulaProof := True.intro
-    recordsNoRHProof := True.intro
+    recordsNoKernelExecution := True
+    recordsNoConcreteEndpointLemmaDischarge := True
+    recordsNoEndpointEstimateProof := True
+    recordsNoExplicitFormulaProof := True
+    recordsNoRHProof := True
     actualLiTarget := S.actualLiTarget }
 
 /-- The bridge preserves the analytic target. -/
