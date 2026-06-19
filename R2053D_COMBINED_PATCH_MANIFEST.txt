@@ -1,0 +1,16 @@
+R2053D combined patch manifest
+
+Adds:
+- R2052DLeanEndpointFirstConcreteObligationTraceReplayCheckpoint
+- R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry
+
+Top target:
+- R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry
+
+Expected build:
+- R2051D baseline: 513 jobs
+- R2053D expected: about 523 jobs
+
+Also removes, if present:
+- previous combined patch zip files
+- stray backup verification logs
