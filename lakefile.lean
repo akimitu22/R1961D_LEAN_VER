@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist» where
+package «R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger» where
 
 lean_lib «R1949DLean» where
 
@@ -216,7 +216,12 @@ lean_lib R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank where
 
 lean_lib R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph where
   roots := #[`R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph]
-
-@[default_target]
 lean_lib R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist where
   roots := #[`R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist]
+
+lean_lib R2050DLeanEndpointFirstConcreteObligationExecutableProofAttemptEnvelope where
+  roots := #[`R2050DLeanEndpointFirstConcreteObligationExecutableProofAttemptEnvelope]
+
+@[default_target]
+lean_lib R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger where
+  roots := #[`R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger]
