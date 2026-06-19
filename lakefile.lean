@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface» where
+package «R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt» where
 
 lean_lib «R1949DLean» where
 
@@ -246,7 +246,12 @@ lean_lib R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertifica
 
 lean_lib R2060DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary where
   roots := #[`R2060DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary]
-
-@[default_target]
 lean_lib R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface where
   roots := #[`R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface]
+
+lean_lib R2062DLeanEndpointFirstConcreteObligationWitnessKernel where
+  roots := #[`R2062DLeanEndpointFirstConcreteObligationWitnessKernel]
+
+@[default_target]
+lean_lib R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt where
+  roots := #[`R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt]

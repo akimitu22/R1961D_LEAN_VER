@@ -1,0 +1,30 @@
+623a4a2 (HEAD -> main, origin/main, origin/HEAD) Add R2060D and R2061D endpoint concrete closure certificate witness layers
+02c5578 Add files via upload
+bb2b183 Add R2058D and R2059D endpoint concrete closure certificate layers
+4d6ae06 Add files via upload
+4073342 Add R2056D and R2057D endpoint concrete local discharge closure layers
+7b47bab Add files via upload
+e2e833b Add R2054D and R2055D endpoint concrete local discharge skeleton layers
+ba1b913 Add files via upload
+bc4313c Add R2052D and R2053D endpoint concrete local discharge candidate layers
+a58e2bf Add files via upload
+98e4678 Add R2050D and R2051D endpoint concrete attempt trace layers
+ed5d4a7 Add files via upload
+351d5fe Add R2048D and R2049D endpoint concrete proof readiness layers
+87dabdf Add files via upload
+3f77279 Add files via upload
+764397d Add R2046D and R2047D endpoint concrete obligation statement bank layers
+434ba46 Add files via upload
+af0ee72 Add R2044D and R2045D endpoint proof-obligation execution boundary layers
+7753347 Add files via upload
+be7a577 Add R2042D and R2043D endpoint final verification boundary layers
+9e828d4 Add files via upload
+d9042ae Add R2040D and R2041D endpoint final submission boundary layers
+7b19d0c Add files via upload
+ef97a30 Add R2038D and R2039D endpoint final archive export boundary layers
+bcd1545 Add files via upload
+1e3dd82 Add R2036D and R2037D endpoint final package closure boundary layers
+8530027 Add files via upload
+f0b6369 Add R2034D and R2035D endpoint final RH claim boundary layers
+19f45f4 Add files via upload
+8474fe5 Add R2032D and R2033D endpoint final theorem handoff boundary layers
