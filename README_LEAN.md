@@ -1,10 +1,8 @@
-# R2052D/R2053D Lean Patch
+# R2055D Combined Endpoint First Concrete Obligation Local Discharge Skeleton Patch
 
-This combined patch adds two endpoint-first concrete proof-obligation layers:
+This patch adds R2054D and R2055D.
 
-1. `R2052DLeanEndpointFirstConcreteObligationTraceReplayCheckpoint`
-   - replays the R2051D open proof-attempt trace ledger into checkpoint entries.
-2. `R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry`
-   - registers local discharge candidates attached to the replay checkpoints.
+- R2054D: local discharge dependency binder.
+- R2055D: local discharge proof skeleton boundary.
 
-Both layers are bookkeeping/proof-preparation layers only. They preserve `A.actualLiTarget` and explicitly avoid claiming proof of the endpoint estimate, transfer assembly, finite-Abel reduction, proof-kernel connection, RH, or full formalization.
+Both layers are target-preserving bookkeeping layers and do not assert RH.
