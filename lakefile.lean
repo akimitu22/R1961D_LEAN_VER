@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary» where
+package «R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport» where
 
 lean_lib «R1949DLean» where
 
@@ -293,6 +293,12 @@ lean_lib R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff 
 lean_lib R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate where
   roots := #[`R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate]
 
-@[default_target]
 lean_lib R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary where
   roots := #[`R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary]
+
+lean_lib R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation where
+  roots := #[`R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation]
+
+@[default_target]
+lean_lib R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport where
+  roots := #[`R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport]
