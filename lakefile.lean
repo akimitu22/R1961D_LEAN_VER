@@ -257,6 +257,12 @@ lean_lib R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt where
 lean_lib R2064DLeanEndpointFirstConcreteObligationMinimalWitnessProofTermSupply where
   roots := #[`R2064DLeanEndpointFirstConcreteObligationMinimalWitnessProofTermSupply]
 
-@[default_target]
 lean_lib R2065DLeanEndpointFirstConcreteObligationWitnessCheckerExecution where
   roots := #[`R2065DLeanEndpointFirstConcreteObligationWitnessCheckerExecution]
+
+lean_lib R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure where
+  roots := #[`R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure]
+
+@[default_target]
+lean_lib R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport where
+  roots := #[`R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport]

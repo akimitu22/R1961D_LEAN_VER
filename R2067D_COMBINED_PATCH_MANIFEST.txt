@@ -1,0 +1,8 @@
+R2067D combined patch manifest
+
+Adds:
+- R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure
+- R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport
+- Ledger/status/manuscript-reference documents
+- lakefile.lean update via apply script
+- Main.lean import/check update via apply script
