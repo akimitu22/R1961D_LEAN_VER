@@ -1,8 +1,8 @@
-# R2058D/R2059D combined Lean patch
+# R2060D/R2061D combined Lean patch
 
-This patch adds two proof-consistent endpoint-first local-discharge certificate layers:
+This patch adds two proof-consistent endpoint-first local-discharge certificate witness layers:
 
-1. R2058D — local discharge closure certificate boundary.
-2. R2059D — local discharge closure certificate slots.
+1. R2060D — closure certificate slot-population boundary.
+2. R2061D — closure certificate witness interface.
 
-Both layers preserve `actualLiTarget` and deliberately avoid claiming any completed analytic proof, RH proof, or local discharge proof.  The aim is to prepare a certificate-checking stage that can later receive concrete proof terms without collapsing boundary bookkeeping into proof discharge.
+These layers are chosen by reverse direction from the complete-proof target: before a checker kernel can validate local-discharge certificates, each previously allocated slot must have a population candidate and a precise witness interface.  Both layers preserve `actualLiTarget` and deliberately avoid claiming completed endpoint estimates, transfer, finite-Abel reduction, RH, or full formalization.
