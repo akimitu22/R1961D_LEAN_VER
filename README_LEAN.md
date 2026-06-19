@@ -1,8 +1,8 @@
-# R2045D Combined Endpoint First Concrete Proof Obligation Boundary Patch
+# R2046D/R2047D Combined Lean Patch
 
-Adds two Lean layers:
+This patch adds two proof-body-oriented layers after R2045D:
 
-- R2044DLeanEndpointProofObligationExecutionQueue: proof-obligation execution queue
-- R2045DLeanEndpointFirstConcreteProofObligationBoundary: first concrete proof-obligation boundary
+1. `R2046DLeanEndpointFirstConcreteObligationDecompositionSlots`
+2. `R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank`
 
-This is a pivot from packaging to execution-facing proof obligations. The patch still does not prove RH, the final theorem, explicit formula, or endpoint estimate. It records and exposes the obligations that have to be proved next.
+The patch keeps the non-claim boundary: no endpoint estimate, explicit formula, final theorem, or RH proof is asserted.
