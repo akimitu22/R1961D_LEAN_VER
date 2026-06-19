@@ -1,10 +1,8 @@
-# R2043D Combined Endpoint Final Verification Boundary Patch
+# R2045D Combined Endpoint First Concrete Proof Obligation Boundary Patch
 
 Adds two Lean layers:
 
-- R2042DLeanEndpointFinalSubmissionCertificateSlots
-- R2043DLeanEndpointFinalVerificationBoundary
+- R2044DLeanEndpointProofObligationExecutionQueue: proof-obligation execution queue
+- R2045DLeanEndpointFirstConcreteProofObligationBoundary: first concrete proof-obligation boundary
 
-The patch updates `lakefile.lean` and `Main.lean` through `APPLY_R2043D_COMBINED_ENDPOINT_FINAL_VERIFICATION_BOUNDARY_PATCH.sh`.
-
-No new mathematical claim is made: the layers preserve `actualLiTarget` and record boundary/certificate carriers only.
+This is a pivot from packaging to execution-facing proof obligations. The patch still does not prove RH, the final theorem, explicit formula, or endpoint estimate. It records and exposes the obligations that have to be proved next.

@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2043DLeanEndpointFinalVerificationBoundary» where
+package «R2045DLeanEndpointFirstConcreteProofObligationBoundary» where
 
 lean_lib «R1949DLean» where
 
@@ -201,7 +201,12 @@ lean_lib R2041DLeanEndpointFinalSubmissionBoundary where
 
 lean_lib R2042DLeanEndpointFinalSubmissionCertificateSlots where
   roots := #[`R2042DLeanEndpointFinalSubmissionCertificateSlots]
-
-@[default_target]
 lean_lib R2043DLeanEndpointFinalVerificationBoundary where
   roots := #[`R2043DLeanEndpointFinalVerificationBoundary]
+
+lean_lib R2044DLeanEndpointProofObligationExecutionQueue where
+  roots := #[`R2044DLeanEndpointProofObligationExecutionQueue]
+
+@[default_target]
+lean_lib R2045DLeanEndpointFirstConcreteProofObligationBoundary where
+  roots := #[`R2045DLeanEndpointFirstConcreteProofObligationBoundary]
