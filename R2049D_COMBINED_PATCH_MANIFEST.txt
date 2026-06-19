@@ -1,0 +1,15 @@
+R2049D combined patch manifest
+
+Adds:
+- R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph
+- R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist
+
+Top target:
+- R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist
+
+Expected build:
+- R2047D baseline: 493 jobs
+- R2049D expected: about 503 jobs
+
+Also removes, if present:
+- VERIFY_LOG_CODESPACES_R2047D_ENDPOINT_FIRST_CONCRETE_OBLIGATION_LEMMA_STATEMENT_BANK.txt~

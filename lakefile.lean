@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank» where
+package «R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist» where
 
 lean_lib «R1949DLean» where
 
@@ -211,7 +211,12 @@ lean_lib R2045DLeanEndpointFirstConcreteProofObligationBoundary where
 
 lean_lib R2046DLeanEndpointFirstConcreteObligationDecompositionSlots where
   roots := #[`R2046DLeanEndpointFirstConcreteObligationDecompositionSlots]
-
-@[default_target]
 lean_lib R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank where
   roots := #[`R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank]
+
+lean_lib R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph where
+  roots := #[`R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph]
+
+@[default_target]
+lean_lib R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist where
+  roots := #[`R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist]
