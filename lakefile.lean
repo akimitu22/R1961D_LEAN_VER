@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap» where
+package «R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots» where
 
 lean_lib «R1949DLean» where
 
@@ -236,7 +236,12 @@ lean_lib R2055DLeanEndpointFirstConcreteObligationLocalDischargeProofSkeletonBou
 
 lean_lib R2056DLeanEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan where
   roots := #[`R2056DLeanEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan]
-
-@[default_target]
 lean_lib R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap where
   roots := #[`R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap]
+
+lean_lib R2058DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary where
+  roots := #[`R2058DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary]
+
+@[default_target]
+lean_lib R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots where
+  roots := #[`R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots]
