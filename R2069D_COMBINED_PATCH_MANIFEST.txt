@@ -1,0 +1,8 @@
+R2069D combined patch manifest
+
+Adds:
+- R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration
+- R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff
+- Ledger/status/manuscript-reference documents
+- lakefile.lean update via apply script
+- Main.lean import/check update via apply script
