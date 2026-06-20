@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2099DLeanBoundFreeRealAbelLimit» where
+package «R2101DLeanHasSumAbelBoundary» where
 
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git" @ "v4.31.0"
@@ -386,3 +386,11 @@ lean_lib R2098DLeanConvergentPartialSumBound where
 @[default_target]
 lean_lib R2099DLeanBoundFreeRealAbelLimit where
   roots := #[`R2099DLeanBoundFreeRealAbelLimit]
+
+@[default_target]
+lean_lib R2100DLeanRealPowerSeriesAbelBoundary where
+  roots := #[`R2100DLeanRealPowerSeriesAbelBoundary]
+
+@[default_target]
+lean_lib R2101DLeanHasSumAbelBoundary where
+  roots := #[`R2101DLeanHasSumAbelBoundary]
