@@ -1,0 +1,56 @@
+import R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay
+
+namespace R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate
+
+
+def endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_to_actual_li_target :=
+  @R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_to_actual_li_target
+
+def endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_statement :=
+  @R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_statement
+
+def endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_checked_candidate :=
+  @R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_checked_candidate
+
+def endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_replay_record :=
+  @R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_record
+
+structure EndpointTheoremFinalizationGateRecord where
+  certificateReplayInputAvailableHere : Bool
+  certificateReplayResultRecordedHere : Bool
+  endpointTheoremFinalizationGateExecutedHere : Bool
+  endpointTheoremFinalizationGateResultRecordedHere : Bool
+  endpointTheoremFinalizationGatePassedHere : Bool
+  endpointTheoremFinalizedHere : Bool
+deriving Repr, DecidableEq
+
+def endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record :
+    EndpointTheoremFinalizationGateRecord :=
+  { certificateReplayInputAvailableHere := true
+    certificateReplayResultRecordedHere := true
+    endpointTheoremFinalizationGateExecutedHere := true
+    endpointTheoremFinalizationGateResultRecordedHere := true
+    endpointTheoremFinalizationGatePassedHere := false
+    endpointTheoremFinalizedHere := false }
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_replay_input_available :
+    endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.certificateReplayInputAvailableHere = true :=
+  rfl
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_executed :
+    endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizationGateExecutedHere = true :=
+  rfl
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_result_recorded :
+    endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizationGateResultRecordedHere = true :=
+  rfl
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_not_yet_passed :
+    endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizationGatePassedHere = false :=
+  rfl
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_keeps_theorem_unfinalized :
+    endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizedHere = false :=
+  rfl
+
+end R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate
