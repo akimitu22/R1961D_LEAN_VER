@@ -1,0 +1,10 @@
+import R2099DLeanBoundFreeRealAbelLimit.BoundFreeRealAbelLimit
+
+namespace R2099DLeanBoundFreeRealAbelLimit
+
+#check infinite_abel_summation_identity_of_tendsto
+#check real_abel_average_tendsto_of_partial_sums
+#check BoundFreeRealAbelLimitWitness
+#check boundFreeRealAbelLimitWitness
+
+end R2099DLeanBoundFreeRealAbelLimit

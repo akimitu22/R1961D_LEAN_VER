@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2097DLeanConcreteRealAbelLimitTheorem» where
+package «R2099DLeanBoundFreeRealAbelLimit» where
 
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git" @ "v4.31.0"
@@ -378,3 +378,11 @@ lean_lib R2096DLeanInfiniteAbelSummationIdentity where
 @[default_target]
 lean_lib R2097DLeanConcreteRealAbelLimitTheorem where
   roots := #[`R2097DLeanConcreteRealAbelLimitTheorem]
+
+@[default_target]
+lean_lib R2098DLeanConvergentPartialSumBound where
+  roots := #[`R2098DLeanConvergentPartialSumBound]
+
+@[default_target]
+lean_lib R2099DLeanBoundFreeRealAbelLimit where
+  roots := #[`R2099DLeanBoundFreeRealAbelLimit]

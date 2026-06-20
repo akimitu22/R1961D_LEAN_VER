@@ -1,0 +1,10 @@
+import R2098DLeanConvergentPartialSumBound.ConvergentPartialSumBound
+
+namespace R2098DLeanConvergentPartialSumBound
+
+#check exists_abs_bound_of_tendsto_real
+#check exists_inclusive_partial_sum_abs_bound
+#check ConvergentPartialSumBoundWitness
+#check convergentPartialSumBoundWitness
+
+end R2098DLeanConvergentPartialSumBound
