@@ -1,0 +1,10 @@
+import R2090DLeanConcreteFiniteAbelSummation.ConcreteFiniteAbelSummation
+
+namespace R2090DLeanConcreteFiniteAbelSummation
+
+#check Real
+#check Finset.range
+#check partialSum
+#check finite_abel_summation
+
+end R2090DLeanConcreteFiniteAbelSummation
