@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2091DLeanConcreteRealAbelBoundary» where
+package «R2093DLeanGeometricAbelKernelInfiniteNormalization» where
 
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git" @ "v4.31.0"
@@ -354,3 +354,11 @@ lean_lib R2090DLeanConcreteFiniteAbelSummation where
 @[default_target]
 lean_lib R2091DLeanConcreteRealAbelBoundary where
   roots := #[`R2091DLeanConcreteRealAbelBoundary]
+
+@[default_target]
+lean_lib R2092DLeanGeometricAbelKernelMassLimit where
+  roots := #[`R2092DLeanGeometricAbelKernelMassLimit]
+
+@[default_target]
+lean_lib R2093DLeanGeometricAbelKernelInfiniteNormalization where
+  roots := #[`R2093DLeanGeometricAbelKernelInfiniteNormalization]

@@ -1,0 +1,11 @@
+import R2093DLeanGeometricAbelKernelInfiniteNormalization.GeometricAbelKernelInfiniteNormalization
+
+namespace R2093DLeanGeometricAbelKernelInfiniteNormalization
+
+#check geometric_abel_kernel_hasSum_one
+#check geometric_abel_kernel_summable
+#check geometric_abel_kernel_tsum_eq_one
+#check GeometricAbelKernelInfiniteNormalizationWitness
+#check geometricAbelKernelInfiniteNormalizationWitness
+
+end R2093DLeanGeometricAbelKernelInfiniteNormalization

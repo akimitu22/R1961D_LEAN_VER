@@ -1,0 +1,13 @@
+import R2092DLeanGeometricAbelKernelMassLimit.GeometricAbelKernelMassLimit
+
+namespace R2092DLeanGeometricAbelKernelMassLimit
+
+#check Filter.Tendsto
+#check geometric_abel_kernel_nonneg
+#check finite_geometric_abel_kernel_mass_nonneg
+#check finite_geometric_abel_kernel_mass_le_one
+#check finite_geometric_abel_kernel_mass_tendsto_one
+#check GeometricAbelKernelMassLimitWitness
+#check geometricAbelKernelMassLimitWitness
+
+end R2092DLeanGeometricAbelKernelMassLimit
