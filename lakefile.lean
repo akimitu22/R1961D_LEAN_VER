@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction» where
+package «R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge» where
 
 lean_lib «R1949DLean» where
 
@@ -326,3 +326,11 @@ lean_lib R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitne
 @[default_target]
 lean_lib R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction where
   roots := #[`R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction]
+
+@[default_target]
+lean_lib R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence where
+  roots := #[`R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence]
+
+@[default_target]
+lean_lib R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge where
+  roots := #[`R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge]

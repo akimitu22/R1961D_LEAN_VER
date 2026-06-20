@@ -1,0 +1,1422 @@
+✔ [1/4] Built R1949DLean.Basic (352ms)
+✔ [2/5] Built R1949DLean.AbelBookkeeping (356ms)
+✔ [3/6] Built R1949DLean.StructuralLayers (390ms)
+✔ [4/7] Built R1949DLean.TerminalClasses (365ms)
+✔ [5/8] Built R1949DLean.AssumptionPackages (312ms)
+✔ [6/9] Built R1949DLean.DependencyCertificates (358ms)
+✔ [7/10] Built R1949DLean.FiniteToAbelChain (349ms)
+✔ [8/11] Built R1949DLean.StructuralSupportChain (332ms)
+✔ [9/12] Built R1949DLean.TerminalRigidityChain (293ms)
+✔ [10/15] Built R1949DLean.MainLogicalChain (338ms)
+✔ [11/16] Built R1949DLean.ProofObligationMap (547ms)
+✔ [12/17] Built R1949DLean.ToyModel (377ms)
+✔ [13/18] Built R1949DLean (311ms)
+✔ [14/21] Built R1952DLeanSupport.VersionMap (303ms)
+✔ [15/22] Built R1952DLeanSupport.SupportTheorems (313ms)
+✔ [16/23] Built R1952DLeanSupport.ProfileCoverage (340ms)
+✔ [17/24] Built R1952DLeanSupport.ObligationFieldBindings (333ms)
+✔ [18/25] Built R1952DLeanSupport.ToySupport (296ms)
+✔ [19/28] Built R1952DLeanSupport (343ms)
+✔ [20/29] Built R1954DLeanBridge.VersionBridge (400ms)
+✔ [21/30] Built R1954DLeanBridge.StandardTargets (349ms)
+✔ [22/31] Built R1954DLeanBridge.ManuscriptObjects (327ms)
+✔ [23/32] Built R1954DLeanBridge.BridgeObligations (482ms)
+✔ [24/33] Built R1954DLeanBridge.BridgeTheorems (304ms)
+✔ [25/37] Built R1954DLeanBridge.ToyBridge (319ms)
+✔ [26/38] Built R1954DLeanBridge (366ms)
+✔ [27/39] Built R1955DLeanScaffold.VersionScaffold (320ms)
+✔ [28/40] Built R1955DLeanScaffold.SemiConcreteTargets (402ms)
+✔ [29/41] Built R1955DLeanScaffold.ManuscriptScaffolds (358ms)
+✔ [30/42] Built R1955DLeanScaffold.RefinedBridgeObligations (439ms)
+✔ [31/46] Built R1955DLeanScaffold.RefinedBridgeAxioms (373ms)
+✔ [32/47] Built R1955DLeanScaffold.RefinedBridgeTheorems (303ms)
+✔ [33/48] Built R1955DLeanScaffold.ToyScaffold (348ms)
+✔ [34/51] Built R1955DLeanScaffold (294ms)
+✔ [35/52] Built R1956DLeanInterface.VersionInterface (301ms)
+✔ [36/53] Built R1956DLeanInterface.AnalyticInterfaces (349ms)
+✔ [37/54] Built R1956DLeanInterface.EstimateSlots (479ms)
+✔ [38/60] Built R1956DLeanInterface.MathlibAnchors (342ms)
+✔ [39/66] Built R1956DLeanInterface.InterfaceObligations (430ms)
+✔ [40/72] Built R1956DLeanInterface.InterfaceAxioms (357ms)
+✔ [41/74] Built R1956DLeanInterface.InterfaceTheorems (315ms)
+✔ [42/74] Built R1956DLeanInterface.ToyInterface (296ms)
+✔ [43/75] Built R1956DLeanInterface (302ms)
+✔ [44/77] Built R1957DLeanCoverage.VersionCoverage (300ms)
+✔ [45/77] Built R1957DLeanCoverage.CoverageCertificates (421ms)
+✔ [46/78] Built R1957DLeanCoverage.DependencyProfiles (314ms)
+✔ [47/79] Built R1957DLeanCoverage.NoHiddenAssumptions (293ms)
+✔ [48/81] Built R1957DLeanCoverage.ToyCoverage (378ms)
+✔ [49/81] Built R1957DLeanCoverage (343ms)
+✔ [50/82] Built R1958DLeanAudit.VersionAudit (308ms)
+✔ [51/83] Built R1958DLeanAudit.AuditLedgers (336ms)
+✔ [52/85] Built R1958DLeanAudit.NoOrphanCertificates (366ms)
+✔ [53/85] Built R1958DLeanAudit.NonClaimCertificates (392ms)
+✔ [54/86] Built R1958DLeanAudit.ToyAudit (333ms)
+✔ [55/87] Built R1958DLeanAudit (399ms)
+✔ [56/89] Built R1959DLeanTransfer.SameScaleTransfer (361ms)
+✔ [57/89] Built R1959DLeanTransfer.FiniteToAbelTransfer (321ms)
+✔ [58/90] Built R1959DLeanTransfer.TransferCertificates (303ms)
+✔ [59/91] Built R1959DLeanTransfer.ToyTransfer (337ms)
+✔ [60/93] Built R1959DLeanTransfer.VersionTransfer (310ms)
+✔ [61/93] Built R1959DLeanTransfer (319ms)
+✔ [62/94] Built R1960DLeanLimit.BoundaryLimitSystem (347ms)
+✔ [63/95] Built R1960DLeanLimit.AbelBoundaryTransfer (371ms)
+✔ [64/97] Built R1960DLeanLimit.LimitPassageCertificates (313ms)
+✔ [65/97] Built R1960DLeanLimit.ToyLimitPassage (301ms)
+✔ [66/98] Built R1960DLeanLimit.VersionLimit (332ms)
+✔ [67/99] Built R1960DLeanLimit (327ms)
+✔ [68/101] Built R1961DLeanPacket.PacketBalanceSystem (314ms)
+✔ [69/101] Built R1961DLeanPacket.ExplicitPacketTransfer (416ms)
+✔ [70/102] Built R1961DLeanPacket.PacketBalanceCertificates (384ms)
+✔ [71/103] Built R1961DLeanPacket.ToyPacketBalance (354ms)
+✔ [72/105] Built R1961DLeanPacket.VersionPacket (309ms)
+✔ [73/105] Built R1961DLeanPacket (322ms)
+✔ [74/106] Built R1962DLeanAnalyticRealization.AnalyticObligationTargets (451ms)
+✔ [75/107] Built R1962DLeanAnalyticRealization.ToyAnalyticRealization (282ms)
+✔ [76/109] Built R1962DLeanAnalyticRealization (345ms)
+✔ [77/109] Built R1963DLeanAnalyticDecomposition.ObligationProfiles (579ms)
+✔ [78/111] Built R1963DLeanAnalyticDecomposition.PacketConnectionMatrix (440ms)
+✔ [79/113] Built R1963DLeanAnalyticDecomposition.ToyDecomposition (285ms)
+✔ [80/113] Built R1963DLeanAnalyticDecomposition (307ms)
+✔ [81/114] Built R1964DLeanAnalyticMicroTargets.MicroTargetSlots (496ms)
+✔ [82/115] Built R1964DLeanAnalyticMicroTargets.MicroTargetBridge (328ms)
+✔ [83/117] Built R1964DLeanAnalyticMicroTargets.ToyMicroTargets (320ms)
+✔ [84/118] Built R1964DLeanAnalyticMicroTargets (385ms)
+✔ [85/119] Built R1965DLeanRealizationInterfaces.RealizationBlocks (558ms)
+✔ [86/121] Built R1965DLeanRealizationInterfaces.InterfaceBridge (381ms)
+✔ [87/121] Built R1965DLeanRealizationInterfaces.ToyRealizationInterfaces (304ms)
+✔ [88/122] Built R1965DLeanRealizationInterfaces (275ms)
+✔ [89/123] Built R1966DLeanSourceCategories.SourceCategories (442ms)
+✔ [90/125] Built R1966DLeanSourceCategories.SourceBridge (498ms)
+✔ [91/125] Built R1966DLeanSourceCategories.ToySourceCategories (318ms)
+✔ [92/126] Built R1966DLeanSourceCategories (279ms)
+✔ [93/127] Built R1967DLeanSourceEvidence.EvidenceSlots (520ms)
+✔ [94/129] Built R1967DLeanSourceEvidence.ChecklistBridge (380ms)
+✔ [95/130] Built R1967DLeanSourceEvidence.ToySourceEvidence (319ms)
+✔ [96/131] Built R1967DLeanSourceEvidence (270ms)
+✔ [97/133] Built R1968DLeanAnchorClassification.AnchorKinds (432ms)
+✔ [98/133] Built R1968DLeanAnchorClassification.AnchorBridge (334ms)
+✔ [99/134] Built R1968DLeanAnchorClassification.ToyAnchorClassification (323ms)
+✔ [100/135] Built R1968DLeanAnchorClassification (323ms)
+✔ [101/137] Built R1969DLeanFormalizationPriority.PriorityKinds (528ms)
+✔ [102/137] Built R1969DLeanFormalizationPriority.PriorityBridge (357ms)
+✔ [103/138] Built R1969DLeanFormalizationPriority.ToyFormalizationPriority (298ms)
+✔ [104/139] Built R1969DLeanFormalizationPriority (332ms)
+✔ [105/140] Built R1970DLeanFirstFormalizationTarget.MinimalTargetKinds (470ms)
+✔ [106/142] Built R1970DLeanFirstFormalizationTarget.FirstTargetBridge (422ms)
+✔ [107/142] Built R1970DLeanFirstFormalizationTarget.ToyFirstFormalizationTarget (301ms)
+✔ [108/143] Built R1970DLeanFirstFormalizationTarget (279ms)
+✔ [109/144] Built R1971DLeanAbelBoundarySkeleton.DefinitionSkeleton (384ms)
+✔ [110/145] Built R1971DLeanAbelBoundarySkeleton.SkeletonBridge (363ms)
+✔ [111/146] Built R1971DLeanAbelBoundarySkeleton.ToyAbelBoundarySkeleton (370ms)
+✔ [112/148] Built R1971DLeanAbelBoundarySkeleton (315ms)
+✔ [113/148] Built R1972DLeanToyAbelModel.ToyAnalyticAbelModel (368ms)
+✔ [114/149] Built R1972DLeanToyAbelModel.ModelBridge (385ms)
+✔ [115/150] Built R1972DLeanToyAbelModel.ToyRunningModel (351ms)
+✔ [116/151] Built R1972DLeanToyAbelModel (289ms)
+✔ [117/152] Built R1973DLeanFiniteAbelIdentity.FiniteIdentityShell (375ms)
+✔ [118/154] Built R1973DLeanFiniteAbelIdentity.BoundaryCompatibility (400ms)
+✔ [119/154] Built R1973DLeanFiniteAbelIdentity.ToyFiniteAbelIdentity (329ms)
+✔ [120/155] Built R1973DLeanFiniteAbelIdentity (318ms)
+✔ [121/156] Built R1974DLeanFiniteAbelComponents.ComponentSlots (410ms)
+✔ [122/157] Built R1974DLeanFiniteAbelComponents.ComponentBridge (352ms)
+✔ [123/158] Built R1974DLeanFiniteAbelComponents.ToyFiniteComponents (373ms)
+✔ [124/159] Built R1974DLeanFiniteAbelComponents (275ms)
+✔ [125/160] Built R1975DLeanFiniteAbelNormalization.NormalizationSlots (428ms)
+✔ [126/162] Built R1975DLeanFiniteAbelNormalization.NormalizationBridge (388ms)
+✔ [127/162] Built R1975DLeanFiniteAbelNormalization.ToyFiniteNormalization (340ms)
+✔ [128/163] Built R1975DLeanFiniteAbelNormalization (311ms)
+✔ [129/164] Built R1976DLeanFiniteAbelEstimateGates.EstimateGateSlots (488ms)
+✔ [130/165] Built R1976DLeanFiniteAbelEstimateGates.EstimateGateBridge (402ms)
+✔ [131/167] Built R1976DLeanFiniteAbelEstimateGates.ToyEstimateGates (329ms)
+✔ [132/167] Built R1976DLeanFiniteAbelEstimateGates (317ms)
+✔ [133/168] Built R1977DLeanEstimateDependencyClosure.DependencyTableSlots (570ms)
+✔ [134/169] Built R1977DLeanEstimateDependencyClosure.DependencyClosureBridge (411ms)
+✔ [135/170] Built R1977DLeanEstimateDependencyClosure.ToyDependencyClosure (341ms)
+✔ [136/172] Built R1977DLeanEstimateDependencyClosure (301ms)
+✔ [137/173] Built R1978DLeanQuantitativeEstimateMatrix.QuantitativeTargetSlots (431ms)
+✔ [138/174] Built R1978DLeanQuantitativeEstimateMatrix.MatrixBridge (373ms)
+✔ [139/175] Built R1978DLeanQuantitativeEstimateMatrix.ProofStrategySlots (398ms)
+✔ [140/177] Built R1978DLeanQuantitativeEstimateMatrix.ToyQuantitativeMatrix (400ms)
+✔ [141/178] Built R1978DLeanQuantitativeEstimateMatrix (280ms)
+✔ [142/179] Built R1979DLeanConcreteEstimateBlueprint.BlueprintSlots (442ms)
+✔ [143/180] Built R1979DLeanConcreteEstimateBlueprint.ConcreteLemmaInterfaces (450ms)
+✔ [144/182] Built R1979DLeanConcreteEstimateBlueprint.ReviewGapTable (430ms)
+✔ [145/182] Built R1979DLeanConcreteEstimateBlueprint.BlueprintBridge (450ms)
+✔ [146/184] Built R1979DLeanConcreteEstimateBlueprint.ToyConcreteEstimateBlueprint (403ms)
+✔ [147/187] Built R1979DLeanConcreteEstimateBlueprint (285ms)
+✔ [148/188] Built R1980DLeanConcreteEstimateStatements.StatementBankSlots (531ms)
+✔ [149/189] Built R1980DLeanConcreteEstimateStatements.StatementDependencyBridge (350ms)
+✔ [150/190] Built R1980DLeanConcreteEstimateStatements.ProofFileRouting (429ms)
+✔ [151/192] Built R1981DLeanConcreteProofSkeletons.ProofSkeletonSlots (432ms)
+✔ [152/193] Built R1980DLeanConcreteEstimateStatements.StatementBankBridge (366ms)
+✔ [153/193] Built R1981DLeanConcreteProofSkeletons.SignTransferSkeletons (346ms)
+✔ [154/193] Built R1981DLeanConcreteProofSkeletons.RemainderUniformitySkeletons (308ms)
+✔ [155/193] Built R1981DLeanConcreteProofSkeletons.BoundaryErrorSkeletons (319ms)
+✔ [156/193] Built R1981DLeanConcreteProofSkeletons.EndpointSkeletons (367ms)
+✔ [157/194] Built R1980DLeanConcreteEstimateStatements.ToyStatementBank (330ms)
+✔ [158/195] Built R1982DLeanProofObligationExecutionPlan.ExecutionPlanSlots (746ms)
+✔ [159/195] Built R1981DLeanConcreteProofSkeletons.SkeletonBridge (401ms)
+✔ [160/197] Built R1980DLeanConcreteEstimateStatements (332ms)
+✔ [161/197] Built R1982DLeanProofObligationExecutionPlan.ExecutionDependencyOrder (379ms)
+✔ [162/198] Built R1981DLeanConcreteProofSkeletons.ToyProofSkeletons (332ms)
+✔ [163/198] Built R1982DLeanProofObligationExecutionPlan.ExecutionBridge (324ms)
+✔ [164/200] Built R1981DLeanConcreteProofSkeletons (295ms)
+✔ [165/202] Built R1982DLeanProofObligationExecutionPlan.ToyExecutionPlan (342ms)
+✔ [166/203] Built R1982DLeanProofObligationExecutionPlan (296ms)
+✔ [167/204] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.ManuscriptAnchorSlots (389ms)
+✔ [168/205] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.VerificationSpineLedger (409ms)
+✔ [169/207] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.SpineBridge (344ms)
+✔ [170/208] Built R1984DLeanManuscriptObligationImplementationQueue.MainAnchoredQueueSlots (518ms)
+✔ [171/209] Built R1983DLeanMainManuscriptAnchoredVerificationSpine.ToyAnchoredSpine (324ms)
+✔ [172/209] Built R1984DLeanManuscriptObligationImplementationQueue.FirstImplementationFrontier (568ms)
+✔ [173/210] Built R1983DLeanMainManuscriptAnchoredVerificationSpine (309ms)
+✔ [174/212] Built R1984DLeanManuscriptObligationImplementationQueue.QueueBridge (336ms)
+✔ [175/213] Built R1985DLeanEndpointFirstImplementationBlock.EndpointBlockSlots (461ms)
+✔ [176/214] Built R1984DLeanManuscriptObligationImplementationQueue.ToyMainAnchoredQueue (298ms)
+✔ [177/214] Built R1985DLeanEndpointFirstImplementationBlock.EndpointDependencyFrontier (498ms)
+✔ [178/215] Built R1984DLeanManuscriptObligationImplementationQueue (315ms)
+✔ [179/218] Built R1985DLeanEndpointFirstImplementationBlock.EndpointImplementationBridge (333ms)
+✔ [180/218] Built R1986DLeanEndpointStatementGroup.EndpointStatementGroupSlots (504ms)
+✔ [181/219] Built R1985DLeanEndpointFirstImplementationBlock.ToyEndpointImplementationBlock (299ms)
+✔ [182/220] Built R1986DLeanEndpointStatementGroup.EndpointStatementDependencyOrder (493ms)
+✔ [183/222] Built R1985DLeanEndpointFirstImplementationBlock (277ms)
+✔ [184/223] Built R1986DLeanEndpointStatementGroup.EndpointStatementGroupBridge (361ms)
+✔ [185/224] Built R1987DLeanEndpointProofKernelInterface.EndpointProofKernelSlots (803ms)
+✔ [186/225] Built R1986DLeanEndpointStatementGroup.ToyEndpointStatementGroup (345ms)
+✔ [187/225] Built R1987DLeanEndpointProofKernelInterface.EndpointKernelDependencyInterface (563ms)
+✔ [188/227] Built R1986DLeanEndpointStatementGroup (288ms)
+✔ [189/228] Built R1987DLeanEndpointProofKernelInterface.EndpointProofKernelBridge (357ms)
+✔ [190/229] Built R1988DLeanEndpointKernelAxiomBoundary.EndpointKernelAxiomSlots (582ms)
+✔ [191/230] Built R1987DLeanEndpointProofKernelInterface.ToyEndpointProofKernelInterface (299ms)
+✔ [192/230] Built R1988DLeanEndpointKernelAxiomBoundary.EndpointFirstConcreteLemmaBoundary (530ms)
+✔ [193/232] Built R1987DLeanEndpointProofKernelInterface (277ms)
+✔ [194/233] Built R1988DLeanEndpointKernelAxiomBoundary.EndpointKernelAxiomBridge (329ms)
+✔ [195/234] Built R1989DLeanEndpointConcreteLemmaStubs.EndpointConcreteLemmaStubSlots (701ms)
+✔ [196/235] Built R1988DLeanEndpointKernelAxiomBoundary.ToyEndpointKernelAxiomBoundary (396ms)
+✔ [197/235] Built R1989DLeanEndpointConcreteLemmaStubs.EndpointLemmaStubDependencyGrid (681ms)
+✔ [198/237] Built R1988DLeanEndpointKernelAxiomBoundary (336ms)
+✔ [199/238] Built R1989DLeanEndpointConcreteLemmaStubs.EndpointConcreteLemmaStubBridge (370ms)
+✔ [200/239] Built R1990DLeanEndpointConcreteLemmaStatementBank.EndpointConcreteLemmaStatementSlots (837ms)
+✔ [201/240] Built R1989DLeanEndpointConcreteLemmaStubs.ToyEndpointConcreteLemmaStubs (327ms)
+✔ [202/240] Built R1990DLeanEndpointConcreteLemmaStatementBank.EndpointStatementDependencyMatrix (662ms)
+✔ [203/242] Built R1989DLeanEndpointConcreteLemmaStubs (280ms)
+✔ [204/243] Built R1990DLeanEndpointConcreteLemmaStatementBank.EndpointConcreteLemmaStatementBridge (347ms)
+✔ [205/244] Built R1990DLeanEndpointConcreteLemmaStatementBank.ToyEndpointConcreteLemmaStatementBank (366ms)
+✔ [206/245] Built R1990DLeanEndpointConcreteLemmaStatementBank (307ms)
+✔ [207/247] Built R1991DLeanEndpointConcreteProofRouteBank.EndpointConcreteProofRouteSlots (1.0s)
+✔ [208/248] Built R1991DLeanEndpointConcreteProofRouteBank.EndpointProofRouteDependencyPlan (851ms)
+✔ [209/249] Built R1991DLeanEndpointConcreteProofRouteBank.EndpointProofRouteBridge (400ms)
+✔ [210/250] Built R1991DLeanEndpointConcreteProofRouteBank.ToyEndpointProofRouteBank (346ms)
+✔ [211/252] Built R1991DLeanEndpointConcreteProofRouteBank (322ms)
+✔ [212/253] Built R1992DLeanEndpointProofKernelExecutionChecklist.EndpointExecutionChecklistSlots (1.0s)
+✔ [213/254] Built R1992DLeanEndpointProofKernelExecutionChecklist.EndpointExecutionDependencyChecklist (860ms)
+✔ [214/255] Built R1992DLeanEndpointProofKernelExecutionChecklist.EndpointExecutionChecklistBridge (436ms)
+✔ [215/257] Built R1992DLeanEndpointProofKernelExecutionChecklist.ToyEndpointExecutionChecklist (360ms)
+✔ [216/258] Built R1992DLeanEndpointProofKernelExecutionChecklist (332ms)
+✔ [217/259] Built R1993DLeanEndpointProofKernelImplementationLedger.EndpointKernelImplementationLedgerSlots (1.2s)
+✔ [218/260] Built R1993DLeanEndpointProofKernelImplementationLedger.EndpointKernelImplementationDependencyLedger (1.3s)
+✔ [219/262] Built R1993DLeanEndpointProofKernelImplementationLedger.EndpointKernelImplementationLedgerBridge (389ms)
+✔ [220/263] Built R1993DLeanEndpointProofKernelImplementationLedger.ToyEndpointKernelImplementationLedger (375ms)
+✔ [221/264] Built R1993DLeanEndpointProofKernelImplementationLedger (280ms)
+✔ [222/265] Built R1994DLeanEndpointProofKernelExecutionInterface.EndpointKernelExecutionInterfaceSlots (1.7s)
+✔ [223/267] Built R1994DLeanEndpointProofKernelExecutionInterface.EndpointKernelExecutionDependencyInterface (1.3s)
+✔ [224/268] Built R1994DLeanEndpointProofKernelExecutionInterface.EndpointKernelExecutionInterfaceBridge (441ms)
+✔ [225/269] Built R1994DLeanEndpointProofKernelExecutionInterface.ToyEndpointKernelExecutionInterface (493ms)
+✔ [226/270] Built R1994DLeanEndpointProofKernelExecutionInterface (294ms)
+✔ [227/272] Built R1995DLeanEndpointFirstExecutableSkeleton.EndpointFirstExecutableSkeletonSlots (1.7s)
+✔ [228/273] Built R1995DLeanEndpointFirstExecutableSkeleton.EndpointFirstExecutableSkeletonDependencyPlan (1.5s)
+✔ [229/274] Built R1995DLeanEndpointFirstExecutableSkeleton.EndpointFirstExecutableSkeletonBridge (405ms)
+✔ [230/275] Built R1995DLeanEndpointFirstExecutableSkeleton.ToyEndpointFirstExecutableSkeleton (427ms)
+✔ [231/277] Built R1995DLeanEndpointFirstExecutableSkeleton (292ms)
+✔ [232/278] Built R1996DLeanEndpointExecutableKernelBoundary.EndpointExecutableKernelBoundarySlots (1.9s)
+✔ [233/279] Built R1996DLeanEndpointExecutableKernelBoundary.EndpointExecutableKernelBoundaryDependencyPlan (1.8s)
+✔ [234/280] Built R1996DLeanEndpointExecutableKernelBoundary.EndpointExecutableKernelBoundaryBridge (488ms)
+✔ [235/282] Built R1996DLeanEndpointExecutableKernelBoundary.ToyEndpointExecutableKernelBoundary (499ms)
+✔ [236/283] Built R1996DLeanEndpointExecutableKernelBoundary (303ms)
+✔ [237/284] Built R1997DLeanEndpointExecutableProofKernelStub.EndpointExecutableProofKernelStubSlots (2.2s)
+✔ [238/285] Built R1997DLeanEndpointExecutableProofKernelStub.EndpointExecutableProofKernelStubDependencyPlan (1.8s)
+✔ [239/287] Built R1997DLeanEndpointExecutableProofKernelStub.EndpointExecutableProofKernelStubBridge (499ms)
+✔ [240/287] Built R1997DLeanEndpointExecutableProofKernelStub.ToyEndpointExecutableProofKernelStub (451ms)
+✔ [241/289] Built R1997DLeanEndpointExecutableProofKernelStub (336ms)
+✔ [242/290] Built R1998DLeanEndpointExecutableProofKernelBodyPlan.EndpointExecutableProofKernelBodyPlanSlots (2.2s)
+✔ [243/292] Built R1998DLeanEndpointExecutableProofKernelBodyPlan.EndpointExecutableProofKernelBodyDependencyGrid (1.0s)
+✔ [244/293] Built R1998DLeanEndpointExecutableProofKernelBodyPlan.EndpointExecutableProofKernelBodyPlanBridge (607ms)
+✔ [245/294] Built R1998DLeanEndpointExecutableProofKernelBodyPlan.ToyEndpointExecutableProofKernelBodyPlan (477ms)
+✔ [246/295] Built R1998DLeanEndpointExecutableProofKernelBodyPlan (291ms)
+✔ [247/297] Built R1999DLeanEndpointFirstConcreteDischargeInterface.EndpointFirstConcreteDischargeInterfaceSlots (2.4s)
+✔ [248/298] Built R1999DLeanEndpointFirstConcreteDischargeInterface.EndpointFirstConcreteDischargeDependencyInterface (2.0s)
+✔ [249/300] Built R1999DLeanEndpointFirstConcreteDischargeInterface.EndpointFirstConcreteDischargeInterfaceBridge (575ms)
+✔ [250/302] Built R1999DLeanEndpointFirstConcreteDischargeInterface.ToyEndpointFirstConcreteDischargeInterface (509ms)
+✔ [251/303] Built R1999DLeanEndpointFirstConcreteDischargeInterface (288ms)
+✔ [252/304] Built R2000DLeanEndpointConcreteDischargeObligationSlots.EndpointConcreteDischargeObligationSlots (2.0s)
+✔ [253/305] Built R2000DLeanEndpointConcreteDischargeObligationSlots.EndpointConcreteDischargeDependencyTable (2.5s)
+✔ [254/307] Built R2000DLeanEndpointConcreteDischargeObligationSlots.EndpointConcreteDischargeObligationBridge (638ms)
+✔ [255/308] Built R2000DLeanEndpointConcreteDischargeObligationSlots.ToyEndpointConcreteDischargeObligationSlots (576ms)
+✔ [256/309] Built R2000DLeanEndpointConcreteDischargeObligationSlots (323ms)
+✔ [257/310] Built R2001DLeanEndpointFirstDischargeCertificateInterface.EndpointFirstDischargeCertificateSlots (3.3s)
+✔ [258/312] Built R2001DLeanEndpointFirstDischargeCertificateInterface.EndpointFirstDischargeCertificateDependencyMap (3.1s)
+✔ [259/313] Built R2001DLeanEndpointFirstDischargeCertificateInterface.EndpointFirstDischargeCertificateBridge (703ms)
+✔ [260/314] Built R2001DLeanEndpointFirstDischargeCertificateInterface.ToyEndpointFirstDischargeCertificateInterface (604ms)
+✔ [261/315] Built R2001DLeanEndpointFirstDischargeCertificateInterface (291ms)
+✔ [262/317] Built R2002DLeanEndpointFirstCertificatePayloadSlots.EndpointFirstCertificatePayloadSlots (3.8s)
+✔ [263/318] Built R2002DLeanEndpointFirstCertificatePayloadSlots.EndpointFirstCertificatePayloadDependencyPlan (3.7s)
+✔ [264/320] Built R2002DLeanEndpointFirstCertificatePayloadSlots.EndpointFirstCertificatePayloadBridge (792ms)
+✔ [265/322] Built R2002DLeanEndpointFirstCertificatePayloadSlots.ToyEndpointFirstCertificatePayloadSlots (621ms)
+✔ [266/324] Built R2002DLeanEndpointFirstCertificatePayloadSlots (319ms)
+✔ [267/325] Built R2003DLeanEndpointFirstDischargeAttemptBoundary.EndpointFirstDischargeAttemptBoundarySlots (4.5s)
+✔ [268/327] Built R2003DLeanEndpointFirstDischargeAttemptBoundary.EndpointFirstDischargeAttemptDependencyAudit (4.4s)
+✔ [269/328] Built R2003DLeanEndpointFirstDischargeAttemptBoundary.EndpointFirstDischargeAttemptBoundaryBridge (740ms)
+✔ [270/329] Built R2003DLeanEndpointFirstDischargeAttemptBoundary.ToyEndpointFirstDischargeAttemptBoundary (853ms)
+✔ [271/330] Built R2003DLeanEndpointFirstDischargeAttemptBoundary (289ms)
+✔ [272/332] Built R2004DLeanEndpointFirstDischargeAttemptInputSlots.EndpointFirstDischargeAttemptInputSlots (5.3s)
+✔ [273/333] Built R2004DLeanEndpointFirstDischargeAttemptInputSlots.EndpointFirstDischargeAttemptInputDependencyPlan (5.1s)
+✔ [274/334] Built R2004DLeanEndpointFirstDischargeAttemptInputSlots.EndpointFirstDischargeAttemptInputBridge (877ms)
+✔ [275/337] Built R2004DLeanEndpointFirstDischargeAttemptInputSlots.ToyEndpointFirstDischargeAttemptInputSlots (675ms)
+✔ [276/338] Built R2004DLeanEndpointFirstDischargeAttemptInputSlots (289ms)
+✔ [277/339] Built R2005DLeanEndpointFirstDischargeExecutionPrecheck.EndpointFirstDischargeExecutionPrecheckSlots (6.4s)
+✔ [278/340] Built R2005DLeanEndpointFirstDischargeExecutionPrecheck.EndpointFirstDischargeExecutionPrecheckDependencyAudit (6.1s)
+✔ [279/342] Built R2005DLeanEndpointFirstDischargeExecutionPrecheck.EndpointFirstDischargeExecutionPrecheckBridge (982ms)
+✔ [280/343] Built R2005DLeanEndpointFirstDischargeExecutionPrecheck.ToyEndpointFirstDischargeExecutionPrecheck (865ms)
+✔ [281/344] Built R2005DLeanEndpointFirstDischargeExecutionPrecheck (339ms)
+✔ [282/345] Built R2006DLeanEndpointFirstDischargeExecutionGate.EndpointFirstDischargeExecutionGateSlots (7.4s)
+✔ [283/347] Built R2006DLeanEndpointFirstDischargeExecutionGate.EndpointFirstDischargeExecutionGateDependencyAudit (7.6s)
+✔ [284/348] Built R2006DLeanEndpointFirstDischargeExecutionGate.EndpointFirstDischargeExecutionGateBridge (936ms)
+✔ [285/349] Built R2006DLeanEndpointFirstDischargeExecutionGate.ToyEndpointFirstDischargeExecutionGate (945ms)
+✔ [286/350] Built R2006DLeanEndpointFirstDischargeExecutionGate (349ms)
+✔ [287/352] Built R2007DLeanEndpointFirstDischargeDryRunTrace.EndpointFirstDischargeDryRunTraceSlots (8.8s)
+✔ [288/353] Built R2007DLeanEndpointFirstDischargeDryRunTrace.EndpointFirstDischargeDryRunTraceDependencyAudit (8.9s)
+✔ [289/355] Built R2007DLeanEndpointFirstDischargeDryRunTrace.EndpointFirstDischargeDryRunTraceBridge (1.1s)
+✔ [290/357] Built R2007DLeanEndpointFirstDischargeDryRunTrace.ToyEndpointFirstDischargeDryRunTrace (937ms)
+✔ [291/358] Built R2007DLeanEndpointFirstDischargeDryRunTrace (326ms)
+✔ [292/359] Built R2008DLeanEndpointFirstDischargeDryRunResultSlots.EndpointFirstDischargeDryRunResultSlots (10s)
+✔ [293/360] Built R2008DLeanEndpointFirstDischargeDryRunResultSlots.EndpointFirstDischargeDryRunResultDependencyAudit (9.5s)
+✔ [294/362] Built R2008DLeanEndpointFirstDischargeDryRunResultSlots.EndpointFirstDischargeDryRunResultBridge (1.2s)
+✔ [295/363] Built R2008DLeanEndpointFirstDischargeDryRunResultSlots.ToyEndpointFirstDischargeDryRunResultSlots (1.1s)
+✔ [296/364] Built R2008DLeanEndpointFirstDischargeDryRunResultSlots (314ms)
+✔ [297/365] Built R2009DLeanEndpointFirstDischargeWitnessHandoffInterface.EndpointFirstDischargeWitnessHandoffSlots (12s)
+✔ [298/367] Built R2009DLeanEndpointFirstDischargeWitnessHandoffInterface.EndpointFirstDischargeWitnessHandoffDependencyAudit (11s)
+✔ [299/368] Built R2009DLeanEndpointFirstDischargeWitnessHandoffInterface.EndpointFirstDischargeWitnessHandoffBridge (1.5s)
+✔ [300/370] Built R2009DLeanEndpointFirstDischargeWitnessHandoffInterface.ToyEndpointFirstDischargeWitnessHandoffInterface (1.2s)
+✔ [301/372] Built R2009DLeanEndpointFirstDischargeWitnessHandoffInterface (300ms)
+✔ [302/373] Built R2010DLeanEndpointFirstWitnessValidationSlots.EndpointFirstWitnessValidationSlots (13s)
+✔ [303/374] Built R2010DLeanEndpointFirstWitnessValidationSlots.EndpointFirstWitnessValidationDependencyAudit (12s)
+✔ [304/375] Built R2010DLeanEndpointFirstWitnessValidationSlots.EndpointFirstWitnessValidationBridge (1.6s)
+✔ [305/377] Built R2010DLeanEndpointFirstWitnessValidationSlots.ToyEndpointFirstWitnessValidationSlots (1.4s)
+✔ [306/378] Built R2010DLeanEndpointFirstWitnessValidationSlots (349ms)
+✔ [307/379] Built R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary.EndpointFirstDischargeExecutionHandoffSlots (15s)
+✔ [308/380] Built R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary.EndpointFirstDischargeExecutionHandoffDependencyAudit (14s)
+✔ [309/383] Built R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary.EndpointFirstDischargeExecutionHandoffBridge (1.7s)
+✔ [310/384] Built R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary.ToyEndpointFirstDischargeExecutionHandoffBoundary (1.4s)
+✔ [311/385] Built R2011DLeanEndpointFirstDischargeExecutionHandoffBoundary (298ms)
+✔ [312/387] Built R2012DLeanEndpointFirstExecutionHandoffPayloadSlots.EndpointFirstExecutionHandoffPayloadSlots (18s)
+✔ [313/388] Built R2012DLeanEndpointFirstExecutionHandoffPayloadSlots.EndpointFirstExecutionHandoffPayloadDependencyAudit (17s)
+✔ [314/389] Built R2012DLeanEndpointFirstExecutionHandoffPayloadSlots.EndpointFirstExecutionHandoffPayloadBridge (1.9s)
+✔ [315/392] Built R2012DLeanEndpointFirstExecutionHandoffPayloadSlots.ToyEndpointFirstExecutionHandoffPayloadSlots (1.6s)
+✔ [316/393] Built R2012DLeanEndpointFirstExecutionHandoffPayloadSlots (305ms)
+✔ [317/394] Built R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary.EndpointFirstDischargeExecutionRehearsalSlots (21s)
+✔ [318/395] Built R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary.EndpointFirstDischargeExecutionRehearsalDependencyAudit (20s)
+✔ [319/397] Built R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary.EndpointFirstDischargeExecutionRehearsalBridge (2.2s)
+✔ [320/398] Built R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary.ToyEndpointFirstDischargeExecutionRehearsalBoundary (1.7s)
+✔ [321/399] Built R2013DLeanEndpointFirstDischargeExecutionRehearsalBoundary (300ms)
+✔ [322/400] Built R2014DLeanEndpointFirstRehearsalResultSlots.EndpointFirstRehearsalResultSlots (23s)
+✔ [323/402] Built R2014DLeanEndpointFirstRehearsalResultSlots.EndpointFirstRehearsalResultDependencyAudit (22s)
+✔ [324/403] Built R2014DLeanEndpointFirstRehearsalResultSlots.EndpointFirstRehearsalResultBridge (2.3s)
+✔ [325/404] Built R2014DLeanEndpointFirstRehearsalResultSlots.ToyEndpointFirstRehearsalResultSlots (1.8s)
+✔ [326/405] Built R2014DLeanEndpointFirstRehearsalResultSlots (299ms)
+✔ [327/407] Built R2015DLeanEndpointFirstExecutionWitnessPacketBoundary.EndpointFirstExecutionWitnessPacketSlots (27s)
+✔ [328/408] Built R2015DLeanEndpointFirstExecutionWitnessPacketBoundary.EndpointFirstExecutionWitnessPacketDependencyAudit (26s)
+✔ [329/409] Built R2015DLeanEndpointFirstExecutionWitnessPacketBoundary.EndpointFirstExecutionWitnessPacketBridge (2.9s)
+✔ [330/410] Built R2015DLeanEndpointFirstExecutionWitnessPacketBoundary.ToyEndpointFirstExecutionWitnessPacketBoundary (2.1s)
+✔ [331/412] Built R2015DLeanEndpointFirstExecutionWitnessPacketBoundary (344ms)
+✔ [332/413] Built R2016DLeanEndpointFirstExecutionWitnessValidationSlots.EndpointFirstExecutionWitnessValidationSlots (32s)
+✔ [333/414] Built R2016DLeanEndpointFirstExecutionWitnessValidationSlots.EndpointFirstExecutionWitnessValidationDependencyAudit (32s)
+✔ [334/415] Built R2016DLeanEndpointFirstExecutionWitnessValidationSlots.EndpointFirstExecutionWitnessValidationBridge (2.9s)
+✔ [335/417] Built R2016DLeanEndpointFirstExecutionWitnessValidationSlots.ToyEndpointFirstExecutionWitnessValidationSlots (2.7s)
+✔ [336/418] Built R2016DLeanEndpointFirstExecutionWitnessValidationSlots (359ms)
+✔ [337/419] Built R2017DLeanEndpointFirstExecutableAttemptShellBoundary.EndpointFirstExecutableAttemptShellBoundarySlots (35s)
+✔ [338/420] Built R2017DLeanEndpointFirstExecutableAttemptShellBoundary.EndpointFirstExecutableAttemptShellDependencyAudit (36s)
+✔ [339/422] Built R2017DLeanEndpointFirstExecutableAttemptShellBoundary.EndpointFirstExecutableAttemptShellBoundaryBridge (3.3s)
+✔ [340/423] Built R2017DLeanEndpointFirstExecutableAttemptShellBoundary.ToyEndpointFirstExecutableAttemptShellBoundary (3.2s)
+✔ [341/424] Built R2017DLeanEndpointFirstExecutableAttemptShellBoundary (311ms)
+✔ [342/425] Built R2018DLeanEndpointFirstExecutableAttemptInputSlots.EndpointFirstExecutableAttemptInputSlots (41s)
+✔ [343/427] Built R2018DLeanEndpointFirstExecutableAttemptInputSlots.EndpointFirstExecutableAttemptInputDependencyAudit (40s)
+✔ [344/428] Built R2018DLeanEndpointFirstExecutableAttemptInputSlots.EndpointFirstExecutableAttemptInputBridge (3.7s)
+✔ [345/429] Built R2018DLeanEndpointFirstExecutableAttemptInputSlots.ToyEndpointFirstExecutableAttemptInputSlots (3.5s)
+✔ [346/432] Built R2018DLeanEndpointFirstExecutableAttemptInputSlots (313ms)
+✔ [347/432] Built R2019DLeanEndpointFirstExecutableAttemptStartBoundary.EndpointFirstExecutableAttemptStartBoundarySlots (46s)
+✔ [348/435] Built R2019DLeanEndpointFirstExecutableAttemptStartBoundary.EndpointFirstExecutableAttemptStartDependencyAudit (45s)
+✔ [349/437] Built R2019DLeanEndpointFirstExecutableAttemptStartBoundary.EndpointFirstExecutableAttemptStartBoundaryBridge (4.7s)
+✔ [350/438] Built R2019DLeanEndpointFirstExecutableAttemptStartBoundary.ToyEndpointFirstExecutableAttemptStartBoundary (3.4s)
+✔ [351/440] Built R2019DLeanEndpointFirstExecutableAttemptStartBoundary (313ms)
+✔ [352/442] Built R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots.EndpointFirstExecutableAttemptStartCertificateSlots (52s)
+✔ [353/443] Built R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots.EndpointFirstExecutableAttemptStartCertificateDependencyAudit (51s)
+✔ [354/444] Built R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots.EndpointFirstExecutableAttemptStartCertificateBridge (4.9s)
+✔ [355/444] Built R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots.ToyEndpointFirstExecutableAttemptStartCertificateSlots (3.6s)
+✔ [356/447] Built R2020DLeanEndpointFirstExecutableAttemptStartCertificateSlots (383ms)
+✔ [357/448] Built R2021DLeanEndpointFirstProofKernelInvocationBoundary.EndpointFirstProofKernelInvocationBoundarySlots (58s)
+✔ [358/449] Built R2021DLeanEndpointFirstProofKernelInvocationBoundary.EndpointFirstProofKernelInvocationDependencyAudit (57s)
+✔ [359/450] Built R2021DLeanEndpointFirstProofKernelInvocationBoundary.EndpointFirstProofKernelInvocationBoundaryBridge (4.9s)
+✔ [360/452] Built R2021DLeanEndpointFirstProofKernelInvocationBoundary.ToyEndpointFirstProofKernelInvocationBoundary (4.5s)
+✔ [361/452] Built R2021DLeanEndpointFirstProofKernelInvocationBoundary (384ms)
+✔ [362/454] Built R2022DLeanEndpointFirstProofKernelInvocationCertificateSlots.EndpointFirstProofKernelInvocationCertificateSlots (529ms)
+✔ [363/455] Built R2022DLeanEndpointFirstProofKernelInvocationCertificateSlots.EndpointFirstProofKernelInvocationCertificateDependencyAudit (397ms)
+✔ [364/457] Built R2022DLeanEndpointFirstProofKernelInvocationCertificateSlots.EndpointFirstProofKernelInvocationCertificateBridge (347ms)
+✔ [365/458] Built R2022DLeanEndpointFirstProofKernelInvocationCertificateSlots.ToyEndpointFirstProofKernelInvocationCertificateSlots (597ms)
+✔ [366/459] Built R2022DLeanEndpointFirstProofKernelInvocationCertificateSlots (575ms)
+✔ [367/462] Built R2023DLeanEndpointFirstProofKernelExecutionBoundary.EndpointFirstProofKernelExecutionBoundarySlots (544ms)
+✔ [368/463] Built R2023DLeanEndpointFirstProofKernelExecutionBoundary.EndpointFirstProofKernelExecutionDependencyAudit (358ms)
+✔ [369/464] Built R2023DLeanEndpointFirstProofKernelExecutionBoundary.EndpointFirstProofKernelExecutionBoundaryBridge (336ms)
+✔ [370/465] Built R2023DLeanEndpointFirstProofKernelExecutionBoundary.ToyEndpointFirstProofKernelExecutionBoundary (342ms)
+✔ [371/467] Built R2023DLeanEndpointFirstProofKernelExecutionBoundary (366ms)
+✔ [372/468] Built R2024DLeanEndpointFirstProofKernelExecutionCertificateSlots.EndpointFirstProofKernelExecutionCertificateSlots (483ms)
+✔ [373/469] Built R2024DLeanEndpointFirstProofKernelExecutionCertificateSlots.EndpointFirstProofKernelExecutionCertificateDependencyAudit (405ms)
+✔ [374/470] Built R2024DLeanEndpointFirstProofKernelExecutionCertificateSlots.EndpointFirstProofKernelExecutionCertificateBridge (343ms)
+✔ [375/472] Built R2024DLeanEndpointFirstProofKernelExecutionCertificateSlots.ToyEndpointFirstProofKernelExecutionCertificateSlots (344ms)
+✔ [376/473] Built R2024DLeanEndpointFirstProofKernelExecutionCertificateSlots (390ms)
+✔ [377/474] Built R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary.EndpointFirstConcreteLemmaDischargeBoundarySlots (482ms)
+✔ [378/475] Built R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary.EndpointFirstConcreteLemmaDischargeDependencyAudit (460ms)
+✔ [379/477] Built R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary.EndpointFirstConcreteLemmaDischargeBoundaryBridge (393ms)
+✔ [380/478] Built R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary.ToyEndpointFirstConcreteLemmaDischargeBoundary (342ms)
+✔ [381/479] Built R2025DLeanEndpointFirstConcreteLemmaDischargeBoundary (324ms)
+✔ [382/480] Built R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots.EndpointFirstConcreteLemmaDischargeCertificateSlots (493ms)
+✔ [383/482] Built R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots.EndpointFirstConcreteLemmaDischargeCertificateDependencyAudit (473ms)
+✔ [384/483] Built R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots.EndpointFirstConcreteLemmaDischargeCertificateBridge (345ms)
+✔ [385/484] Built R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots.ToyEndpointFirstConcreteLemmaDischargeCertificateSlots (356ms)
+✔ [386/485] Built R2026DLeanEndpointFirstConcreteLemmaDischargeCertificateSlots (437ms)
+✔ [387/487] Built R2027DLeanEndpointFirstEstimateHandoffBoundary.EndpointFirstEstimateHandoffBoundarySlots (488ms)
+✔ [388/488] Built R2027DLeanEndpointFirstEstimateHandoffBoundary.EndpointFirstEstimateHandoffDependencyAudit (488ms)
+✔ [389/489] Built R2027DLeanEndpointFirstEstimateHandoffBoundary.EndpointFirstEstimateHandoffBoundaryBridge (342ms)
+✔ [390/490] Built R2027DLeanEndpointFirstEstimateHandoffBoundary.ToyEndpointFirstEstimateHandoffBoundary (349ms)
+✔ [391/490] Built R2027DLeanEndpointFirstEstimateHandoffBoundary (356ms)
+✔ [392/493] Built R2028DLeanEndpointFirstEstimateHandoffCertificateSlots.EndpointFirstEstimateHandoffCertificateSlots (605ms)
+✔ [393/494] Built R2028DLeanEndpointFirstEstimateHandoffCertificateSlots.EndpointFirstEstimateHandoffCertificateDependencyAudit (428ms)
+✔ [394/495] Built R2028DLeanEndpointFirstEstimateHandoffCertificateSlots.EndpointFirstEstimateHandoffCertificateBridge (355ms)
+✔ [395/497] Built R2028DLeanEndpointFirstEstimateHandoffCertificateSlots.ToyEndpointFirstEstimateHandoffCertificateSlots (342ms)
+✔ [396/497] Built R2028DLeanEndpointFirstEstimateHandoffCertificateSlots (366ms)
+✔ [397/499] Built R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary.EndpointFirstExplicitFormulaHandoffBoundarySlots (501ms)
+✔ [398/502] Built R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary.EndpointFirstExplicitFormulaHandoffDependencyAudit (416ms)
+✔ [399/503] Built R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary.EndpointFirstExplicitFormulaHandoffBoundaryBridge (355ms)
+✔ [400/504] Built R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary.ToyEndpointFirstExplicitFormulaHandoffBoundary (405ms)
+✔ [401/505] Built R2029DLeanEndpointFirstExplicitFormulaHandoffBoundary (337ms)
+✔ [402/507] Built R2030DLeanEndpointFirstExplicitFormulaHandoffCertificateSlots.EndpointFirstExplicitFormulaHandoffCertificateSlots (517ms)
+✔ [403/508] Built R2030DLeanEndpointFirstExplicitFormulaHandoffCertificateSlots.EndpointFirstExplicitFormulaHandoffCertificateDependencyAudit (437ms)
+✔ [404/510] Built R2030DLeanEndpointFirstExplicitFormulaHandoffCertificateSlots.EndpointFirstExplicitFormulaHandoffCertificateBridge (388ms)
+✔ [405/512] Built R2030DLeanEndpointFirstExplicitFormulaHandoffCertificateSlots.ToyEndpointFirstExplicitFormulaHandoffCertificateSlots (390ms)
+✔ [406/513] Built R2030DLeanEndpointFirstExplicitFormulaHandoffCertificateSlots (356ms)
+✔ [407/514] Built R2031DLeanEndpointFirstRHTargetIntegrationBoundary.EndpointFirstRHTargetIntegrationBoundarySlots (535ms)
+✔ [408/515] Built R2031DLeanEndpointFirstRHTargetIntegrationBoundary.EndpointFirstRHTargetIntegrationDependencyAudit (483ms)
+✔ [409/517] Built R2031DLeanEndpointFirstRHTargetIntegrationBoundary.EndpointFirstRHTargetIntegrationBoundaryBridge (353ms)
+✔ [410/518] Built R2031DLeanEndpointFirstRHTargetIntegrationBoundary.ToyEndpointFirstRHTargetIntegrationBoundary (453ms)
+✔ [411/519] Built R2031DLeanEndpointFirstRHTargetIntegrationBoundary (321ms)
+✔ [412/520] Built R2032DLeanEndpointFirstRHTargetIntegrationCertificateSlots.EndpointFirstRHTargetIntegrationCertificateSlots (583ms)
+✔ [413/522] Built R2032DLeanEndpointFirstRHTargetIntegrationCertificateSlots.EndpointFirstRHTargetIntegrationCertificateDependencyAudit (457ms)
+✔ [414/523] Built R2032DLeanEndpointFirstRHTargetIntegrationCertificateSlots.EndpointFirstRHTargetIntegrationCertificateBridge (378ms)
+✔ [415/524] Built R2032DLeanEndpointFirstRHTargetIntegrationCertificateSlots.ToyEndpointFirstRHTargetIntegrationCertificateSlots (370ms)
+✔ [416/525] Built R2032DLeanEndpointFirstRHTargetIntegrationCertificateSlots (334ms)
+✔ [417/527] Built R2033DLeanEndpointFinalTheoremHandoffBoundary.EndpointFinalTheoremHandoffBoundarySlots (553ms)
+✔ [418/528] Built R2033DLeanEndpointFinalTheoremHandoffBoundary.EndpointFinalTheoremHandoffDependencyAudit (533ms)
+✔ [419/529] Built R2033DLeanEndpointFinalTheoremHandoffBoundary.EndpointFinalTheoremHandoffBoundaryBridge (370ms)
+✔ [420/532] Built R2033DLeanEndpointFinalTheoremHandoffBoundary.ToyEndpointFinalTheoremHandoffBoundary (386ms)
+✔ [421/533] Built R2033DLeanEndpointFinalTheoremHandoffBoundary (322ms)
+✔ [422/534] Built R2034DLeanEndpointFinalTheoremHandoffCertificateSlots.EndpointFinalTheoremHandoffCertificateSlots (572ms)
+✔ [423/535] Built R2034DLeanEndpointFinalTheoremHandoffCertificateSlots.EndpointFinalTheoremHandoffCertificateDependencyAudit (522ms)
+✔ [424/537] Built R2034DLeanEndpointFinalTheoremHandoffCertificateSlots.EndpointFinalTheoremHandoffCertificateBridge (373ms)
+✔ [425/538] Built R2034DLeanEndpointFinalTheoremHandoffCertificateSlots.ToyEndpointFinalTheoremHandoffCertificateSlots (353ms)
+✔ [426/539] Built R2034DLeanEndpointFinalTheoremHandoffCertificateSlots (340ms)
+✔ [427/540] Built R2035DLeanEndpointFinalRHClaimBoundary.EndpointFinalRHClaimBoundarySlots (658ms)
+✔ [428/542] Built R2035DLeanEndpointFinalRHClaimBoundary.EndpointFinalRHClaimDependencyAudit (457ms)
+✔ [429/543] Built R2035DLeanEndpointFinalRHClaimBoundary.EndpointFinalRHClaimBoundaryBridge (377ms)
+✔ [430/544] Built R2035DLeanEndpointFinalRHClaimBoundary.ToyEndpointFinalRHClaimBoundary (391ms)
+✔ [431/547] Built R2035DLeanEndpointFinalRHClaimBoundary (390ms)
+✔ [432/548] Built R2036DLeanEndpointFinalRHClaimCertificateSlots.EndpointFinalRHClaimCertificateSlots (674ms)
+✔ [433/549] Built R2036DLeanEndpointFinalRHClaimCertificateSlots.EndpointFinalRHClaimCertificateDependencyAudit (591ms)
+✔ [434/550] Built R2036DLeanEndpointFinalRHClaimCertificateSlots.EndpointFinalRHClaimCertificateBridge (409ms)
+✔ [435/552] Built R2036DLeanEndpointFinalRHClaimCertificateSlots.ToyEndpointFinalRHClaimCertificateSlots (361ms)
+✔ [436/553] Built R2036DLeanEndpointFinalRHClaimCertificateSlots (326ms)
+✔ [437/554] Built R2037DLeanEndpointFinalPackageClosureBoundary.EndpointFinalPackageClosureBoundarySlots (699ms)
+✔ [438/557] Built R2037DLeanEndpointFinalPackageClosureBoundary.EndpointFinalPackageClosureDependencyAudit (533ms)
+✔ [439/558] Built R2037DLeanEndpointFinalPackageClosureBoundary.EndpointFinalPackageClosureBoundaryBridge (379ms)
+✔ [440/559] Built R2037DLeanEndpointFinalPackageClosureBoundary.ToyEndpointFinalPackageClosureBoundary (365ms)
+✔ [441/560] Built R2037DLeanEndpointFinalPackageClosureBoundary (365ms)
+✔ [442/562] Built R2038DLeanEndpointFinalPackageClosureCertificateSlots.EndpointFinalPackageClosureCertificateSlots (767ms)
+✔ [443/563] Built R2038DLeanEndpointFinalPackageClosureCertificateSlots.EndpointFinalPackageClosureCertificateDependencyAudit (554ms)
+✔ [444/565] Built R2038DLeanEndpointFinalPackageClosureCertificateSlots.EndpointFinalPackageClosureCertificateBridge (392ms)
+✔ [445/567] Built R2038DLeanEndpointFinalPackageClosureCertificateSlots.ToyEndpointFinalPackageClosureCertificateSlots (474ms)
+✔ [446/568] Built R2038DLeanEndpointFinalPackageClosureCertificateSlots (331ms)
+✔ [447/569] Built R2039DLeanEndpointFinalArchiveExportBoundary.EndpointFinalArchiveExportBoundarySlots (721ms)
+✔ [448/570] Built R2039DLeanEndpointFinalArchiveExportBoundary.EndpointFinalArchiveExportDependencyAudit (591ms)
+✔ [449/573] Built R2039DLeanEndpointFinalArchiveExportBoundary.EndpointFinalArchiveExportBoundaryBridge (431ms)
+✔ [450/574] Built R2039DLeanEndpointFinalArchiveExportBoundary.ToyEndpointFinalArchiveExportBoundary (369ms)
+✔ [451/575] Built R2039DLeanEndpointFinalArchiveExportBoundary (328ms)
+✔ [452/578] Built R2040DLeanEndpointFinalArchiveExportCertificateSlots.EndpointFinalArchiveExportCertificateSlots (760ms)
+✔ [453/579] Built R2040DLeanEndpointFinalArchiveExportCertificateSlots.EndpointFinalArchiveExportCertificateDependencyAudit (774ms)
+✔ [454/583] Built R2040DLeanEndpointFinalArchiveExportCertificateSlots.EndpointFinalArchiveExportCertificateBridge (484ms)
+✔ [455/584] Built R2040DLeanEndpointFinalArchiveExportCertificateSlots.ToyEndpointFinalArchiveExportCertificateSlots (371ms)
+✔ [456/585] Built R2040DLeanEndpointFinalArchiveExportCertificateSlots (341ms)
+✔ [457/588] Built R2041DLeanEndpointFinalSubmissionBoundary.EndpointFinalSubmissionBoundarySlots (852ms)
+✔ [458/589] Built R2041DLeanEndpointFinalSubmissionBoundary.EndpointFinalSubmissionDependencyAudit (789ms)
+✔ [459/590] Built R2041DLeanEndpointFinalSubmissionBoundary.EndpointFinalSubmissionBoundaryBridge (437ms)
+✔ [460/593] Built R2041DLeanEndpointFinalSubmissionBoundary.ToyEndpointFinalSubmissionBoundary (378ms)
+✔ [461/594] Built R2041DLeanEndpointFinalSubmissionBoundary (452ms)
+✔ [462/595] Built R2042DLeanEndpointFinalSubmissionCertificateSlots.EndpointFinalSubmissionCertificateSlots (871ms)
+✔ [463/598] Built R2042DLeanEndpointFinalSubmissionCertificateSlots.EndpointFinalSubmissionCertificateDependencyAudit (774ms)
+✔ [464/599] Built R2042DLeanEndpointFinalSubmissionCertificateSlots.EndpointFinalSubmissionCertificateBridge (461ms)
+✔ [465/600] Built R2042DLeanEndpointFinalSubmissionCertificateSlots.ToyEndpointFinalSubmissionCertificateSlots (395ms)
+✔ [466/603] Built R2042DLeanEndpointFinalSubmissionCertificateSlots (328ms)
+✔ [467/604] Built R2043DLeanEndpointFinalVerificationBoundary.EndpointFinalVerificationBoundarySlots (876ms)
+✔ [468/605] Built R2043DLeanEndpointFinalVerificationBoundary.EndpointFinalVerificationDependencyAudit (748ms)
+✔ [469/608] Built R2043DLeanEndpointFinalVerificationBoundary.EndpointFinalVerificationBoundaryBridge (423ms)
+✔ [470/609] Built R2043DLeanEndpointFinalVerificationBoundary.ToyEndpointFinalVerificationBoundary (416ms)
+✔ [471/610] Built R2043DLeanEndpointFinalVerificationBoundary (331ms)
+✔ [472/613] Built R2044DLeanEndpointProofObligationExecutionQueue.EndpointProofObligationExecutionQueue (1.2s)
+✔ [473/614] Built R2044DLeanEndpointProofObligationExecutionQueue.EndpointProofObligationExecutionDependencyAudit (1.1s)
+✔ [474/615] Built R2044DLeanEndpointProofObligationExecutionQueue.EndpointProofObligationExecutionBridge (533ms)
+✔ [475/618] Built R2044DLeanEndpointProofObligationExecutionQueue.ToyEndpointProofObligationExecutionQueue (386ms)
+✔ [476/619] Built R2044DLeanEndpointProofObligationExecutionQueue (325ms)
+✔ [477/620] Built R2045DLeanEndpointFirstConcreteProofObligationBoundary.EndpointFirstConcreteProofObligationBoundarySlots (907ms)
+✔ [478/623] Built R2045DLeanEndpointFirstConcreteProofObligationBoundary.EndpointFirstConcreteProofObligationDependencyAudit (975ms)
+✔ [479/624] Built R2045DLeanEndpointFirstConcreteProofObligationBoundary.EndpointFirstConcreteProofObligationBoundaryBridge (515ms)
+✔ [480/625] Built R2045DLeanEndpointFirstConcreteProofObligationBoundary.ToyEndpointFirstConcreteProofObligationBoundary (428ms)
+✔ [481/628] Built R2045DLeanEndpointFirstConcreteProofObligationBoundary (458ms)
+✔ [482/629] Built R2046DLeanEndpointFirstConcreteObligationDecompositionSlots.EndpointFirstConcreteObligationDecompositionSlots (1.0s)
+✔ [483/630] Built R2046DLeanEndpointFirstConcreteObligationDecompositionSlots.EndpointFirstConcreteObligationDecompositionDependencyAudit (909ms)
+✔ [484/633] Built R2046DLeanEndpointFirstConcreteObligationDecompositionSlots.EndpointFirstConcreteObligationDecompositionBridge (499ms)
+✔ [485/635] Built R2046DLeanEndpointFirstConcreteObligationDecompositionSlots.ToyEndpointFirstConcreteObligationDecompositionSlots (441ms)
+✔ [486/638] Built R2046DLeanEndpointFirstConcreteObligationDecompositionSlots (335ms)
+✔ [487/639] Built R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank.EndpointFirstConcreteObligationLemmaStatementBank (1.4s)
+✔ [488/640] Built R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank.EndpointFirstConcreteObligationLemmaStatementBankDependencyAudit (1.3s)
+✔ [489/643] Built R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank.EndpointFirstConcreteObligationLemmaStatementBankBridge (539ms)
+✔ [490/644] Built R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank.ToyEndpointFirstConcreteObligationLemmaStatementBank (400ms)
+✔ [491/645] Built R2047DLeanEndpointFirstConcreteObligationLemmaStatementBank (338ms)
+✔ [492/648] Built R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph.EndpointFirstConcreteObligationLemmaDependencyGraph (1.3s)
+✔ [493/649] Built R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph.EndpointFirstConcreteObligationLemmaDependencyGraphDependencyAudit (1.1s)
+✔ [494/650] Built R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph.EndpointFirstConcreteObligationLemmaDependencyGraphBridge (738ms)
+✔ [495/653] Built R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph.ToyEndpointFirstConcreteObligationLemmaDependencyGraph (513ms)
+✔ [496/654] Built R2048DLeanEndpointFirstConcreteObligationLemmaDependencyGraph (382ms)
+✔ [497/655] Built R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist.EndpointFirstConcreteObligationProofReadinessChecklist (1.3s)
+✔ [498/658] Built R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist.EndpointFirstConcreteObligationProofReadinessChecklistDependencyAudit (1.2s)
+✔ [499/659] Built R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist.EndpointFirstConcreteObligationProofReadinessChecklistBridge (609ms)
+✔ [500/659] Built R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.ToyEndpointFirstConcreteObligationEndpointCertificateReplay (547ms)
+✔ [501/660] Built R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist.ToyEndpointFirstConcreteObligationProofReadinessChecklist (521ms)
+✔ [502/663] Built R2049DLeanEndpointFirstConcreteObligationProofReadinessChecklist (332ms)
+✔ [503/664] Built R2050DLeanEndpointFirstConcreteObligationExecutableProofAttemptEnvelope.EndpointFirstConcreteObligationExecutableProofAttemptEnvelope (1.6s)
+✔ [504/664] Built R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.ToyEndpointFirstConcreteObligationEndpointTheoremFinalizationGate (360ms)
+✔ [505/665] Built R2050DLeanEndpointFirstConcreteObligationExecutableProofAttemptEnvelope.EndpointFirstConcreteObligationExecutableProofAttemptEnvelopeDependencyAudit (1.4s)
+✔ [506/668] Built R2050DLeanEndpointFirstConcreteObligationExecutableProofAttemptEnvelope.EndpointFirstConcreteObligationExecutableProofAttemptEnvelopeBridge (509ms)
+✔ [507/669] Built R2050DLeanEndpointFirstConcreteObligationExecutableProofAttemptEnvelope.ToyEndpointFirstConcreteObligationExecutableProofAttemptEnvelope (689ms)
+✔ [508/669] Built R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.ToyEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence (268ms)
+✔ [509/670] Built R2050DLeanEndpointFirstConcreteObligationExecutableProofAttemptEnvelope (403ms)
+✔ [510/673] Built R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger.EndpointFirstConcreteObligationProofAttemptTraceLedger (1.6s)
+✔ [511/676] Built R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger.EndpointFirstConcreteObligationProofAttemptTraceLedgerDependencyAudit (1.5s)
+✔ [512/676] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.ToyEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization (356ms)
+✔ [513/682] Built R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger.EndpointFirstConcreteObligationProofAttemptTraceLedgerBridge (898ms)
+✔ [514/682] Built R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger.ToyEndpointFirstConcreteObligationProofAttemptTraceLedger (432ms)
+✔ [515/682] Built R2051DLeanEndpointFirstConcreteObligationProofAttemptTraceLedger (356ms)
+✔ [517/686] Built R2052DLeanEndpointFirstConcreteObligationTraceReplayCheckpoint.EndpointFirstConcreteObligationTraceReplayCheckpoint (1.8s)
+✔ [518/686] Built R2052DLeanEndpointFirstConcreteObligationTraceReplayCheckpoint.EndpointFirstConcreteObligationTraceReplayCheckpointDependencyAudit (1.7s)
+✔ [519/686] Built R2052DLeanEndpointFirstConcreteObligationTraceReplayCheckpoint.EndpointFirstConcreteObligationTraceReplayCheckpointBridge (844ms)
+✔ [520/686] Built R2052DLeanEndpointFirstConcreteObligationTraceReplayCheckpoint.ToyEndpointFirstConcreteObligationTraceReplayCheckpoint (429ms)
+✔ [521/686] Built R2052DLeanEndpointFirstConcreteObligationTraceReplayCheckpoint (369ms)
+✔ [522/686] Built R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry.EndpointFirstConcreteObligationLocalDischargeCandidateRegistry (1.9s)
+✔ [523/686] Built R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry.EndpointFirstConcreteObligationLocalDischargeCandidateRegistryDependencyAudit (1.9s)
+✔ [524/686] Built R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry.EndpointFirstConcreteObligationLocalDischargeCandidateRegistryBridge (874ms)
+✔ [525/686] Built R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry.ToyEndpointFirstConcreteObligationLocalDischargeCandidateRegistry (473ms)
+✔ [526/686] Built R2053DLeanEndpointFirstConcreteObligationLocalDischargeCandidateRegistry (350ms)
+✔ [527/686] Built R2054DLeanEndpointFirstConcreteObligationLocalDischargeDependencyBinder.EndpointFirstConcreteObligationLocalDischargeDependencyBinder (485ms)
+✔ [528/686] Built R2054DLeanEndpointFirstConcreteObligationLocalDischargeDependencyBinder.EndpointFirstConcreteObligationLocalDischargeDependencyBinderDependencyAudit (387ms)
+✔ [529/686] Built R2054DLeanEndpointFirstConcreteObligationLocalDischargeDependencyBinder.EndpointFirstConcreteObligationLocalDischargeDependencyBinderBridge (423ms)
+✔ [530/686] Built R2054DLeanEndpointFirstConcreteObligationLocalDischargeDependencyBinder.ToyEndpointFirstConcreteObligationLocalDischargeDependencyBinder (472ms)
+✔ [531/686] Built R2054DLeanEndpointFirstConcreteObligationLocalDischargeDependencyBinder (430ms)
+✔ [532/686] Built R2055DLeanEndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundary.EndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundary (508ms)
+✔ [533/686] Built R2055DLeanEndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundary.EndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundaryDependencyAudit (460ms)
+✔ [534/686] Built R2055DLeanEndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundary.EndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundaryBridge (368ms)
+✔ [535/686] Built R2055DLeanEndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundary.ToyEndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundary (376ms)
+✔ [536/686] Built R2055DLeanEndpointFirstConcreteObligationLocalDischargeProofSkeletonBoundary (339ms)
+✔ [537/686] Built R2056DLeanEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan.EndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan (530ms)
+✔ [538/686] Built R2056DLeanEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan.EndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlanDependencyAudit (446ms)
+✔ [539/686] Built R2056DLeanEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan.EndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlanBridge (369ms)
+✔ [540/686] Built R2056DLeanEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan.ToyEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan (390ms)
+✔ [541/686] Built R2056DLeanEndpointFirstConcreteObligationLocalDischargeSkeletonFillingPlan (356ms)
+✔ [542/686] Built R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap.EndpointFirstConcreteObligationLocalDischargeClosureObligationMap (637ms)
+✔ [543/686] Built R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap.EndpointFirstConcreteObligationLocalDischargeClosureObligationMapDependencyAudit (501ms)
+✔ [544/686] Built R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap.EndpointFirstConcreteObligationLocalDischargeClosureObligationMapBridge (381ms)
+✔ [545/686] Built R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap.ToyEndpointFirstConcreteObligationLocalDischargeClosureObligationMap (516ms)
+✔ [546/686] Built R2057DLeanEndpointFirstConcreteObligationLocalDischargeClosureObligationMap (356ms)
+✔ [547/686] Built R2058DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary.EndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary (506ms)
+✔ [548/686] Built R2058DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary.EndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundaryDependencyAudit (457ms)
+✔ [549/686] Built R2058DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary.EndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundaryBridge (373ms)
+✔ [550/686] Built R2058DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary.ToyEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary (366ms)
+✔ [551/686] Built R2058DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateBoundary (399ms)
+✔ [552/686] Built R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots.EndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots (600ms)
+✔ [553/686] Built R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots.EndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotsDependencyAudit (402ms)
+✔ [554/686] Built R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots.EndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotsBridge (465ms)
+✔ [555/686] Built R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots.ToyEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots (432ms)
+✔ [556/686] Built R2059DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlots (376ms)
+✔ [557/686] Built R2060DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary.EndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary (577ms)
+✔ [558/686] Built R2060DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary.EndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundaryDependencyAudit (421ms)
+✔ [559/686] Built R2060DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary.EndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundaryBridge (409ms)
+✔ [560/686] Built R2060DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary.ToyEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary (371ms)
+✔ [561/686] Built R2060DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateSlotPopulationBoundary (348ms)
+✔ [562/686] Built R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface.EndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface (574ms)
+✔ [563/686] Built R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface.EndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterfaceDependencyAudit (428ms)
+✔ [564/686] Built R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface.EndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterfaceBridge (399ms)
+✔ [565/686] Built R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface.ToyEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface (455ms)
+✔ [566/686] Built R2061DLeanEndpointFirstConcreteObligationLocalDischargeClosureCertificateWitnessInterface (343ms)
+✔ [567/686] Built R2062DLeanEndpointFirstConcreteObligationWitnessKernel.EndpointFirstConcreteObligationWitnessKernel (705ms)
+✔ [568/686] Built R2062DLeanEndpointFirstConcreteObligationWitnessKernel.EndpointFirstConcreteObligationWitnessKernelDependencyAudit (584ms)
+✔ [569/686] Built R2062DLeanEndpointFirstConcreteObligationWitnessKernel.EndpointFirstConcreteObligationWitnessKernelBridge (453ms)
+✔ [570/686] Built R2062DLeanEndpointFirstConcreteObligationWitnessKernel.ToyEndpointFirstConcreteObligationWitnessKernel (398ms)
+✔ [571/686] Built R2062DLeanEndpointFirstConcreteObligationWitnessKernel (383ms)
+✔ [572/686] Built R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt.EndpointFirstConcreteObligationLocalDischargeAttempt (676ms)
+✔ [573/686] Built R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt.EndpointFirstConcreteObligationLocalDischargeAttemptDependencyAudit (451ms)
+✔ [574/686] Built R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt.EndpointFirstConcreteObligationLocalDischargeAttemptBridge (521ms)
+✔ [575/686] Built R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt.ToyEndpointFirstConcreteObligationLocalDischargeAttempt (473ms)
+✔ [576/686] Built R2063DLeanEndpointFirstConcreteObligationLocalDischargeAttempt (380ms)
+✔ [577/686] Built R2064DLeanEndpointFirstConcreteObligationMinimalWitnessProofTermSupply.EndpointFirstConcreteObligationMinimalWitnessProofTermSupply (715ms)
+✔ [578/686] Built R2064DLeanEndpointFirstConcreteObligationMinimalWitnessProofTermSupply.EndpointFirstConcreteObligationMinimalWitnessProofTermSupplyDependencyAudit (500ms)
+✔ [579/686] Built R2064DLeanEndpointFirstConcreteObligationMinimalWitnessProofTermSupply.EndpointFirstConcreteObligationMinimalWitnessProofTermSupplyBridge (645ms)
+✔ [580/686] Built R2064DLeanEndpointFirstConcreteObligationMinimalWitnessProofTermSupply.ToyEndpointFirstConcreteObligationMinimalWitnessProofTermSupply (411ms)
+✔ [581/686] Built R2064DLeanEndpointFirstConcreteObligationMinimalWitnessProofTermSupply (347ms)
+✔ [582/686] Built R2065DLeanEndpointFirstConcreteObligationWitnessCheckerExecution.EndpointFirstConcreteObligationWitnessCheckerExecution (989ms)
+✔ [583/686] Built R2065DLeanEndpointFirstConcreteObligationWitnessCheckerExecution.EndpointFirstConcreteObligationWitnessCheckerExecutionDependencyAudit (484ms)
+✔ [584/686] Built R2065DLeanEndpointFirstConcreteObligationWitnessCheckerExecution.EndpointFirstConcreteObligationWitnessCheckerExecutionBridge (612ms)
+✔ [585/686] Built R2065DLeanEndpointFirstConcreteObligationWitnessCheckerExecution.ToyEndpointFirstConcreteObligationWitnessCheckerExecution (424ms)
+✔ [586/686] Built R2065DLeanEndpointFirstConcreteObligationWitnessCheckerExecution (343ms)
+✔ [587/686] Built R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure.EndpointFirstConcreteObligationLocalDischargeClosure (991ms)
+✔ [588/686] Built R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure.EndpointFirstConcreteObligationLocalDischargeClosureDependencyAudit (534ms)
+✔ [589/686] Built R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure.EndpointFirstConcreteObligationLocalDischargeClosureBridge (638ms)
+✔ [590/686] Built R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure.ToyEndpointFirstConcreteObligationLocalDischargeClosure (417ms)
+✔ [591/686] Built R2066DLeanEndpointFirstConcreteObligationLocalDischargeClosure (663ms)
+✔ [592/686] Built R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport.EndpointFirstConcreteObligationDischargeCertificateExport (1.1s)
+✔ [593/686] Built R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport.EndpointFirstConcreteObligationDischargeCertificateExportDependencyAudit (560ms)
+✔ [594/686] Built R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport.EndpointFirstConcreteObligationDischargeCertificateExportBridge (605ms)
+✔ [595/686] Built R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport.ToyEndpointFirstConcreteObligationDischargeCertificateExport (391ms)
+✔ [596/686] Built R2067DLeanEndpointFirstConcreteObligationDischargeCertificateExport (341ms)
+✔ [597/686] Built R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.EndpointFirstConcreteObligationEndpointBranchIntegration (558ms)
+✔ [598/686] Built R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.EndpointFirstConcreteObligationEndpointBranchIntegrationDependencyAudit (441ms)
+✔ [599/686] Built R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.EndpointFirstConcreteObligationEndpointBranchIntegrationBridge (430ms)
+✔ [600/686] Built R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.ToyEndpointFirstConcreteObligationEndpointBranchIntegration (371ms)
+✔ [601/686] Built R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration (348ms)
+✔ [602/686] Built R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.EndpointFirstConcreteObligationFinalTheoremHandoff (540ms)
+✔ [603/686] Built R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.EndpointFirstConcreteObligationFinalTheoremHandoffDependencyAudit (433ms)
+✔ [604/686] Built R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.EndpointFirstConcreteObligationFinalTheoremHandoffBridge (450ms)
+✔ [605/686] Built R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.ToyEndpointFirstConcreteObligationFinalTheoremHandoff (380ms)
+✔ [606/686] Built R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff (389ms)
+✔ [607/686] Built R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.EndpointFirstConcreteObligationEndpointTheoremStatementAssembly (612ms)
+✔ [608/686] Built R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.EndpointFirstConcreteObligationEndpointTheoremStatementAssemblyDependencyAudit (397ms)
+✔ [609/686] Built R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.EndpointFirstConcreteObligationEndpointTheoremStatementAssemblyBridge (442ms)
+✔ [610/686] Built R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.ToyEndpointFirstConcreteObligationEndpointTheoremStatementAssembly (401ms)
+✔ [611/686] Built R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly (422ms)
+✔ [612/686] Built R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.EndpointFirstConcreteObligationEndpointTheoremProofBoundary (507ms)
+✔ [613/686] Built R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.EndpointFirstConcreteObligationEndpointTheoremProofBoundaryDependencyAudit (398ms)
+✔ [614/686] Built R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.EndpointFirstConcreteObligationEndpointTheoremProofBoundaryBridge (461ms)
+✔ [615/686] Built R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.ToyEndpointFirstConcreteObligationEndpointTheoremProofBoundary (461ms)
+✔ [616/686] Built R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary (410ms)
+✔ [617/686] Built R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.EndpointFirstConcreteObligationEndpointProofTermCandidate (532ms)
+✔ [618/686] Built R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.EndpointFirstConcreteObligationEndpointProofTermCandidateDependencyAudit (399ms)
+✔ [619/686] Built R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.EndpointFirstConcreteObligationEndpointProofTermCandidateBridge (424ms)
+✔ [620/686] Built R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.ToyEndpointFirstConcreteObligationEndpointProofTermCandidate (431ms)
+✔ [621/686] Built R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate (381ms)
+✔ [622/686] Built R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.EndpointFirstConcreteObligationEndpointProofTermCheckGate (558ms)
+✔ [623/686] Built R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.EndpointFirstConcreteObligationEndpointProofTermCheckGateDependencyAudit (449ms)
+✔ [624/686] Built R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.EndpointFirstConcreteObligationEndpointProofTermCheckGateBridge (474ms)
+✔ [625/686] Built R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.ToyEndpointFirstConcreteObligationEndpointProofTermCheckGate (456ms)
+✔ [626/686] Built R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate (366ms)
+✔ [627/686] Built R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.EndpointFirstConcreteObligationEndpointProofTermCheckCertificate (637ms)
+✔ [628/686] Built R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.EndpointFirstConcreteObligationEndpointProofTermCheckCertificateDependencyAudit (416ms)
+✔ [629/686] Built R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.EndpointFirstConcreteObligationEndpointProofTermCheckCertificateBridge (586ms)
+✔ [630/686] Built R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.ToyEndpointFirstConcreteObligationEndpointProofTermCheckCertificate (408ms)
+✔ [631/686] Built R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate (375ms)
+✔ [632/686] Built R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.EndpointFirstConcreteObligationEndpointTheoremClosureHandoff (593ms)
+✔ [633/686] Built R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.EndpointFirstConcreteObligationEndpointTheoremClosureHandoffDependencyAudit (425ms)
+✔ [634/686] Built R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.EndpointFirstConcreteObligationEndpointTheoremClosureHandoffBridge (536ms)
+✔ [635/686] Built R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.ToyEndpointFirstConcreteObligationEndpointTheoremClosureHandoff (467ms)
+✔ [636/686] Built R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff (348ms)
+✔ [637/686] Built R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.EndpointFirstConcreteObligationEndpointTheoremClosureGate (824ms)
+✔ [638/686] Built R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.EndpointFirstConcreteObligationEndpointTheoremClosureGateDependencyAudit (426ms)
+✔ [639/686] Built R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.EndpointFirstConcreteObligationEndpointTheoremClosureGateBridge (482ms)
+✔ [640/686] Built R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.ToyEndpointFirstConcreteObligationEndpointTheoremClosureGate (383ms)
+✔ [641/686] Built R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate (349ms)
+✔ [642/686] Built R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.EndpointFirstConcreteObligationEndpointTheoremCertificateBoundary (745ms)
+✔ [643/686] Built R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.EndpointFirstConcreteObligationEndpointTheoremCertificateBoundaryDependencyAudit (440ms)
+✔ [644/686] Built R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.EndpointFirstConcreteObligationEndpointTheoremCertificateBoundaryBridge (502ms)
+✔ [645/686] Built R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.ToyEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary (394ms)
+✔ [646/686] Built R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary (485ms)
+✔ [647/686] Built R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.EndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation (797ms)
+✔ [648/686] Built R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.EndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulationDependencyAudit (456ms)
+✔ [649/686] Built R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.EndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulationBridge (533ms)
+✔ [650/686] Built R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.ToyEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation (547ms)
+✔ [651/686] Built R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation (366ms)
+✔ [652/686] Built R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.EndpointFirstConcreteObligationEndpointTheoremCertificateExport (725ms)
+✔ [653/686] Built R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.EndpointFirstConcreteObligationEndpointTheoremCertificateExportDependencyAudit (477ms)
+✔ [654/686] Built R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.EndpointFirstConcreteObligationEndpointTheoremCertificateExportBridge (595ms)
+✔ [655/686] Built R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.ToyEndpointFirstConcreteObligationEndpointTheoremCertificateExport (437ms)
+✔ [656/686] Built R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport (420ms)
+✔ [657/686] Built R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.EndpointFirstConcreteObligationEndpointCertificateReplay (566ms)
+ℹ [658/686] Built R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit (416ms)
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:5:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_to_actual_li_target
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  A.actualLiTarget
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:6:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.certificateExportStatement
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:7:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_checked_candidate
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BA.endpointTheoremProofTermSlot
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:8:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_export_packet
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.endpointTheoremCertificateExportedHere = true
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:9:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_record :
+  EndpointCertificateReplayRecord
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:10:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_result_recorded :
+  endpoint_first_concrete_obligation_endpoint_certificate_replay_record.endpointCertificateReplayResultRecordedHere =
+    true
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:11:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_keeps_certificate_incomplete :
+  endpoint_first_concrete_obligation_endpoint_certificate_replay_record.endpointTheoremCertificateCompletedHere = false
+✔ [659/686] Built R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.EndpointFirstConcreteObligationEndpointCertificateReplayBridge (382ms)
+✔ [660/686] Built R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay (353ms)
+✔ [661/686] Built R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.EndpointFirstConcreteObligationEndpointTheoremFinalizationGate (477ms)
+ℹ [662/686] Built R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit (403ms)
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:5:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_to_actual_li_target
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  A.actualLiTarget
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:6:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.certificateExportStatement
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:7:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_checked_candidate
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BA.endpointTheoremProofTermSlot
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:8:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_replay_record :
+  R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.EndpointCertificateReplayRecord
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:9:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record :
+  EndpointTheoremFinalizationGateRecord
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:10:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_result_recorded :
+  endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizationGateResultRecordedHere =
+    true
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:11:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_keeps_theorem_unfinalized :
+  endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizedHere = false
+✔ [663/686] Built R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.EndpointFirstConcreteObligationEndpointTheoremFinalizationGateBridge (414ms)
+✔ [664/686] Built R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate (353ms)
+✔ [665/686] Built R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence (460ms)
+ℹ [666/686] Built R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit (396ms)
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:5:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointTheoremFinalizationEvidence
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  Prop
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:6:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  EndpointTheoremFinalizationEvidence BI
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:7:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_constructed
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  EndpointTheoremFinalizationEvidence BI
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:8:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_actual_li_target
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH)
+  (h : EndpointTheoremFinalizationEvidence BI) : A.actualLiTarget
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:9:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_certificate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH)
+  (h : EndpointTheoremFinalizationEvidence BI) : BI.certificateExportStatement
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:10:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_export_proof
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH)
+  (h : EndpointTheoremFinalizationEvidence BI) : BI.endpointTheoremCertificateExportedHere = true
+✔ [667/686] Built R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceBridge (368ms)
+✔ [668/686] Built R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence (456ms)
+✔ [669/686] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointFirstConcreteObligationEndpointTheoremConditionalFinalization (509ms)
+ℹ [670/686] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit (393ms)
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:5:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointTheoremConditionalFinalizationStatement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  Prop
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:6:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_statement_proved
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  EndpointTheoremConditionalFinalizationStatement BI
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:7:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_from_exported_certificate
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  A.actualLiTarget
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:8:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_preserves_certificate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.certificateExportStatement
+✔ [671/686] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationBridge (361ms)
+✔ [672/686] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization (361ms)
+✔ [673/686] Built R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.EndpointFirstConcreteObligationEndpointDependencyClosureWitness (602ms)
+ℹ [674/686] Built R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.EndpointFirstConcreteObligationEndpointDependencyClosureWitnessDependencyAudit (385ms)
+info: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness/EndpointFirstConcreteObligationEndpointDependencyClosureWitnessDependencyAudit.lean:5:0: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.EndpointDependencyClosureWitness
+  (A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations) : Type 1
+info: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness/EndpointFirstConcreteObligationEndpointDependencyClosureWitnessDependencyAudit.lean:6:0: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.EndpointDependencyClosureExists
+  (A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations) : Prop
+info: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness/EndpointFirstConcreteObligationEndpointDependencyClosureWitnessDependencyAudit.lean:7:0: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.endpoint_first_concrete_obligation_endpoint_dependency_closure_witness_to_finalization_evidence
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} (w : EndpointDependencyClosureWitness A) :
+  R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointTheoremFinalizationEvidence w.bi
+info: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness/EndpointFirstConcreteObligationEndpointDependencyClosureWitnessDependencyAudit.lean:8:0: R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.endpoint_first_concrete_obligation_endpoint_dependency_closure_witness_preserves_certificate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} (w : EndpointDependencyClosureWitness A) :
+  w.bi.certificateExportStatement
+✔ [675/686] Built R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness (419ms)
+✔ [676/686] Built R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction.EndpointFirstConcreteObligationEndpointClosedTargetExtraction (376ms)
+ℹ [677/686] Built R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction.EndpointFirstConcreteObligationEndpointClosedTargetExtractionDependencyAudit (353ms)
+info: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction/EndpointFirstConcreteObligationEndpointClosedTargetExtractionDependencyAudit.lean:5:0: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction.EndpointClosedTargetStatement
+  (A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations) : Prop
+info: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction/EndpointFirstConcreteObligationEndpointClosedTargetExtractionDependencyAudit.lean:6:0: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction.endpoint_first_concrete_obligation_endpoint_closed_target_from_witness
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations}
+  (w : R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.EndpointDependencyClosureWitness A) :
+  A.actualLiTarget
+info: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction/EndpointFirstConcreteObligationEndpointClosedTargetExtractionDependencyAudit.lean:7:0: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction.endpoint_first_concrete_obligation_endpoint_closed_target_extraction
+  (A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations) : EndpointClosedTargetStatement A
+info: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction/EndpointFirstConcreteObligationEndpointClosedTargetExtractionDependencyAudit.lean:8:0: R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction.endpoint_first_concrete_obligation_endpoint_closed_target_preserves_certificate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations}
+  (w : R2084DLeanEndpointFirstConcreteObligationEndpointDependencyClosureWitness.EndpointDependencyClosureWitness A) :
+  w.bi.certificateExportStatement
+✔ [678/686] Built R2085DLeanEndpointFirstConcreteObligationEndpointClosedTargetExtraction (432ms)
+✔ [679/686] Built R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence.EndpointFirstConcreteObligationNonCircularAnalyticEvidence (383ms)
+ℹ [680/686] Built R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence.EndpointFirstConcreteObligationNonCircularAnalyticEvidenceDependencyAudit (369ms)
+info: R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence/EndpointFirstConcreteObligationNonCircularAnalyticEvidenceDependencyAudit.lean:5:0: R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence.NonCircularAnalyticEvidence
+  (A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations) : Prop
+info: R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence/EndpointFirstConcreteObligationNonCircularAnalyticEvidenceDependencyAudit.lean:6:0: R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence.NonCircularAnalyticEvidence.mk
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations}
+  (actualLiKernelRegistered : A.actualLiKernelRegistered)
+  (actualAbelBoundaryRegistered : A.actualAbelBoundaryRegistered)
+  (actualExplicitFormulaAvailable : A.actualExplicitFormulaAvailable) (primePacketEstimate : A.primePacketEstimate)
+  (zeroPacketEstimate : A.zeroPacketEstimate) (endpointPacketEstimate : A.endpointPacketEstimate)
+  (scaleErrorAndLittleOhEstimate : A.scaleErrorAndLittleOhEstimate)
+  (obstructionLedgerCompatibility : A.obstructionLedgerCompatibility)
+  (terminalNoHiddenResidual : A.terminalNoHiddenResidual) : NonCircularAnalyticEvidence A
+info: R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence/EndpointFirstConcreteObligationNonCircularAnalyticEvidenceDependencyAudit.lean:7:0: R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence.non_circular_analytic_evidence_has_no_target_assumption
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} (evidence : NonCircularAnalyticEvidence A) :
+  A.actualLiKernelRegistered ∧
+    A.actualAbelBoundaryRegistered ∧
+      A.actualExplicitFormulaAvailable ∧
+        A.primePacketEstimate ∧
+          A.zeroPacketEstimate ∧
+            A.endpointPacketEstimate ∧
+              A.scaleErrorAndLittleOhEstimate ∧ A.obstructionLedgerCompatibility ∧ A.terminalNoHiddenResidual
+✔ [681/686] Built R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence (389ms)
+✔ [683/686] Built R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge.EndpointFirstConcreteObligationActualLiTargetDischarge (411ms)
+ℹ [684/686] Built R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge.EndpointFirstConcreteObligationActualLiTargetDischargeDependencyAudit (405ms)
+info: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge/EndpointFirstConcreteObligationActualLiTargetDischargeDependencyAudit.lean:5:0: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge.ActualLiTargetDischargeStatement
+  (A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations) : Prop
+info: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge/EndpointFirstConcreteObligationActualLiTargetDischargeDependencyAudit.lean:6:0: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge.actual_li_target_from_nine_analytic_components
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations}
+  (actualLiKernelRegistered : A.actualLiKernelRegistered)
+  (actualAbelBoundaryRegistered : A.actualAbelBoundaryRegistered)
+  (actualExplicitFormulaAvailable : A.actualExplicitFormulaAvailable) (primePacketEstimate : A.primePacketEstimate)
+  (zeroPacketEstimate : A.zeroPacketEstimate) (endpointPacketEstimate : A.endpointPacketEstimate)
+  (scaleErrorAndLittleOhEstimate : A.scaleErrorAndLittleOhEstimate)
+  (obstructionLedgerCompatibility : A.obstructionLedgerCompatibility)
+  (terminalNoHiddenResidual : A.terminalNoHiddenResidual) : A.actualLiTarget
+info: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge/EndpointFirstConcreteObligationActualLiTargetDischargeDependencyAudit.lean:7:0: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge.endpoint_first_concrete_obligation_actual_li_target_discharge
+  (A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations) : ActualLiTargetDischargeStatement A
+info: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge/EndpointFirstConcreteObligationActualLiTargetDischargeDependencyAudit.lean:8:0: R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge.endpoint_first_concrete_obligation_actual_li_target_without_dependency_closure
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations}
+  (evidence : R2086DLeanEndpointFirstConcreteObligationNonCircularAnalyticEvidence.NonCircularAnalyticEvidence A) :
+  A.actualLiTarget
+✔ [685/686] Built R2087DLeanEndpointFirstConcreteObligationActualLiTargetDischarge (431ms)
+Build completed successfully (686 jobs).
