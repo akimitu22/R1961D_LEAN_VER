@@ -1,8 +1,0 @@
-R2073D combined patch manifest
-
-Adds:
-- R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate
-- R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate
-- Ledger/status/manuscript-reference documents
-- lakefile.lean update via apply script
-- Main.lean import/check update via apply script

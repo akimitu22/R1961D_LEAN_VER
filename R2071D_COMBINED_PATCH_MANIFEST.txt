@@ -1,8 +1,0 @@
-R2071D combined patch manifest
-
-Adds:
-- R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
-- R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary
-- Ledger/status/manuscript-reference documents
-- lakefile.lean update via apply script
-- Main.lean import/check update via apply script

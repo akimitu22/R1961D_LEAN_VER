@@ -1,8 +1,0 @@
-R2075D combined patch manifest
-
-Adds:
-- R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
-- R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
-- Ledger/status/manuscript-reference documents
-- lakefile.lean update via apply script
-- Main.lean import/check update via apply script

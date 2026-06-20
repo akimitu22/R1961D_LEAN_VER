@@ -1,3 +1,0 @@
-R2033D combined endpoint final theorem handoff boundary patch
-
-Adds R2032D/R2033D Lean layers, ledgers, verification-status files, README, checksum file, and safe apply script.
