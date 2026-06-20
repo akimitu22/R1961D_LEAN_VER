@@ -1,0 +1,17 @@
+import R2094DLeanConcreteBoundedAbelAverage.ConcreteBoundedAbelAverage
+
+namespace R2094DLeanConcreteBoundedAbelAverage
+
+#check scaledAbelKernel
+#check abelWeightedTerm
+#check realAbelAverage
+#check scaled_abel_kernel_hasSum
+#check scaled_abel_kernel_summable
+#check abel_weighted_term_norm_le_scaled_kernel
+#check abel_weighted_terms_summable
+#check norm_realAbelAverage_le
+#check abs_realAbelAverage_le
+#check ConcreteBoundedAbelAverageWitness
+#check concreteBoundedAbelAverageWitness
+
+end R2094DLeanConcreteBoundedAbelAverage

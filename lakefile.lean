@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2093DLeanGeometricAbelKernelInfiniteNormalization» where
+package «R2095DLeanConcreteAbelAverageStability» where
 
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git" @ "v4.31.0"
@@ -362,3 +362,11 @@ lean_lib R2092DLeanGeometricAbelKernelMassLimit where
 @[default_target]
 lean_lib R2093DLeanGeometricAbelKernelInfiniteNormalization where
   roots := #[`R2093DLeanGeometricAbelKernelInfiniteNormalization]
+
+@[default_target]
+lean_lib R2094DLeanConcreteBoundedAbelAverage where
+  roots := #[`R2094DLeanConcreteBoundedAbelAverage]
+
+@[default_target]
+lean_lib R2095DLeanConcreteAbelAverageStability where
+  roots := #[`R2095DLeanConcreteAbelAverageStability]

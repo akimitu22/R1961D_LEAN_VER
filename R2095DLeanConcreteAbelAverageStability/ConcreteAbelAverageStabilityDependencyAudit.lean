@@ -1,0 +1,15 @@
+import R2095DLeanConcreteAbelAverageStability.ConcreteAbelAverageStability
+
+namespace R2095DLeanConcreteAbelAverageStability
+
+#check realAbelAverageDifference
+#check realAbelAverage_sub_of_summable
+#check realAbelAverageDifference_eq_sub
+#check difference_weighted_terms_summable
+#check norm_realAbelAverageDifference_le
+#check norm_realAbelAverage_sub_le
+#check abs_realAbelAverage_sub_le
+#check ConcreteAbelAverageStabilityWitness
+#check concreteAbelAverageStabilityWitness
+
+end R2095DLeanConcreteAbelAverageStability

@@ -1,0 +1,109 @@
+ℹ [849/883] Replayed R2090DLeanConcreteFiniteAbelSummation.ConcreteFiniteAbelSummationDependencyAudit
+info: R2090DLeanConcreteFiniteAbelSummation/ConcreteFiniteAbelSummationDependencyAudit.lean:5:0: Real : Type
+info: R2090DLeanConcreteFiniteAbelSummation/ConcreteFiniteAbelSummationDependencyAudit.lean:6:0: Finset.range (n : ℕ) : Finset ℕ
+info: R2090DLeanConcreteFiniteAbelSummation/ConcreteFiniteAbelSummationDependencyAudit.lean:7:0: R2090DLeanConcreteFiniteAbelSummation.partialSum (a : ℕ → ℝ) (n : ℕ) : ℝ
+info: R2090DLeanConcreteFiniteAbelSummation/ConcreteFiniteAbelSummationDependencyAudit.lean:8:0: R2090DLeanConcreteFiniteAbelSummation.finite_abel_summation (a b : ℕ → ℝ) (n : ℕ) :
+  ∑ k ∈ Finset.range (n + 1), a k * b k =
+    partialSum a n * b n + ∑ k ∈ Finset.range n, partialSum a k * (b k - b (k + 1))
+ℹ [1543/1610] Replayed R2091DLeanConcreteRealAbelBoundary.ConcreteRealAbelBoundaryDependencyAudit
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:5:0: Real : Type
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:6:0: Filter.Tendsto.{u_1, u_2} {α : Type u_1} {β : Type u_2} (f : α → β) (l₁ : Filter α) (l₂ : Filter β) : Prop
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:7:0: R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel (r : ℝ) (k : ℕ) : ℝ
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:8:0: R2091DLeanConcreteRealAbelBoundary.finiteAbelTransform (a : ℕ → ℝ) (n : ℕ) (r : ℝ) : ℝ
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:9:0: R2091DLeanConcreteRealAbelBoundary.geometric_abel_kernel_mass (r : ℝ) (m : ℕ) :
+  ∑ k ∈ Finset.range m, geometricAbelKernel r k = 1 - r ^ m
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:10:0: R2091DLeanConcreteRealAbelBoundary.finite_abel_transform_identity (a : ℕ → ℝ) (n : ℕ) (r : ℝ) :
+  finiteAbelTransform a n r =
+    R2090DLeanConcreteFiniteAbelSummation.partialSum a n * r ^ n +
+      ∑ k ∈ Finset.range n, R2090DLeanConcreteFiniteAbelSummation.partialSum a k * geometricAbelKernel r k
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:11:0: R2091DLeanConcreteRealAbelBoundary.finite_abel_transform_continuous (a : ℕ → ℝ) (n : ℕ) :
+  Continuous (finiteAbelTransform a n)
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:12:0: R2091DLeanConcreteRealAbelBoundary.finite_abel_transform_same_scale (a : ℕ → ℝ) (n : ℕ) :
+  finiteAbelTransform a n 1 = R2090DLeanConcreteFiniteAbelSummation.partialSum a n
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:13:0: R2091DLeanConcreteRealAbelBoundary.finite_abel_boundary_limit (a : ℕ → ℝ) (n : ℕ) :
+  Filter.Tendsto (finiteAbelTransform a n) (nhds 1) (nhds (R2090DLeanConcreteFiniteAbelSummation.partialSum a n))
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:14:0: R2091DLeanConcreteRealAbelBoundary.finite_abel_boundary_limit_below (a : ℕ → ℝ) (n : ℕ) :
+  Filter.Tendsto (finiteAbelTransform a n) (nhdsWithin 1 (Set.Iio 1))
+    (nhds (R2090DLeanConcreteFiniteAbelSummation.partialSum a n))
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:15:0: R2091DLeanConcreteRealAbelBoundary.ConcreteRealAbelBoundaryWitness (a : ℕ → ℝ) (n : ℕ) : Type
+info: R2091DLeanConcreteRealAbelBoundary/ConcreteRealAbelBoundaryDependencyAudit.lean:16:0: R2091DLeanConcreteRealAbelBoundary.concreteRealAbelBoundaryWitness (a : ℕ → ℝ) (n : ℕ) :
+  ConcreteRealAbelBoundaryWitness a n
+ℹ [1688/1701] Replayed R2092DLeanGeometricAbelKernelMassLimit.GeometricAbelKernelMassLimitDependencyAudit
+info: R2092DLeanGeometricAbelKernelMassLimit/GeometricAbelKernelMassLimitDependencyAudit.lean:5:0: Filter.Tendsto.{u_1, u_2} {α : Type u_1} {β : Type u_2} (f : α → β) (l₁ : Filter α) (l₂ : Filter β) : Prop
+info: R2092DLeanGeometricAbelKernelMassLimit/GeometricAbelKernelMassLimitDependencyAudit.lean:6:0: R2092DLeanGeometricAbelKernelMassLimit.geometric_abel_kernel_nonneg {r : ℝ} (hr0 : 0 ≤ r) (hr1 : r ≤ 1) (k : ℕ) :
+  0 ≤ R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel r k
+info: R2092DLeanGeometricAbelKernelMassLimit/GeometricAbelKernelMassLimitDependencyAudit.lean:7:0: R2092DLeanGeometricAbelKernelMassLimit.finite_geometric_abel_kernel_mass_nonneg {r : ℝ} (hr0 : 0 ≤ r) (hr1 : r ≤ 1)
+  (m : ℕ) : 0 ≤ ∑ k ∈ Finset.range m, R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel r k
+info: R2092DLeanGeometricAbelKernelMassLimit/GeometricAbelKernelMassLimitDependencyAudit.lean:8:0: R2092DLeanGeometricAbelKernelMassLimit.finite_geometric_abel_kernel_mass_le_one {r : ℝ} (hr0 : 0 ≤ r) (m : ℕ) :
+  ∑ k ∈ Finset.range m, R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel r k ≤ 1
+info: R2092DLeanGeometricAbelKernelMassLimit/GeometricAbelKernelMassLimitDependencyAudit.lean:9:0: R2092DLeanGeometricAbelKernelMassLimit.finite_geometric_abel_kernel_mass_tendsto_one {r : ℝ} (hr0 : 0 ≤ r)
+  (hr1 : r < 1) :
+  Filter.Tendsto (fun m => ∑ k ∈ Finset.range m, R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel r k)
+    Filter.atTop (nhds 1)
+info: R2092DLeanGeometricAbelKernelMassLimit/GeometricAbelKernelMassLimitDependencyAudit.lean:10:0: R2092DLeanGeometricAbelKernelMassLimit.GeometricAbelKernelMassLimitWitness (r : ℝ) : Prop
+info: R2092DLeanGeometricAbelKernelMassLimit/GeometricAbelKernelMassLimitDependencyAudit.lean:11:0: R2092DLeanGeometricAbelKernelMassLimit.geometricAbelKernelMassLimitWitness {r : ℝ} (hr0 : 0 ≤ r) (hr1 : r < 1) :
+  GeometricAbelKernelMassLimitWitness r
+ℹ [1691/1701] Replayed R2093DLeanGeometricAbelKernelInfiniteNormalization.GeometricAbelKernelInfiniteNormalizationDependencyAudit
+info: R2093DLeanGeometricAbelKernelInfiniteNormalization/GeometricAbelKernelInfiniteNormalizationDependencyAudit.lean:5:0: R2093DLeanGeometricAbelKernelInfiniteNormalization.geometric_abel_kernel_hasSum_one {r : ℝ} (hr0 : 0 ≤ r)
+  (hr1 : r < 1) : HasSum (R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel r) 1
+info: R2093DLeanGeometricAbelKernelInfiniteNormalization/GeometricAbelKernelInfiniteNormalizationDependencyAudit.lean:6:0: R2093DLeanGeometricAbelKernelInfiniteNormalization.geometric_abel_kernel_summable {r : ℝ} (hr0 : 0 ≤ r) (hr1 : r < 1) :
+  Summable (R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel r)
+info: R2093DLeanGeometricAbelKernelInfiniteNormalization/GeometricAbelKernelInfiniteNormalizationDependencyAudit.lean:7:0: R2093DLeanGeometricAbelKernelInfiniteNormalization.geometric_abel_kernel_tsum_eq_one {r : ℝ} (hr0 : 0 ≤ r)
+  (hr1 : r < 1) : ∑' (k : ℕ), R2091DLeanConcreteRealAbelBoundary.geometricAbelKernel r k = 1
+info: R2093DLeanGeometricAbelKernelInfiniteNormalization/GeometricAbelKernelInfiniteNormalizationDependencyAudit.lean:8:0: R2093DLeanGeometricAbelKernelInfiniteNormalization.GeometricAbelKernelInfiniteNormalizationWitness (r : ℝ) : Prop
+info: R2093DLeanGeometricAbelKernelInfiniteNormalization/GeometricAbelKernelInfiniteNormalizationDependencyAudit.lean:9:0: R2093DLeanGeometricAbelKernelInfiniteNormalization.geometricAbelKernelInfiniteNormalizationWitness {r : ℝ} (hr0 : 0 ≤ r)
+  (hr1 : r < 1) : GeometricAbelKernelInfiniteNormalizationWitness r
+ℹ [1722/1728] Replayed R2094DLeanConcreteBoundedAbelAverage.ConcreteBoundedAbelAverageDependencyAudit
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:5:0: R2094DLeanConcreteBoundedAbelAverage.scaledAbelKernel (M r : ℝ) (k : ℕ) : ℝ
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:6:0: R2094DLeanConcreteBoundedAbelAverage.abelWeightedTerm (r : ℝ) (u : ℕ → ℝ) (k : ℕ) : ℝ
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:7:0: R2094DLeanConcreteBoundedAbelAverage.realAbelAverage (r : ℝ) (u : ℕ → ℝ) : ℝ
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:8:0: R2094DLeanConcreteBoundedAbelAverage.scaled_abel_kernel_hasSum {M r : ℝ} (hM : 0 ≤ M) (hr0 : 0 ≤ r) (hr1 : r < 1) :
+  HasSum (scaledAbelKernel M r) M
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:9:0: R2094DLeanConcreteBoundedAbelAverage.scaled_abel_kernel_summable {M r : ℝ} (hM : 0 ≤ M) (hr0 : 0 ≤ r) (hr1 : r < 1) :
+  Summable (scaledAbelKernel M r)
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:10:0: R2094DLeanConcreteBoundedAbelAverage.abel_weighted_term_norm_le_scaled_kernel {M r : ℝ} (hr0 : 0 ≤ r) (hr1 : r < 1)
+  {u : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ M) (k : ℕ) : ‖abelWeightedTerm r u k‖ ≤ scaledAbelKernel M r k
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:11:0: R2094DLeanConcreteBoundedAbelAverage.abel_weighted_terms_summable {M r : ℝ} (hM : 0 ≤ M) (hr0 : 0 ≤ r) (hr1 : r < 1)
+  {u : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ M) : Summable (abelWeightedTerm r u)
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:12:0: R2094DLeanConcreteBoundedAbelAverage.norm_realAbelAverage_le {M r : ℝ} (hM : 0 ≤ M) (hr0 : 0 ≤ r) (hr1 : r < 1)
+  {u : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ M) : ‖realAbelAverage r u‖ ≤ M
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:13:0: R2094DLeanConcreteBoundedAbelAverage.abs_realAbelAverage_le {M r : ℝ} (hM : 0 ≤ M) (hr0 : 0 ≤ r) (hr1 : r < 1)
+  {u : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ M) : |realAbelAverage r u| ≤ M
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:14:0: R2094DLeanConcreteBoundedAbelAverage.ConcreteBoundedAbelAverageWitness (M r : ℝ) (u : ℕ → ℝ) : Prop
+info: R2094DLeanConcreteBoundedAbelAverage/ConcreteBoundedAbelAverageDependencyAudit.lean:15:0: R2094DLeanConcreteBoundedAbelAverage.concreteBoundedAbelAverageWitness {M r : ℝ} (hM : 0 ≤ M) (hr0 : 0 ≤ r)
+  (hr1 : r < 1) {u : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ M) : ConcreteBoundedAbelAverageWitness M r u
+ℹ [1726/1728] Replayed R2095DLeanConcreteAbelAverageStability.ConcreteAbelAverageStabilityDependencyAudit
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:5:0: R2095DLeanConcreteAbelAverageStability.realAbelAverageDifference (r : ℝ) (u v : ℕ → ℝ) : ℝ
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:6:0: R2095DLeanConcreteAbelAverageStability.realAbelAverage_sub_of_summable {r : ℝ} {u v : ℕ → ℝ}
+  (hu : Summable (R2094DLeanConcreteBoundedAbelAverage.abelWeightedTerm r u))
+  (hv : Summable (R2094DLeanConcreteBoundedAbelAverage.abelWeightedTerm r v)) :
+  (R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r fun k => u k - v k) =
+    R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r u - R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r v
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:7:0: R2095DLeanConcreteAbelAverageStability.realAbelAverageDifference_eq_sub {Mu Mv r : ℝ} (hMu : 0 ≤ Mu) (hMv : 0 ≤ Mv)
+  (hr0 : 0 ≤ r) (hr1 : r < 1) {u v : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ Mu) (hv : ∀ (k : ℕ), |v k| ≤ Mv) :
+  realAbelAverageDifference r u v =
+    R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r u - R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r v
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:8:0: R2095DLeanConcreteAbelAverageStability.difference_weighted_terms_summable {epsilon r : ℝ} (hepsilon : 0 ≤ epsilon)
+  (hr0 : 0 ≤ r) (hr1 : r < 1) {u v : ℕ → ℝ} (huv : ∀ (k : ℕ), |u k - v k| ≤ epsilon) :
+  Summable (R2094DLeanConcreteBoundedAbelAverage.abelWeightedTerm r fun k => u k - v k)
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:9:0: R2095DLeanConcreteAbelAverageStability.norm_realAbelAverageDifference_le {epsilon r : ℝ} (hepsilon : 0 ≤ epsilon)
+  (hr0 : 0 ≤ r) (hr1 : r < 1) {u v : ℕ → ℝ} (huv : ∀ (k : ℕ), |u k - v k| ≤ epsilon) :
+  ‖realAbelAverageDifference r u v‖ ≤ epsilon
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:10:0: R2095DLeanConcreteAbelAverageStability.norm_realAbelAverage_sub_le {Mu Mv epsilon r : ℝ} (hMu : 0 ≤ Mu) (hMv : 0 ≤ Mv)
+  (hepsilon : 0 ≤ epsilon) (hr0 : 0 ≤ r) (hr1 : r < 1) {u v : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ Mu)
+  (hv : ∀ (k : ℕ), |v k| ≤ Mv) (huv : ∀ (k : ℕ), |u k - v k| ≤ epsilon) :
+  ‖R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r u -
+        R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r v‖ ≤
+    epsilon
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:11:0: R2095DLeanConcreteAbelAverageStability.abs_realAbelAverage_sub_le {Mu Mv epsilon r : ℝ} (hMu : 0 ≤ Mu) (hMv : 0 ≤ Mv)
+  (hepsilon : 0 ≤ epsilon) (hr0 : 0 ≤ r) (hr1 : r < 1) {u v : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ Mu)
+  (hv : ∀ (k : ℕ), |v k| ≤ Mv) (huv : ∀ (k : ℕ), |u k - v k| ≤ epsilon) :
+  |R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r u -
+        R2094DLeanConcreteBoundedAbelAverage.realAbelAverage r v| ≤
+    epsilon
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:12:0: R2095DLeanConcreteAbelAverageStability.ConcreteAbelAverageStabilityWitness (Mu Mv epsilon r : ℝ) (u v : ℕ → ℝ) : Prop
+info: R2095DLeanConcreteAbelAverageStability/ConcreteAbelAverageStabilityDependencyAudit.lean:13:0: R2095DLeanConcreteAbelAverageStability.concreteAbelAverageStabilityWitness {Mu Mv epsilon r : ℝ} (hMu : 0 ≤ Mu)
+  (hMv : 0 ≤ Mv) (hepsilon : 0 ≤ epsilon) (hr0 : 0 ≤ r) (hr1 : r < 1) {u v : ℕ → ℝ} (hu : ∀ (k : ℕ), |u k| ≤ Mu)
+  (hv : ∀ (k : ℕ), |v k| ≤ Mv) (huv : ∀ (k : ℕ), |u k - v k| ≤ epsilon) :
+  ConcreteAbelAverageStabilityWitness Mu Mv epsilon r u v
+Build completed successfully (1728 jobs).
