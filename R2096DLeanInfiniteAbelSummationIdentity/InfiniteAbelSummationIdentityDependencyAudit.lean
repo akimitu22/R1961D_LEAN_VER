@@ -1,0 +1,15 @@
+import R2096DLeanInfiniteAbelSummationIdentity.InfiniteAbelSummationIdentity
+
+namespace R2096DLeanInfiniteAbelSummationIdentity
+
+#check realPowerSeriesValue
+#check inclusive_partial_sum_tendsto
+#check real_power_series_summable_inside_unit_interval
+#check partial_sum_boundary_term_tendsto_zero
+#check finite_abel_transform_tendsto_power_series
+#check finite_abel_transform_tendsto_abel_average
+#check infinite_abel_summation_identity
+#check InfiniteAbelSummationIdentityWitness
+#check infiniteAbelSummationIdentityWitness
+
+end R2096DLeanInfiniteAbelSummationIdentity

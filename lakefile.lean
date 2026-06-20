@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2095DLeanConcreteAbelAverageStability» where
+package «R2097DLeanConcreteRealAbelLimitTheorem» where
 
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git" @ "v4.31.0"
@@ -370,3 +370,11 @@ lean_lib R2094DLeanConcreteBoundedAbelAverage where
 @[default_target]
 lean_lib R2095DLeanConcreteAbelAverageStability where
   roots := #[`R2095DLeanConcreteAbelAverageStability]
+
+@[default_target]
+lean_lib R2096DLeanInfiniteAbelSummationIdentity where
+  roots := #[`R2096DLeanInfiniteAbelSummationIdentity]
+
+@[default_target]
+lean_lib R2097DLeanConcreteRealAbelLimitTheorem where
+  roots := #[`R2097DLeanConcreteRealAbelLimitTheorem]
