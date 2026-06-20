@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate» where
+package «R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization» where
 
 lean_lib «R1949DLean» where
 
@@ -310,3 +310,11 @@ lean_lib R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay wher
 @[default_target]
 lean_lib R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate where
   roots := #[`R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate]
+
+@[default_target]
+lean_lib R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence where
+  roots := #[`R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence]
+
+@[default_target]
+lean_lib R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization where
+  roots := #[`R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization]

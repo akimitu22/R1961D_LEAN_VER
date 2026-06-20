@@ -1,0 +1,51 @@
+import R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence
+
+namespace R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization
+
+section
+
+variable {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations}
+variable {R2067Export : Type}
+variable {AX : R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration (A := A) R2067Export}
+variable {AY : R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff (A := A) AX}
+variable {AZ : R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly (A := A) AY}
+variable {BA : R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary (A := A) AZ}
+variable {BB : R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate (A := A) BA}
+variable {BC : R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate (A := A) BB}
+variable {BD : R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate (A := A) BC}
+variable {BE : R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff (A := A) BD}
+variable {BF : R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate (A := A) BE}
+variable {BG : R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary (A := A) BF}
+variable {BH : R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation (A := A) BG}
+variable (BI : R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport (A := A) BH)
+
+def EndpointTheoremConditionalFinalizationStatement : Prop :=
+  R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointTheoremFinalizationEvidence (A := A) BI →
+    A.actualLiTarget
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_statement_proved :
+    EndpointTheoremConditionalFinalizationStatement (A := A) BI :=
+  fun evidence =>
+    R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_actual_li_target
+      BI evidence
+
+include BI
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_from_exported_certificate :
+    A.actualLiTarget :=
+  endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_statement_proved
+    (A := A) BI
+    (R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence
+      (A := A) BI)
+
+theorem endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_preserves_certificate_statement :
+    BI.certificateExportStatement :=
+  R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_certificate_statement
+    BI
+    (R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence
+      (A := A) BI)
+
+end
+
+
+end R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization

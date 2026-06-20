@@ -1,0 +1,687 @@
+ℹ [659/673] Replayed R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:5:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_to_actual_li_target
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  A.actualLiTarget
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:6:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.certificateExportStatement
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:7:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_checked_candidate
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BA.endpointTheoremProofTermSlot
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:8:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_export_packet
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.endpointTheoremCertificateExportedHere = true
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:9:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_record :
+  EndpointCertificateReplayRecord
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:10:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_result_recorded :
+  endpoint_first_concrete_obligation_endpoint_certificate_replay_record.endpointCertificateReplayResultRecordedHere =
+    true
+info: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay/EndpointFirstConcreteObligationEndpointCertificateReplayDependencyAudit.lean:11:0: R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.endpoint_first_concrete_obligation_endpoint_certificate_replay_keeps_certificate_incomplete :
+  endpoint_first_concrete_obligation_endpoint_certificate_replay_record.endpointTheoremCertificateCompletedHere = false
+ℹ [663/673] Replayed R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:5:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_to_actual_li_target
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  A.actualLiTarget
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:6:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.certificateExportStatement
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:7:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_checked_candidate
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BA.endpointTheoremProofTermSlot
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:8:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_replay_record :
+  R2080DLeanEndpointFirstConcreteObligationEndpointCertificateReplay.EndpointCertificateReplayRecord
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:9:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record :
+  EndpointTheoremFinalizationGateRecord
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:10:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_result_recorded :
+  endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizationGateResultRecordedHere =
+    true
+info: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate/EndpointFirstConcreteObligationEndpointTheoremFinalizationGateDependencyAudit.lean:11:0: R2081DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationGate.endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_keeps_theorem_unfinalized :
+  endpoint_first_concrete_obligation_endpoint_theorem_finalization_gate_record.endpointTheoremFinalizedHere = false
+ℹ [667/673] Replayed R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:5:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.EndpointTheoremFinalizationEvidence
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  Prop
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:6:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  EndpointTheoremFinalizationEvidence BI
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:7:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_constructed
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  EndpointTheoremFinalizationEvidence BI
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:8:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_actual_li_target
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH)
+  (h : EndpointTheoremFinalizationEvidence BI) : A.actualLiTarget
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:9:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_certificate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH)
+  (h : EndpointTheoremFinalizationEvidence BI) : BI.certificateExportStatement
+info: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence/EndpointFirstConcreteObligationEndpointTheoremFinalizationEvidenceDependencyAudit.lean:10:0: R2082DLeanEndpointFirstConcreteObligationEndpointTheoremFinalizationEvidence.endpoint_first_concrete_obligation_endpoint_theorem_finalization_evidence_to_export_proof
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH)
+  (h : EndpointTheoremFinalizationEvidence BI) : BI.endpointTheoremCertificateExportedHere = true
+✔ [669/673] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointFirstConcreteObligationEndpointTheoremConditionalFinalization (799ms)
+ℹ [670/673] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit (422ms)
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:5:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointTheoremConditionalFinalizationStatement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  Prop
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:6:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_statement_proved
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  EndpointTheoremConditionalFinalizationStatement BI
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:7:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_from_exported_certificate
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  A.actualLiTarget
+info: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization/EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationDependencyAudit.lean:8:0: R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.endpoint_first_concrete_obligation_endpoint_theorem_conditional_finalization_preserves_certificate_statement
+  {A : R1962DLeanAnalyticRealization.AnalyticRealizationObligations} {R2067Export : Type}
+  {AX :
+    R2068DLeanEndpointFirstConcreteObligationEndpointBranchIntegration.MainAnchoredEndpointFirstConcreteObligationEndpointBranchIntegration
+      R2067Export}
+  {AY :
+    R2069DLeanEndpointFirstConcreteObligationFinalTheoremHandoff.MainAnchoredEndpointFirstConcreteObligationFinalTheoremHandoff
+      AX}
+  {AZ :
+    R2070DLeanEndpointFirstConcreteObligationEndpointTheoremStatementAssembly.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremStatementAssembly
+      AY}
+  {BA :
+    R2071DLeanEndpointFirstConcreteObligationEndpointTheoremProofBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremProofBoundary
+      AZ}
+  {BB :
+    R2072DLeanEndpointFirstConcreteObligationEndpointProofTermCandidate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCandidate
+      BA}
+  {BC :
+    R2073DLeanEndpointFirstConcreteObligationEndpointProofTermCheckGate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckGate
+      BB}
+  {BD :
+    R2074DLeanEndpointFirstConcreteObligationEndpointProofTermCheckCertificate.MainAnchoredEndpointFirstConcreteObligationEndpointProofTermCheckCertificate
+      BC}
+  {BE :
+    R2075DLeanEndpointFirstConcreteObligationEndpointTheoremClosureHandoff.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureHandoff
+      BD}
+  {BF :
+    R2076DLeanEndpointFirstConcreteObligationEndpointTheoremClosureGate.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremClosureGate
+      BE}
+  {BG :
+    R2077DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateBoundary
+      BF}
+  {BH :
+    R2078DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateSlotPopulation
+      BG}
+  (BI :
+    R2079DLeanEndpointFirstConcreteObligationEndpointTheoremCertificateExport.MainAnchoredEndpointFirstConcreteObligationEndpointTheoremCertificateExport
+      BH) :
+  BI.certificateExportStatement
+✔ [671/673] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization.EndpointFirstConcreteObligationEndpointTheoremConditionalFinalizationBridge (382ms)
+✔ [672/673] Built R2083DLeanEndpointFirstConcreteObligationEndpointTheoremConditionalFinalization (423ms)
+Build completed successfully (673 jobs).
