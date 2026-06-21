@@ -402,3 +402,11 @@ lean_lib R2102DLeanActualLiKernel where
 @[default_target]
 lean_lib R2103DLeanLiPhaseNormalForm where
   roots := #[`R2103DLeanLiPhaseNormalForm]
+
+@[default_target]
+lean_lib R2104DLeanCanonicalLiPhaseInverse where
+  roots := #[`R2104DLeanCanonicalLiPhaseInverse]
+
+@[default_target]
+lean_lib R2105DLeanActualLiAbelWeight where
+  roots := #[`R2105DLeanActualLiAbelWeight]
