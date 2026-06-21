@@ -1,0 +1,20 @@
+name: Codex aggregate Main verification
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  aggregate-main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+          build: false
+          test: false
+          use-mathlib-cache: true
+      - name: Build aggregate Main target
+        run: lake build R2107DLeanAggregateMain
