@@ -19,8 +19,8 @@ jobs:
           build: false
           test: false
           use-mathlib-cache: true
-      - name: Build the two new layers
-        run: lake build R2106DLeanFiniteLiBoundaryIntegration R2107DLeanSmoothZeroCountingDensity
+      - name: Build all default targets
+        run: lake build
       - name: Check implementation modules directly
         run: |
           lake env lean R2106DLeanFiniteLiBoundaryIntegration/FiniteLiBoundaryIntegration.lean
