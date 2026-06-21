@@ -44,8 +44,9 @@ theorem hasDerivAt_li_phase_normal_form
     (((harg.sin.pow 2).const_mul (8 * (n : Real))).mul
       (Real.hasDerivAt_sin u))
   unfold liPhaseNormalForm liPhaseNormalFormDeriv liPhaseAmplitude
-  convert hnormal using 1
-  · rfl
+  convert hnormal using 1 <;> try rfl
+  · funext v
+    simp only [Pi.mul_apply, Pi.pow_apply]
   · simp only [Pi.pow_apply]
     field_simp [hn0]
     ring_nf
