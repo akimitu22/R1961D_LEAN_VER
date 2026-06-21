@@ -418,3 +418,7 @@ lean_lib R2106DLeanFiniteLiBoundaryIntegration where
 @[default_target]
 lean_lib R2107DLeanSmoothZeroCountingDensity where
   roots := #[`R2107DLeanSmoothZeroCountingDensity]
+
+@[default_target]
+lean_lib R2107DLeanAggregateMain where
+  roots := #[`Main]
