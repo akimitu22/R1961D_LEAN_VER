@@ -410,3 +410,15 @@ lean_lib R2104DLeanCanonicalLiPhaseInverse where
 @[default_target]
 lean_lib R2105DLeanActualLiAbelWeight where
   roots := #[`R2105DLeanActualLiAbelWeight]
+
+@[default_target]
+lean_lib R2106DLeanFiniteLiBoundaryIntegration where
+  roots := #[`R2106DLeanFiniteLiBoundaryIntegration]
+
+@[default_target]
+lean_lib R2107DLeanSmoothZeroCountingDensity where
+  roots := #[`R2107DLeanSmoothZeroCountingDensity]
+
+@[default_target]
+lean_lib R2107DLeanAggregateImports where
+  roots := #[`R2107DLeanAggregateImports]
