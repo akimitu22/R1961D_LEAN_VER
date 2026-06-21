@@ -1,9 +1,9 @@
 name: Verify R2104D and R2105D
 
 on:
-  push:
+  pull_request:
     branches:
-      - codex/r2104-r2105-verify
+      - main
   workflow_dispatch:
 
 permissions:
