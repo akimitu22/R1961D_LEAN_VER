@@ -1,0 +1,15 @@
+import R2102DLeanActualLiKernel.ActualLiKernel
+
+#check R2102DLeanActualLiKernel.actualLiPhase
+#check R2102DLeanActualLiKernel.actualLiKernel
+#check R2102DLeanActualLiKernel.actual_li_kernel_denominator_pos
+#check R2102DLeanActualLiKernel.actual_li_phase_pos
+#check R2102DLeanActualLiKernel.actual_li_phase_lt_nat_mul_pi
+#check R2102DLeanActualLiKernel.abs_actual_li_kernel_le
+#check R2102DLeanActualLiKernel.ActualLiKernelWitness
+#check R2102DLeanActualLiKernel.actualLiKernelWitness
+
+#print axioms R2102DLeanActualLiKernel.actual_li_kernel_denominator_pos
+#print axioms R2102DLeanActualLiKernel.actual_li_phase_pos
+#print axioms R2102DLeanActualLiKernel.actual_li_phase_lt_nat_mul_pi
+#print axioms R2102DLeanActualLiKernel.abs_actual_li_kernel_le

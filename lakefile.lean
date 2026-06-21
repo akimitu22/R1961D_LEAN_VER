@@ -394,3 +394,11 @@ lean_lib R2100DLeanRealPowerSeriesAbelBoundary where
 @[default_target]
 lean_lib R2101DLeanHasSumAbelBoundary where
   roots := #[`R2101DLeanHasSumAbelBoundary]
+
+@[default_target]
+lean_lib R2102DLeanActualLiKernel where
+  roots := #[`R2102DLeanActualLiKernel]
+
+@[default_target]
+lean_lib R2103DLeanLiPhaseNormalForm where
+  roots := #[`R2103DLeanLiPhaseNormalForm]
