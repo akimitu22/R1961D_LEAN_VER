@@ -25,6 +25,8 @@ jobs:
         run: |
           lake env lean R2106DLeanFiniteLiBoundaryIntegration/FiniteLiBoundaryIntegration.lean
           lake env lean R2107DLeanSmoothZeroCountingDensity/SmoothZeroCountingDensity.lean
+      - name: Check integrated Main
+        run: lake env lean Main.lean
       - name: Integrity audit
         run: |
           ! rg -n '(^|[^[:alnum:]_])(sorry|admit|unsafe|axiom)([^[:alnum:]_]|$)' \
