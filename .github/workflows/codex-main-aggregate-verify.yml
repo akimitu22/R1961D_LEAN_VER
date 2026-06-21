@@ -8,6 +8,7 @@ on:
 jobs:
   aggregate-main:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: leanprover/lean-action@v1
@@ -17,4 +18,4 @@ jobs:
           test: false
           use-mathlib-cache: true
       - name: Build aggregate Main target
-        run: lake build R2107DLeanAggregateMain
+        run: lake build R2107DLeanAggregateImports
