@@ -33,7 +33,7 @@ theorem hasDerivAt_smooth_zero_counting_main
     ne_of_gt (smooth_zero_counting_argument_pos hT)
   have hmain := (harg.mul (harg.log harg0)).sub harg |>.add_const (7 / 8)
   unfold smoothZeroCountingMain smoothZeroCountingDensity
-  convert hmain using 1
+  convert hmain using 1 <;> try rfl
   field_simp [hden, harg0]
   ring
 
