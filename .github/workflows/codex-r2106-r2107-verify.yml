@@ -1,0 +1,28 @@
+name: Codex R2106D R2107D verification
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/r2106-r2107-boundary-density
+
+jobs:
+  targeted:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          test: false
+      - name: Build the two new layers
+        run: lake build R2106DLeanFiniteLiBoundaryIntegration R2107DLeanSmoothZeroCountingDensity
+      - name: Check implementation modules directly
+        run: |
+          lake env lean R2106DLeanFiniteLiBoundaryIntegration/FiniteLiBoundaryIntegration.lean
+          lake env lean R2107DLeanSmoothZeroCountingDensity/SmoothZeroCountingDensity.lean
+      - name: Integrity audit
+        run: |
+          ! rg -n '(^|[^[:alnum:]_])(sorry|admit|unsafe|axiom)([^[:alnum:]_]|$)' \
+            R2106DLeanFiniteLiBoundaryIntegration.lean \
+            R2106DLeanFiniteLiBoundaryIntegration \
+            R2107DLeanSmoothZeroCountingDensity.lean \
+            R2107DLeanSmoothZeroCountingDensity
