@@ -43,9 +43,12 @@ theorem hasDerivAt_li_phase_normal_form
   have hnormal :=
     (((harg.sin.pow 2).const_mul (8 * (n : Real))).mul
       (Real.hasDerivAt_sin u))
-  convert hnormal using 1 <;>
-    simp [liPhaseNormalForm, liPhaseAmplitude, liPhaseNormalFormDeriv] <;>
-    field_simp [hn0] <;>
+  convert hnormal using 1
+  · ext v
+    rfl
+  · unfold liPhaseNormalFormDeriv liPhaseAmplitude
+    dsimp
+    field_simp [hn0]
     ring
 
 theorem hasDerivAt_li_abel_primitive
@@ -55,8 +58,10 @@ theorem hasDerivAt_li_abel_primitive
     HasDerivAt (liAbelPrimitive n cutoff)
       (cutoff' u * liPhaseNormalForm n u +
         cutoff u * liPhaseNormalFormDeriv n u) u := by
-  simpa only [liAbelPrimitive] using
-    hcutoff.mul (hasDerivAt_li_phase_normal_form hn u)
+  change HasDerivAt (fun v => cutoff v * liPhaseNormalForm n v)
+    (cutoff' u * liPhaseNormalForm n u +
+      cutoff u * liPhaseNormalFormDeriv n u) u
+  exact hcutoff.mul (hasDerivAt_li_phase_normal_form hn u)
 
 theorem li_abel_weight_eq
     {n : Nat} (hn : 0 < n)
