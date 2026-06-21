@@ -45,9 +45,10 @@ theorem hasDerivAt_li_phase_normal_form
       (Real.hasDerivAt_sin u))
   unfold liPhaseNormalForm liPhaseNormalFormDeriv liPhaseAmplitude
   convert hnormal using 1
-  all_goals
+  · rfl
+  · simp only [Pi.pow_apply]
     field_simp [hn0]
-    ring
+    ring_nf
 
 theorem hasDerivAt_li_abel_primitive
     {n : Nat} (hn : 0 < n)
