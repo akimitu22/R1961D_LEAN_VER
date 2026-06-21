@@ -43,11 +43,9 @@ theorem hasDerivAt_li_phase_normal_form
   have hnormal :=
     (((harg.sin.pow 2).const_mul (8 * (n : Real))).mul
       (Real.hasDerivAt_sin u))
+  unfold liPhaseNormalForm liPhaseNormalFormDeriv liPhaseAmplitude
   convert hnormal using 1
-  · ext v
-    rfl
-  · unfold liPhaseNormalFormDeriv liPhaseAmplitude
-    dsimp
+  all_goals
     field_simp [hn0]
     ring
 
