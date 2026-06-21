@@ -48,7 +48,7 @@ theorem finite_li_boundary_integral_by_parts
       HasDerivAt (liAbelPrimitive n cutoff) (liAbelWeight n cutoff u) u := by
     intro u hu
     convert hasDerivAt_li_abel_primitive hn (hcutoff u hu) using 1
-    exact (li_abel_weight_eq hn (hcutoff u hu)).symm
+    exact li_abel_weight_eq hn (hcutoff u hu)
   have hibp := intervalIntegral.integral_mul_deriv_eq_deriv_mul
     hresidual hprimitive hresidualIntegrable hweightIntegrable
   simpa [finiteLiBoundaryIntegral, finiteLiBoundaryTerm,
