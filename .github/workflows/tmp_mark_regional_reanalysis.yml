@@ -35,6 +35,12 @@ jobs:
         shell: bash
         run: |
           mkdir -p regional_results
+          python - <<'PY'
+          p='tmp_mark_regional/phase2_analysis.py'
+          s=open(p,encoding='utf-8').read()
+          s=s.replace("fieldnames=list(rows[0])", "fieldnames=sorted(set().union(*(r.keys() for r in rows)))")
+          open(p,'w',encoding='utf-8').write(s)
+          PY
           set +e
           python tmp_mark_regional/phase2_analysis.py \
             --first1k first1k \
