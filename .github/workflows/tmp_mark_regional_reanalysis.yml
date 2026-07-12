@@ -1,0 +1,38 @@
+name: Temporary Mark regional reanalysis
+on:
+  push:
+    branches: [tmp-mark-regional-reanalysis-20260712]
+  workflow_dispatch:
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies and SBLGNT
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install numpy lxml uniquebible
+          npm install sblgnt@1.0.0
+      - name: Fetch comparison corpus
+        run: git clone --depth 1 https://github.com/OpenGreekAndLatin/First1KGreek.git first1k
+      - name: Run analysis
+        run: |
+          python tmp_mark_regional/phase2_analysis.py \
+            --first1k first1k \
+            --sblgnt node_modules/sblgnt \
+            --out regional_results \
+            --bootstraps 3000
+          cp tmp_mark_regional/phase2_analysis.py regional_results/
+          printf '%s\n' 'First1KGreek commit:' "$(git -C first1k rev-parse HEAD)" > regional_results/runtime_manifest.txt
+          python --version >> regional_results/runtime_manifest.txt
+          python -m pip freeze >> regional_results/runtime_manifest.txt
+          zip -r mark_regional_phase2_results.zip regional_results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mark-regional-phase2-results
+          path: mark_regional_phase2_results.zip
+          retention-days: 7
