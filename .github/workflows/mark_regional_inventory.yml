@@ -1,0 +1,53 @@
+name: Mark regional corpus inventory
+on:
+  push:
+    branches: [mark-regional-revalidation]
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone public corpora
+        run: |
+          git clone --depth 1 https://github.com/eliranwong/LXX-Rahlfs-1935.git lxx
+          git clone --depth 1 --filter=blob:none --no-checkout https://github.com/OpenGreekAndLatin/First1KGreek.git first1k
+          cd first1k
+          git sparse-checkout init --no-cone
+          git sparse-checkout set data/edition_metadata.csv data/tlg0018 data/tlg0527 data/tlg1311 data/tlg1443 data/tlg1725
+          git checkout master
+      - name: Build inventory
+        run: |
+          mkdir -p out
+          find lxx -type f -printf '%s\t%p\n' | sort -nr > out/lxx_file_inventory.tsv
+          find first1k/data/tlg0018 first1k/data/tlg0527 first1k/data/tlg1311 first1k/data/tlg1443 first1k/data/tlg1725 -type f -printf '%s\t%p\n' | sort -nr > out/first1k_file_inventory.tsv
+          cp first1k/data/edition_metadata.csv out/edition_metadata.csv
+          python - <<'PY'
+          from pathlib import Path
+          import csv, re
+          roots=[Path('lxx')]
+          rows=[]
+          exts={'.txt','.csv','.tsv','.json','.xml','.html','.htm','.usfm','.osis','.md','.js','.sql'}
+          for root in roots:
+              for p in root.rglob('*'):
+                  if not p.is_file() or p.suffix.lower() not in exts or p.stat().st_size==0:
+                      continue
+                  try:
+                      data=p.read_bytes()[:2_000_000]
+                      text=data.decode('utf-8','ignore')
+                  except Exception:
+                      continue
+                  greek=len(re.findall(r'[\u0370-\u03ff\u1f00-\u1fff]',text))
+                  letters=len(re.findall(r'\w',text,re.UNICODE))
+                  rows.append((greek, letters, p.stat().st_size, str(p)))
+          rows.sort(reverse=True)
+          with open('out/lxx_greek_candidates.tsv','w',encoding='utf-8',newline='') as f:
+              w=csv.writer(f,delimiter='\t')
+              w.writerow(['greek_chars_first_2MB','word_chars_first_2MB','bytes','path'])
+              w.writerows(rows)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mark-regional-corpus-inventory
+          path: out
+          retention-days: 7
