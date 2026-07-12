@@ -2,6 +2,8 @@ name: Temporary Mark OT quotation diagnostic
 on:
   push:
     branches: [tmp-mark-regional-reanalysis-20260712]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 jobs:
   analyse:
