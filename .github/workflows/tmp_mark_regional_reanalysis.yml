@@ -14,11 +14,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install dependencies and SBLGNT
+      - name: Install dependencies and source texts
         run: |
           python -m pip install --upgrade pip
-          python -m pip install numpy lxml uniquebible
+          python -m pip install numpy lxml
           npm install sblgnt@1.0.0
+          mkdir -p lxx_wheel lxx_data
+          python -m pip download --no-deps uniquebible==0.2.9 -d lxx_wheel
+          python - <<'PY'
+          import glob,zipfile
+          wheel=glob.glob('lxx_wheel/*.whl')[0]
+          member='uniquebible/marvelData/bibles/LXX.bible'
+          with zipfile.ZipFile(wheel) as z:
+              z.extract(member,'lxx_data')
+          print('extracted',member)
+          PY
       - name: Fetch comparison corpus
         run: git clone --depth 1 https://github.com/OpenGreekAndLatin/First1KGreek.git first1k
       - name: Run analysis
@@ -29,6 +39,7 @@ jobs:
           python tmp_mark_regional/phase2_analysis.py \
             --first1k first1k \
             --sblgnt node_modules/sblgnt \
+            --lxx-db lxx_data/uniquebible/marvelData/bibles/LXX.bible \
             --out regional_results \
             --bootstraps 3000 > regional_results/analysis.log 2>&1
           status=$?
