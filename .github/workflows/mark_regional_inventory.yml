@@ -26,7 +26,7 @@ jobs:
           cp first1k/data/edition_metadata.csv out/edition_metadata.csv
           python - <<'PY'
           from pathlib import Path
-          import csv, re
+          import csv, re, json
           roots=[Path('lxx')]
           rows=[]
           exts={'.txt','.csv','.tsv','.json','.xml','.html','.htm','.usfm','.osis','.md','.js','.sql'}
@@ -47,6 +47,15 @@ jobs:
               w=csv.writer(f,delimiter='\t')
               w.writerow(['greek_chars_first_2MB','word_chars_first_2MB','bytes','path'])
               w.writerows(rows)
+          targets=[
+            Path('lxx/11_end-users_files/MyBible/Bibles/groundwork/01-text_accented.csv'),
+            Path('lxx/01_wordlist_unicode/text_accented.csv'),
+            Path('lxx/11_end-users_files/MyBible/Bibles/LXX_final_main.csv')]
+          report=[]
+          for p in targets:
+              b=p.read_bytes()[:5000]
+              report.append({'path':str(p),'size':p.stat().st_size,'hex':b[:400].hex(),'utf8_repr':repr(b.decode('utf-8','replace')[:1500]),'lines_repr':[repr(x) for x in b.decode('utf-8','replace').splitlines()[:8]]})
+          Path('out/lxx_samples.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
           PY
       - uses: actions/upload-artifact@v4
         with:
