@@ -22,18 +22,26 @@ jobs:
       - name: Fetch comparison corpus
         run: git clone --depth 1 https://github.com/OpenGreekAndLatin/First1KGreek.git first1k
       - name: Run analysis
+        shell: bash
         run: |
+          mkdir -p regional_results
+          set +e
           python tmp_mark_regional/phase2_analysis.py \
             --first1k first1k \
             --sblgnt node_modules/sblgnt \
             --out regional_results \
-            --bootstraps 3000
+            --bootstraps 3000 > regional_results/analysis.log 2>&1
+          status=$?
+          set -e
           cp tmp_mark_regional/phase2_analysis.py regional_results/
           printf '%s\n' 'First1KGreek commit:' "$(git -C first1k rev-parse HEAD)" > regional_results/runtime_manifest.txt
           python --version >> regional_results/runtime_manifest.txt
           python -m pip freeze >> regional_results/runtime_manifest.txt
+          printf 'exit_status=%s\n' "$status" >> regional_results/runtime_manifest.txt
           zip -r mark_regional_phase2_results.zip regional_results
+          exit "$status"
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: mark-regional-phase2-results
           path: mark_regional_phase2_results.zip
