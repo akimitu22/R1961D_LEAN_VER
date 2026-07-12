@@ -2,6 +2,8 @@ name: Mark regional corpus inventory
 on:
   push:
     branches: [mark-regional-revalidation]
+  pull_request:
+    branches: [main]
 permissions:
   contents: read
 jobs:
